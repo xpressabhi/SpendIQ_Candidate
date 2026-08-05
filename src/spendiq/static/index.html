@@ -47,7 +47,12 @@
               border-radius:6px; padding:1px 7px; margin:2px 4px 2px 0; font-size:11px; color:var(--accent); }
   .srcchip { display:inline-block; background:var(--panel); border:1px solid var(--green);
              border-radius:6px; padding:1px 7px; margin:2px 4px 2px 0; font-size:11px; color:var(--green); }
-  .thinking { color:var(--muted); font-size:13px; font-style:italic; }
+  .thinking { color:var(--muted); font-size:13px; font-style:italic; display:flex; align-items:center; gap:8px; }
+  .spinner { width:14px; height:14px; flex-shrink:0; border:2px solid var(--border);
+             border-top-color:var(--accent); border-radius:50%;
+             animation:spin .8s linear infinite; }
+  @keyframes spin { to { transform:rotate(360deg); } }
+  .thinking .status { font-size:12px; color:var(--muted); font-style:italic; }
   #composer { border-top:1px solid var(--border); padding:14px 20px; background:var(--panel); }
   #composer .wrap { max-width:900px; margin:0 auto; display:flex; gap:10px; }
   textarea { flex:1; resize:none; border:1px solid var(--border); border-radius:10px;
@@ -107,6 +112,27 @@ function addMsg(role, text) {
   return div;
 }
 
+const THINKING_MESSAGES = [
+  "Consulting the spend database…",
+  "Searching contract documents…",
+  "Cross-referencing policies…",
+  "Crunching the numbers…",
+  "Checking invoice details…",
+  "Almost there…",
+];
+
+function showThinking(bubble) {
+  bubble.classList.add("thinking");
+  bubble.innerHTML = '<span class="spinner"></span><span class="status">' +
+    THINKING_MESSAGES[0] + "</span>";
+  let i = 0;
+  return setInterval(() => {
+    i = (i + 1) % THINKING_MESSAGES.length;
+    const status = bubble.querySelector(".status");
+    if (status) status.textContent = THINKING_MESSAGES[i];
+  }, 2500);
+}
+
 function addMeta(div, tools, sources) {
   if (!tools.length && !sources.length) return;
   const m = document.createElement("div");
@@ -143,8 +169,9 @@ async function ask() {
   input.value = "";
   send.disabled = true;
   addMsg("user", text);
-  const thinking = addMsg("bot", "…");
-  thinking.querySelector(".bubble").className = "bubble thinking";
+  const thinking = addMsg("bot", "");
+  const bubble = thinking.querySelector(".bubble");
+  const timer = showThinking(bubble);
   try {
     const res = await fetch("/api/chat", {
       method: "POST",
@@ -152,7 +179,7 @@ async function ask() {
       body: JSON.stringify({ messages: [{ role: "user", content: text }], thread_id }),
     });
     const data = await res.json();
-    const bubble = thinking.querySelector(".bubble");
+    clearInterval(timer);
     bubble.classList.remove("thinking");
     const html = renderMarkdown(data.answer);
     if (html) {
@@ -164,8 +191,9 @@ async function ask() {
     addMeta(thinking, data.tools || [], data.sources || []);
     if (data.error) { const e = document.createElement("div"); e.className = "error"; e.textContent = data.error; thinking.appendChild(e); }
   } catch (err) {
-    thinking.querySelector(".bubble").textContent = "Request failed: " + err.message;
-    thinking.querySelector(".bubble").className = "bubble error";
+    clearInterval(timer);
+    bubble.className = "bubble error";
+    bubble.textContent = "Request failed: " + err.message;
   } finally {
     send.disabled = false;
     input.focus();
