@@ -1,0 +1,9 @@
+
+# uv / python
+.venv/
+__pycache__/
+*.pyc
+
+# runtime artifacts
+data/db.sqlite3
+data/chunks.json
