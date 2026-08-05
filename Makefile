@@ -17,3 +17,6 @@ dev:
 
 test:
 	$(PY) -m pytest
+
+validate:
+	$(PY) -m spendiq.validate

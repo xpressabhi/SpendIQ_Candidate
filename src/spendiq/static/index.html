@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpendIQ Copilot</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%234f8cff'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'>S</text></svg>">
+<style>
+  :root { --bg:#0f1115; --panel:#171a21; --panel2:#1e2230; --text:#e6e9f0; --muted:#8b93a7;
+          --accent:#4f8cff; --accent2:#2e6be6; --border:#2a2f3d; --green:#3fb27f; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+         background:var(--bg); color:var(--text); height:100vh; display:flex; flex-direction:column; }
+  header { padding:12px 20px; border-bottom:1px solid var(--border); display:flex; gap:12px;
+           align-items:center; background:var(--panel); }
+  header h1 { font-size:16px; margin:0; }
+  header .tag { color:var(--muted); font-size:12px; }
+  #chat { flex:1; overflow-y:auto; padding:20px; max-width:900px; width:100%; margin:0 auto; }
+  .msg { margin-bottom:16px; max-width:82%; }
+  .msg.user { margin-left:auto; }
+  .bubble { padding:10px 14px; border-radius:12px; white-space:pre-wrap; line-height:1.45; font-size:14px; }
+  .msg.user .bubble { background:var(--accent2); }
+  .msg.bot .bubble { background:var(--panel2); border:1px solid var(--border); }
+  .meta { font-size:11px; color:var(--muted); margin-top:6px; }
+  .meta span { margin-right:10px; }
+  .toolchip { display:inline-block; background:var(--panel); border:1px solid var(--border);
+              border-radius:6px; padding:1px 7px; margin:2px 4px 2px 0; font-size:11px; color:var(--accent); }
+  .srcchip { display:inline-block; background:var(--panel); border:1px solid var(--green);
+             border-radius:6px; padding:1px 7px; margin:2px 4px 2px 0; font-size:11px; color:var(--green); }
+  .thinking { color:var(--muted); font-size:13px; font-style:italic; }
+  #composer { border-top:1px solid var(--border); padding:14px 20px; background:var(--panel); }
+  #composer .wrap { max-width:900px; margin:0 auto; display:flex; gap:10px; }
+  textarea { flex:1; resize:none; border:1px solid var(--border); border-radius:10px;
+             background:var(--panel2); color:var(--text); padding:10px 12px; font-size:14px; outline:none; }
+  textarea:focus { border-color:var(--accent); }
+  button { border:0; border-radius:10px; background:var(--accent); color:#fff; font-weight:600;
+           padding:10px 20px; cursor:pointer; }
+  button:disabled { opacity:.5; cursor:wait; }
+  .error { color:#ff7b7b; }
+  pre { background:#0b0d11; border:1px solid var(--border); border-radius:8px; padding:8px 10px;
+        font-size:12px; overflow-x:auto; }
+</style>
+</head>
+<body>
+<header>
+  <h1>SpendIQ Copilot</h1>
+  <span class="tag">Nimbus Retail Co. &middot; reference date 2026-04-21</span>
+</header>
+<div id="chat"></div>
+<div id="composer">
+  <div class="wrap">
+    <textarea id="input" rows="2" placeholder="Ask about spend, contracts, or policies…"></textarea>
+    <button id="send">Send</button>
+  </div>
+</div>
+<script>
+const chat = document.getElementById("chat");
+const input = document.getElementById("input");
+const send = document.getElementById("send");
+const thread_id = Math.random().toString(36).slice(2, 12);
+
+function addMsg(role, text) {
+  const div = document.createElement("div");
+  div.className = "msg " + role;
+  const b = document.createElement("div");
+  b.className = "bubble";
+  b.textContent = text;
+  div.appendChild(b);
+  chat.appendChild(div);
+  chat.scrollTop = chat.scrollHeight;
+  return div;
+}
+
+function addMeta(div, tools, sources) {
+  if (!tools.length && !sources.length) return;
+  const m = document.createElement("div");
+  m.className = "meta";
+  if (tools.length) {
+    const t = document.createElement("span");
+    t.textContent = "Tools:";
+    m.appendChild(t);
+    tools.forEach(x => {
+      const c = document.createElement("span");
+      c.className = "toolchip";
+      c.textContent = x.name;
+      c.title = JSON.stringify(x.args || {});
+      m.appendChild(c);
+    });
+  }
+  if (sources.length) {
+    const s = document.createElement("span");
+    s.textContent = "Sources:";
+    m.appendChild(s);
+    sources.forEach(x => {
+      const c = document.createElement("span");
+      c.className = "srcchip";
+      c.textContent = x;
+      m.appendChild(c);
+    });
+  }
+  div.appendChild(m);
+}
+
+async function ask() {
+  const text = input.value.trim();
+  if (!text) return;
+  input.value = "";
+  send.disabled = true;
+  addMsg("user", text);
+  const thinking = addMsg("bot", "…");
+  thinking.querySelector(".bubble").className = "bubble thinking";
+  try {
+    const res = await fetch("/api/chat", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ messages: [{ role: "user", content: text }], thread_id }),
+    });
+    const data = await res.json();
+    thinking.querySelector(".bubble").textContent = data.answer;
+    thinking.querySelector(".bubble").className = "bubble";
+    addMeta(thinking, data.tools || [], data.sources || []);
+    if (data.error) { const e = document.createElement("div"); e.className = "error"; e.textContent = data.error; thinking.appendChild(e); }
+  } catch (err) {
+    thinking.querySelector(".bubble").textContent = "Request failed: " + err.message;
+    thinking.querySelector(".bubble").className = "bubble error";
+  } finally {
+    send.disabled = false;
+    input.focus();
+  }
+}
+
+send.addEventListener("click", ask);
+input.addEventListener("keydown", e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); ask(); } });
+addMsg("bot", "Hi! I'm SpendIQ. Ask me anything about Nimbus Retail's vendors, contracts, POs, invoices, or policies — e.g. “Which contracts auto-renew in the next 90 days?”");
+input.focus();
+</script>
+</body>
+</html>

@@ -36,3 +36,70 @@ A zip (or private Git link) with:
 - A short `DESIGN_NOTES.md` covering architecture, key decisions, limitations, and what you would do with more time
 
 Good luck, and have fun with it.
+
+---
+
+# SpendIQ Copilot — Run Instructions
+
+A conversational copilot over Nimbus Retail's vendors, contracts, POs, and
+invoices, with cross-reference to contract and policy documents. Python
+3.12 + FastAPI + SQLite (FTS5) + LangGraph, using the **free OpenCode Zen
+LLM endpoint** — no API keys required.
+
+## Requirements
+
+- [uv](https://docs.astral.sh/uv/) (manages Python 3.12 automatically)
+
+## Setup
+
+```bash
+uv sync                      # install deps + Python 3.12 if needed
+cp .env.example .env         # optional — defaults already work (free LLM)
+make ingest                  # rebuild DB + document index from scratch (idempotent)
+make run                     # start server on http://127.0.0.1:8000
+```
+
+Open http://127.0.0.1:8000 and chat. The UI shows which tools ran and which
+documents were cited for each answer.
+
+## Commands
+
+| Command              | Purpose                                        |
+| -------------------- | ---------------------------------------------- |
+| `make ingest`        | Rebuild `data/spendiq.db` from CSVs + docs     |
+| `make run`           | Start the FastAPI server (no reload)           |
+| `make dev`           | Start with `--reload`                          |
+| `make test`          | Run pytest (no LLM needed)                     |
+| `make validate`      | End-to-end agent run over 12 tiered questions  |
+
+## Configuration (`.env`)
+
+Defaults need zero setup — they point at the free OpenCode Zen endpoint:
+
+| Variable        | Default                           |
+| --------------- | --------------------------------- |
+| `LLM_BASE_URL`  | `https://opencode.ai/zen/v1`      |
+| `LLM_API_KEY`   | `public`                          |
+| `LLM_MODEL`     | `deepseek-v4-flash-free`          |
+| `SPENDIQ_MOCK`  | unset (set to `1` for offline UI) |
+
+To use a paid provider instead, point `LLM_BASE_URL`/`LLM_API_KEY` at any
+OpenAI-compatible endpoint and set `LLM_MODEL`.
+
+## Architecture
+
+```
+data/*.csv ──┐
+             ├─► spendiq.ingest ──► data/spendiq.db
+docs/*.md,   │                        ├─ normalized tables (5)
+docs/*.pdf ──┘                        ├─ 6 analytic views (anomaly queries)
+                                      └─ FTS5 index of 80 doc chunks
+                          ┌───────────┴────────────┐
+                          │  LangGraph agent        │
+                          │  query_structured_data  │ (read-only SQL)
+                          │  retrieve_documents     │ (FTS5 BM25)
+                          └───────────┬────────────┘
+                              FastAPI /api/chat ──► static chat UI
+```
+
+See `DESIGN_NOTES.md` for detailed decisions.
