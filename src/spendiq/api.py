@@ -5,6 +5,7 @@ from pathlib import Path
 
 from fastapi import FastAPI
 from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 from .agent import AgentResult, run_agent
@@ -12,6 +13,7 @@ from .agent import AgentResult, run_agent
 app = FastAPI(title="SpendIQ Copilot")
 
 STATIC_DIR = Path(__file__).resolve().parent / "static"
+app.mount("/vendor", StaticFiles(directory=STATIC_DIR / "vendor"), name="vendor")
 
 
 class ChatRequest(BaseModel):
