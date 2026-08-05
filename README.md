@@ -83,7 +83,15 @@ Defaults need zero setup — they point at the free OpenCode Zen endpoint:
 | `LLM_MODEL`     | `deepseek-v4-flash-free`          |
 | `SPENDIQ_MOCK`  | unset (set to `1` for offline UI) |
 
-To use a paid provider instead, point `LLM_BASE_URL`/`LLM_API_KEY` at any
+For the paid **OpenCode Go** plan (no free-tier rate limits), copy
+`.env.example` to `.env` and set:
+- `LLM_BASE_URL=https://opencode.ai/zen/go/v1` (Go models are served on the
+  `/zen/go/v1` path — `/zen/v1` bills credits instead)
+- `LLM_API_KEY` to your Go key (from https://opencode.ai/auth or the opencode
+  `/connect` command)
+- `LLM_MODEL=deepseek-v4-flash`
+
+To use any other provider, point `LLM_BASE_URL`/`LLM_API_KEY` at an
 OpenAI-compatible endpoint and set `LLM_MODEL`.
 
 ## Architecture
@@ -98,6 +106,9 @@ docs/*.pdf ──┘                        ├─ 6 analytic views (anomaly que
                           │  LangGraph agent        │
                           │  query_structured_data  │ (read-only SQL)
                           │  retrieve_documents     │ (FTS5 BM25)
+                          │  calculate              │ (safe arithmetic)
+                          │  date_utils             │ (date windows)
+                          │  resolve_entity         │ (name → ID lookup)
                           └───────────┬────────────┘
                               FastAPI /api/chat ──► static chat UI
 ```

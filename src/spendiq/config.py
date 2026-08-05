@@ -1,5 +1,7 @@
 """Runtime configuration. Defaults to the free OpenCode Zen endpoint
-(no API key required) — see .env.example for overrides."""
+(no API key required); a `.env` file can override with an OpenCode Go
+subscription key and paid model. Go models live at the /zen/go/v1 base URL
+(see .env.example)."""
 
 import os
 

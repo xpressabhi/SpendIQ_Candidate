@@ -4,6 +4,9 @@
 __pycache__/
 *.pyc
 
+# secrets
+.env
+
 # runtime artifacts
 data/db.sqlite3
 data/chunks.json

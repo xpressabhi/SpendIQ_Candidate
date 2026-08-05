@@ -27,6 +27,8 @@ QUESTIONS = [
     ("T3", "Which vendors have more than USD 50,000 in year-to-date spend but no active contract?"),
     ("T4", "Flag contracts where cumulative invoice spend has exceeded the stated total contract value cap."),
     ("T4", "Surface duplicate-looking invoices from the same vendor in the last six months."),
+    ("T4", "Draft a one-paragraph renegotiation brief for the three vendors where we have the most leverage (highest spend, contract expiring, no auto-renew protection)."),
+    ("T4", "Which vendor has the most leverage in our favor right now, and what is the exact notice deadline if we want to exit their contract?"),
 ]
 
 

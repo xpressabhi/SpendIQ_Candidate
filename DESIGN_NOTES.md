@@ -6,12 +6,11 @@
 data/*.csv ──┐
              ├─► spendiq.ingest ──► data/spendiq.db
 docs/*.md,   │                        ├─ normalized tables (5)
-docs/*.pdf ──┘                        ├─ 6 analytic SQL views
+docs/*.pdf ──┘                        ├─ 7 analytic SQL views
                                       └─ FTS5 keyword index (80 chunks)
                           ┌───────────┴────────────┐
                           │  LangGraph agent        │
-                          │  query_structured_data  │
-                          │  retrieve_documents     │
+                          │  2 core + 3 utility tools │
                           └───────────┬────────────┘
                              FastAPI /api/chat ──► static chat UI
 ```
@@ -35,7 +34,7 @@ Modules under `src/spendiq/`:
   would port to Postgres with trivial changes (bools, dates, views).
 - **Anomalies as SQL views, not agent tools.** The brief's minimum bar is two tools
   (SQL + retrieval); the planted anomalies (terms mismatches, over-cap contracts,
-  split POs, duplicates) are encoded as six read-only views. This keeps the agent
+  split POs, duplicates, renegotiation leverage) are encoded as seven read-only views. This keeps the agent
   small and makes anomaly questions a one-line query while staying within the tool
   budget — the "analytics" are a data-modeling concern, not agent complexity.
 - **Empty-string FKs normalized to NULL** (CSVs encode absence as `''`).
@@ -57,9 +56,11 @@ Modules under `src/spendiq/`:
   (`auto-renewal` parses as column-filter syntax) and `snippet()` column indices.
 
 ### Agent design
-- **LangGraph `create_react_agent`** with exactly two tools: `query_structured_data`
-  (read-only SQL — validated as single SELECT/WITH, executed against a
-  `mode=ro` connection) and `retrieve_documents` (FTS5 with optional doc filter).
+- **LangGraph `create_react_agent`** with five tools:
+  - `query_structured_data` (read-only SQL — validated as single SELECT/WITH, executed against a `mode=ro` connection) and `retrieve_documents` (FTS5 with optional doc filter) are the two core tools.
+  - `calculate` — safe arithmetic via an AST whitelist (no `eval`), so the agent never approximates math itself.
+  - `date_utils` — date arithmetic anchored to the reference date (add days/months, days-between, month/year bounds); converts "next 90 days"-style phrases into exact ISO dates for SQL.
+  - `resolve_entity` — fuzzy name/ID lookup across vendors, contracts, and departments returning canonical IDs (VEND-…, CTR-…, DEPT-…) so SQL runs against exact keys instead of guesses.
 - **System prompt** enforces: citations in every answer (INV-/PO-/CTR-/VEND- IDs,
   document + section for clauses), explicit "I don't know" instead of hallucinated
   numbers, clarifying-question-or-assumption on ambiguous input, and scope
@@ -80,10 +81,11 @@ Modules under `src/spendiq/`:
 ## What was verified
 
 - `make test` — 9 unit tests (SQL safety, views, retrieval, PDF contract hits).
-- `make validate` — 12 representative questions across all 4 tiers, incl. every
-  planted anomaly: 4 terms mismatches (INV-001560-63), 11 over-cap contracts
-  (CTR-0002, 0008, 0014, ...), split-PO clusters, duplicates, and the 90-day
-  expiry list with notice-window deadlines computed against 2026-04-21.
+- `make validate` — 14 representative questions across all 4 tiers, incl. every
+  planted anomaly (4 terms mismatches INV-001560-63, 11 over-cap contracts
+  CTR-0002/0008/0014, split-PO clusters, duplicates, 90-day expiry list with
+  notice-window deadlines against 2026-04-21) and the Tier 4 stretch cases
+  (renegotiation-leverage brief, duplicate-invoice surface).
 - Browser demo: chat round-trip with tool chips and citations rendered.
 - Follow-up ("and which of those auto-renew?") correctly scoped to the prior turn.
 

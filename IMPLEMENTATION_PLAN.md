@@ -27,12 +27,20 @@
 | ----------------- | ------ |
 | Ingests CSVs into a DB (reproducible, reruns from scratch) | `python -m spendiq.ingest`; idempotent drop/recreate; `make ingest` |
 | Ingests documents into a retrieval store (MD + PDF) | pypdf + markdown readers; section-chunked into a keyword index (embeddings optional) |
-| Answers NL questions over structured, docs, or both | LangGraph tool-calling agent, 2 tools (below) |
+| Answers NL questions over structured, docs, or both | LangGraph tool-calling agent, 5 tools (below) |
 | Explains itself: tools + sources, citations (invoice IDs, clauses, docs) | System prompt mandates citations; UI shows tool calls + sources |
 | Runs end-to-end from a simple chat UI | FastAPI + single-page chat (input, conversation, source panel) |
-| At least two tools: SQL + document retrieval | Exactly two tools: `query_structured_data`, `retrieve_documents` |
+| At least two tools: SQL + document retrieval | Two core tools (`query_structured_data`, `retrieve_documents`) + three utility tools (`calculate`, `date_utils`, `resolve_entity`) |
 | README with clean-clone run instructions + `.env.example` | README (`uv sync && make ingest && make run`), `.env.example` committed |
 | DESIGN_NOTES.md: architecture, data modeling, chunking/embeddings, tool exposure, limitations, more-time | Single doc covering all six listed topics |
+
+### Tier 4 (stretch) → design mapping
+
+| Tier 4 question | Design |
+| --------------- | ------ |
+| Flag contracts where cumulative invoice spend exceeded the stated cap | `v_contract_spend_vs_cap` view; agent answers with a one-line query |
+| Draft a renegotiation brief for the 3 vendors with most leverage (highest spend, expiring, no auto-renew protection) | `v_vendor_leverage` view (spend-ranked, non-auto-renew, expiring) + `retrieve_documents` for clause/leverage text + `calculate` for exact figures |
+| Surface duplicate-looking invoices from the same vendor in the last six months | `v_duplicate_invoices` view (same vendor + amount, ≤180 days apart) |
 
 ## 3. Stack
 
@@ -58,12 +66,16 @@
   - `v_contract_expiry` — end_date + auto_renew + notice_period_days, days-to-expiry from reference date
   - `v_vendor_spend_no_active_contract` — >$50K YTD spend, no active contract
   - `v_duplicate_invoices` — same vendor, similar amount, last 6 months
+  - `v_vendor_leverage` — active non-auto-renew contracts ranked by invoice spend (Tier 4 renegotiation brief)
 - Rerun-safe (drop/recreate), target ~90s total
 
-### 2. Agent: exactly 2 tools + citation-aware answers
+### 2. Agent: 5 tools (2 core + 3 utility) + citation-aware answers
 
 - `query_structured_data(sql)` — read-only SQL, schema + view list injected into system prompt, results as JSON/table
 - `retrieve_documents(query, doc_filter)` — hybrid keyword + vector retrieval, top-k chunks with doc IDs and clause text
+- `calculate(expression)` — **safe arithmetic** (AST-whitelisted, no `eval`): percentages, ratios, spend comparisons — LLMs are unreliable at math, so offload it
+- `date_utils(operation, date1, date2, n)` — **date utilities** anchored to the reference date (2026-04-21): `add_days`, `add_months`, `days_between`, month/year truncation; turns "next 90 days" / "last 12 months" / "YTD" into exact ISO dates for SQL filters
+- `resolve_entity(query)` — **specialized search**: fuzzy vendor/contract/department name or ID fragment → canonical IDs (VEND-…, CTR-…, DEPT-…), so the agent queries with exact keys instead of guessing (e.g. "Orion" → VEND-00003)
 - System prompt rules:
   - Cite invoice IDs / contract IDs / document + clause in every answer
   - State which tool produced each part of the answer
@@ -77,7 +89,12 @@ Text input, message history, per-answer "Sources & Tools" panel (which tool ran,
 
 ### 4. Validation
 
-Scripted end-to-end run of ~8 questions covering all 4 tiers, including the verified anomalies above, before submission. Also test an ambiguous question to confirm the clarifying-question behavior.
+Scripted end-to-end run of 12+ questions covering all 4 tiers, including every
+planted anomaly (terms mismatches, over-cap contracts, split POs, duplicates,
+90-day expiry list) **and the Tier 4 stretch cases**: the renegotiation-leverage
+brief (highest spend + expiring + no auto-renew → `v_vendor_leverage`) and the
+duplicate-invoice surface. Also test an ambiguous question to confirm the
+clarifying-question behavior.
 
 ### 5. Docs (deliverables)
 

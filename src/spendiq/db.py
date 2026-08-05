@@ -188,6 +188,31 @@ JOIN vendors v ON v.vendor_id = a.vendor_id
 WHERE a.invoice_date >= '{REFERENCE_DATE}' - 180
   AND b.invoice_date >= a.invoice_date
   AND b.invoice_date <= date(a.invoice_date, '+180 days');
+
+-- Renegotiation leverage: active contracts that do NOT auto-renew, ranked by
+-- cumulative invoice spend. No auto-renew means the company can walk away,
+-- which is negotiating leverage; expiring + high spend = most leverage.
+CREATE VIEW IF NOT EXISTS v_vendor_leverage AS
+SELECT
+    c.contract_id,
+    c.contract_name,
+    c.vendor_id,
+    v.vendor_name,
+    ROUND(SUM(i.amount), 2)            AS invoice_spend,
+    c.end_date,
+    ROUND(julianday(c.end_date) - julianday('{REFERENCE_DATE}'), 0) AS days_to_expiry,
+    c.auto_renew,
+    c.notice_period_days,
+    c.currency
+FROM contracts c
+JOIN vendors v ON v.vendor_id = c.vendor_id
+LEFT JOIN purchase_orders p ON p.contract_id = c.contract_id
+LEFT JOIN invoices i ON i.po_id = p.po_id
+WHERE c.status = 'Active'
+  AND c.auto_renew = 0
+  AND c.end_date >= '{REFERENCE_DATE}'
+GROUP BY c.contract_id
+ORDER BY invoice_spend DESC;
 """
 
 DOC_CHUNKS_SQL = """
@@ -239,6 +264,7 @@ Convenience views (prefer these when they match the question):
 - v_contract_expiry: active contracts with days_to_expiry, auto_renew, notice_period_days
 - v_vendor_spend_no_active_contract: vendors with spend but no active contract
 - v_duplicate_invoices: same vendor + same amount, recent duplicates
+- v_vendor_leverage: active non-auto-renew contracts ranked by invoice spend (renegotiation leverage)
 
 Notes:
 - Reference date (today) is {REFERENCE_DATE}. Use it for 'YTD', 'last 12 months', 'next 90 days' filters.
