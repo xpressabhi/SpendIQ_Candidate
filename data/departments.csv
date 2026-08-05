@@ -1,0 +1,21 @@
+department_id,name,cost_center_code,vp_name
+DEPT-001,Engineering,CC-10001,Priya Raman
+DEPT-002,Product,CC-10002,Marco Alvarez
+DEPT-003,Data & Analytics,CC-10003,Lena Brooks
+DEPT-004,Marketing,CC-10010,Derek Yoon
+DEPT-005,Growth,CC-10011,Samira Okafor
+DEPT-006,Sales,CC-10020,Tomas Kellerman
+DEPT-007,Customer Success,CC-10021,Julia Hwang
+DEPT-008,Store Operations,CC-10030,Rafael Mendez
+DEPT-009,Supply Chain,CC-10031,Aditi Shah
+DEPT-010,Logistics,CC-10032,Harish Patel
+DEPT-011,Finance,CC-10040,Naomi Weiss
+DEPT-012,Accounting,CC-10041,Peter Chen
+DEPT-013,Procurement,CC-10042,Luis Ortega
+DEPT-014,Legal,CC-10050,Claire Benoit
+DEPT-015,People Ops,CC-10060,Devon Parker
+DEPT-016,IT,CC-10070,Owen Marsh
+DEPT-017,Security,CC-10071,Ingrid Voss
+DEPT-018,Facilities,CC-10080,Cesar Ruiz
+DEPT-019,Merchandising,CC-10090,Hana Kobayashi
+DEPT-020,Executive,CC-10099,Robin Park

@@ -1,0 +1,1968 @@
+po_id,vendor_id,contract_id,department_id,po_date,line_description,total_amount,currency,status,requestor_name,approval_level
+PO-00001,VEND-00106,CTR-0061,DEPT-011,2024-04-10,Compliance advisory,85000,USD,Open,Hana Kobayashi,CFO
+PO-00002,VEND-00140,,DEPT-002,2024-06-28,Toll-free services,3100,USD,Closed,Quinn Reyes,Dept Head
+PO-00003,VEND-00189,,DEPT-001,2023-11-13,Temp-to-hire fee,25000,USD,Received,Cesar Ruiz,VP
+PO-00004,VEND-00037,,DEPT-009,2024-12-06,Conference travel,41500,USD,Open,Jamie Chen,VP
+PO-00005,VEND-00131,,DEPT-009,2023-02-20,Conference travel,7500,USD,Closed,Claire Benoit,Dept Head
+PO-00006,VEND-00132,,DEPT-011,2026-04-13,Ergonomics,3100,USD,Closed,Luis Ortega,Dept Head
+PO-00007,VEND-00194,CTR-0038,DEPT-020,2023-04-16,Events travel block,3000,USD,Closed,Aditi Shah,Dept Head
+PO-00008,VEND-00179,,DEPT-013,2025-07-27,Warehousing month,12000,USD,Closed,Peter Chen,VP
+PO-00009,VEND-00013,CTR-0013,DEPT-012,2023-04-02,Seat expansion QQ2,4600,USD,Open,Claire Benoit,Dept Head
+PO-00010,VEND-00069,,DEPT-017,2025-05-30,Warehousing month,230000,USD,Closed,Samira Okafor,CFO
+PO-00011,VEND-00072,CTR-0069,DEPT-004,2023-02-19,Security services,5300,USD,Open,Lena Brooks,Dept Head
+PO-00012,VEND-00010,CTR-0010,DEPT-017,2025-06-01,Process transformation SOW,17500,USD,Cancelled,Aditi Shah,VP
+PO-00013,VEND-00168,,DEPT-005,2026-01-13,Staff augmentation month,4100,USD,Received,Marco Alvarez,Dept Head
+PO-00014,VEND-00005,CTR-0005,DEPT-003,2025-04-05,Contract engineer placement,7000,USD,Closed,Alex Rivera,Dept Head
+PO-00015,VEND-00076,,DEPT-003,2023-04-05,IP counsel hours,1800,USD,Received,Cesar Ruiz,Dept Head
+PO-00016,VEND-00120,,DEPT-004,2024-04-06,Ergonomics,3700,USD,Closed,Marco Alvarez,Dept Head
+PO-00017,VEND-00054,,DEPT-019,2024-11-12,Last-mile delivery,6500,USD,Closed,Quinn Reyes,Dept Head
+PO-00018,VEND-00139,,DEPT-001,2024-12-21,Security services,3100,USD,Open,Samira Okafor,Dept Head
+PO-00019,VEND-00071,,DEPT-011,2023-06-07,Egress overage,5800,USD,Received,Claire Benoit,Dept Head
+PO-00020,VEND-00032,CTR-0045,DEPT-017,2025-02-22,Specialist placement,1900,USD,Closed,Luis Ortega,Dept Head
+PO-00021,VEND-00185,,DEPT-002,2024-09-09,Warehousing month,13000,USD,Received,Robin Park,VP
+PO-00022,VEND-00064,CTR-0058,DEPT-012,2024-10-17,DR storage tier,5100,USD,Closed,Devon Parker,Dept Head
+PO-00023,VEND-00078,,DEPT-020,2025-04-17,Annual SKO travel,17500,USD,Closed,Jamie Chen,VP
+PO-00024,VEND-00064,CTR-0058,DEPT-008,2023-10-22,Reserved capacity,800,USD,Closed,Cesar Ruiz,Dept Head
+PO-00025,VEND-00194,,DEPT-007,2025-12-19,Conference travel,1300,USD,Open,Claire Benoit,Dept Head
+PO-00026,VEND-00199,,DEPT-016,2024-09-23,MPLS circuits month,39000,USD,Closed,Tomas Kellerman,VP
+PO-00027,VEND-00075,,DEPT-010,2025-01-09,Conference travel,12500,USD,Closed,Quinn Reyes,VP
+PO-00028,VEND-00140,,DEPT-001,2023-08-02,MPLS circuits month,6900,USD,Received,Naomi Weiss,Dept Head
+PO-00029,VEND-00039,,DEPT-006,2025-05-21,Mobile fleet lines,2000,USD,Closed,Jamie Chen,Dept Head
+PO-00030,VEND-00027,,DEPT-016,2025-04-01,Print consumables,2100,USD,Closed,Marco Alvarez,Dept Head
+PO-00031,VEND-00177,,DEPT-017,2023-11-29,Compliance advisory,6000,USD,Received,Alex Rivera,Dept Head
+PO-00032,VEND-00052,,DEPT-005,2023-09-27,Monthly cloud consumption,56000,USD,Closed,Marco Alvarez,CFO
+PO-00033,VEND-00012,CTR-0012,DEPT-016,2024-03-13,Conference travel,5800,USD,Closed,Cesar Ruiz,Dept Head
+PO-00034,VEND-00066,,DEPT-014,2024-06-17,Specialist placement,22500,USD,Received,Samira Okafor,VP
+PO-00035,VEND-00188,,DEPT-004,2025-08-12,Process transformation SOW,6100,USD,Open,Cesar Ruiz,Dept Head
+PO-00036,VEND-00159,,DEPT-014,2024-09-20,Warehousing month,41500,USD,Closed,Hana Kobayashi,VP
+PO-00037,VEND-00166,,DEPT-009,2023-05-09,Security services,14500,USD,Closed,Alex Rivera,VP
+PO-00038,VEND-00007,CTR-0007,DEPT-014,2025-03-13,Toll-free services,7500,USD,Closed,Claire Benoit,Dept Head
+PO-00039,VEND-00006,CTR-0006,DEPT-017,2023-10-12,Media buy,5100,USD,Closed,Peter Chen,Dept Head
+PO-00040,VEND-00163,,DEPT-011,2023-05-22,Annual SKO travel,153000,USD,Closed,Peter Chen,CFO
+PO-00041,VEND-00094,CTR-0080,DEPT-019,2023-10-26,Landscaping,1800,USD,Closed,Claire Benoit,Dept Head
+PO-00042,VEND-00038,,DEPT-017,2024-05-19,Conference travel,3600,USD,Closed,Derek Yoon,Dept Head
+PO-00043,VEND-00088,CTR-0060,DEPT-011,2025-02-23,Breakroom supplies,4700,USD,Closed,Tomas Kellerman,Dept Head
+PO-00044,VEND-00115,CTR-0036,DEPT-011,2026-02-09,Mobile fleet lines,5600,USD,Closed,Luis Ortega,Dept Head
+PO-00045,VEND-00047,CTR-0078,DEPT-010,2025-04-01,Advisory engagement,43500,USD,Received,Quinn Reyes,VP
+PO-00046,VEND-00008,CTR-0008,DEPT-013,2025-03-16,Ergonomics,3200,USD,Closed,Priya Raman,Dept Head
+PO-00047,VEND-00158,,DEPT-018,2024-02-24,Freight LTL lane,700,USD,Open,Robin Park,Dept Head
+PO-00048,VEND-00049,,DEPT-003,2025-10-05,IP counsel hours,600,USD,Open,Harish Patel,Dept Head
+PO-00049,VEND-00088,,DEPT-004,2023-02-24,Ergonomics,5800,USD,Received,Derek Yoon,Dept Head
+PO-00050,VEND-00067,,DEPT-006,2023-10-18,Laptop refresh batch,6200,USD,Closed,Claire Benoit,Dept Head
+PO-00051,VEND-00136,,DEPT-020,2024-07-30,Implementation sprint,2000,USD,Closed,Hana Kobayashi,Dept Head
+PO-00052,VEND-00183,,DEPT-010,2025-10-22,Print consumables,700,USD,Received,Naomi Weiss,Dept Head
+PO-00053,VEND-00026,,DEPT-010,2024-08-04,Assessment phase,36000,USD,Received,Derek Yoon,VP
+PO-00054,VEND-00014,,DEPT-012,2025-08-08,DR storage tier,19000,USD,Closed,Samira Okafor,VP
+PO-00055,VEND-00133,,DEPT-011,2024-02-18,Freight LTL lane,35500,USD,Closed,Derek Yoon,VP
+PO-00056,VEND-00098,,DEPT-011,2025-04-17,Contracts review package,800,USD,Closed,Devon Parker,Dept Head
+PO-00057,VEND-00151,,DEPT-004,2023-10-30,Litigation retainer,1600,USD,Received,Cesar Ruiz,Dept Head
+PO-00058,VEND-00111,,DEPT-008,2025-10-21,Implementation sprint,6500,USD,Closed,Alex Rivera,Dept Head
+PO-00059,VEND-00029,,DEPT-017,2023-05-30,Advisory engagement,5000,USD,Received,Marco Alvarez,Dept Head
+PO-00060,VEND-00043,,DEPT-001,2025-06-24,Mobile fleet lines,2300,USD,Closed,Luis Ortega,Dept Head
+PO-00061,VEND-00178,,DEPT-019,2025-05-30,Compliance advisory,48000,USD,Received,Peter Chen,VP
+PO-00062,VEND-00069,,DEPT-002,2025-11-18,Warehousing month,39500,USD,Closed,Aditi Shah,VP
+PO-00063,VEND-00104,,DEPT-007,2025-04-08,DR storage tier,57000,USD,Open,Samira Okafor,CFO
+PO-00064,VEND-00015,CTR-0015,DEPT-004,2024-03-14,Creative production,900,USD,Closed,Derek Yoon,Dept Head
+PO-00065,VEND-00099,,DEPT-005,2024-07-01,HVAC maintenance,3000,USD,Open,Tomas Kellerman,Dept Head
+PO-00066,VEND-00068,,DEPT-007,2023-08-06,Specialist placement,199000,USD,Closed,Claire Benoit,CFO
+PO-00067,VEND-00157,,DEPT-020,2023-06-22,Litigation retainer,26000,USD,Open,Sasha Mwangi,VP
+PO-00068,VEND-00009,CTR-0009,DEPT-001,2025-01-24,Monitors and peripherals,35000,USD,Closed,Quinn Reyes,VP
+PO-00069,VEND-00065,,DEPT-020,2024-05-23,Freight LTL lane,1200,USD,Received,Naomi Weiss,Dept Head
+PO-00070,VEND-00129,,DEPT-010,2025-06-10,Print consumables,224000,USD,Closed,Claire Benoit,CFO
+PO-00071,VEND-00124,,DEPT-007,2025-12-21,Events travel block,4200,USD,Open,Robin Park,Dept Head
+PO-00072,VEND-00165,CTR-0037,DEPT-010,2023-04-20,Annual subscription renewal,35500,USD,Received,Jamie Chen,VP
+PO-00073,VEND-00007,CTR-0007,DEPT-002,2025-11-21,Network installation,4300,USD,Open,Marco Alvarez,Dept Head
+PO-00074,VEND-00158,,DEPT-011,2026-03-30,Freight LTL lane,2000,USD,Open,Claire Benoit,Dept Head
+PO-00075,VEND-00049,,DEPT-020,2023-08-21,Compliance advisory,234000,USD,Closed,Luis Ortega,CFO
+PO-00076,VEND-00086,,DEPT-011,2024-09-12,Monitors and peripherals,241000,USD,Closed,Derek Yoon,CFO
+PO-00077,VEND-00049,,DEPT-009,2024-07-11,IP counsel hours,28500,USD,Closed,Devon Parker,VP
+PO-00078,VEND-00040,,DEPT-011,2023-10-21,Reserved capacity,1600,USD,Cancelled,Luis Ortega,Dept Head
+PO-00079,VEND-00178,,DEPT-014,2023-12-22,IP counsel hours,41000,USD,Received,Owen Marsh,VP
+PO-00080,VEND-00040,,DEPT-001,2024-05-09,Monthly cloud consumption,225000,USD,Closed,Cesar Ruiz,CFO
+PO-00081,VEND-00067,,DEPT-007,2023-04-08,Laptop refresh batch,4100,USD,Closed,Aditi Shah,Dept Head
+PO-00082,VEND-00092,CTR-0029,DEPT-018,2025-08-08,Platform support,240000,USD,Closed,Tomas Kellerman,CFO
+PO-00083,VEND-00069,,DEPT-005,2023-09-03,Warehousing month,19000,USD,Closed,Hana Kobayashi,VP
+PO-00084,VEND-00124,,DEPT-003,2024-07-29,Annual SKO travel,700,USD,Closed,Marco Alvarez,Dept Head
+PO-00085,VEND-00021,,DEPT-007,2024-09-18,Campaign retainer,5500,USD,Closed,Naomi Weiss,Dept Head
+PO-00086,VEND-00001,CTR-0001,DEPT-003,2024-10-24,DR storage tier,40500,USD,Closed,Harish Patel,VP
+PO-00087,VEND-00168,,DEPT-004,2025-11-19,Staff augmentation month,21500,USD,Closed,Marco Alvarez,VP
+PO-00088,VEND-00035,CTR-0043,DEPT-005,2023-01-04,Laptop refresh batch,25500,USD,Closed,Priya Raman,VP
+PO-00089,VEND-00013,CTR-0013,DEPT-012,2025-10-08,Seat expansion QQ4,5200,USD,Closed,Hana Kobayashi,Dept Head
+PO-00090,VEND-00107,,DEPT-019,2025-08-14,Monitors and peripherals,1900,USD,Open,Ingrid Voss,Dept Head
+PO-00091,VEND-00033,,DEPT-011,2023-11-19,Litigation retainer,2800,USD,Closed,Alex Rivera,Dept Head
+PO-00092,VEND-00025,CTR-0067,DEPT-004,2025-03-17,Seat expansion QQ4,1300,USD,Closed,Luis Ortega,Dept Head
+PO-00093,VEND-00014,,DEPT-005,2023-02-01,Egress overage,1700,USD,Received,Alex Rivera,Dept Head
+PO-00094,VEND-00077,,DEPT-011,2023-08-20,Temp-to-hire fee,76000,USD,Closed,Lena Brooks,CFO
+PO-00095,VEND-00066,,DEPT-005,2023-12-29,Staff augmentation month,32000,USD,Closed,Aditi Shah,VP
+PO-00096,VEND-00102,,DEPT-016,2024-03-15,Laptop refresh batch,37500,USD,Closed,Peter Chen,VP
+PO-00097,VEND-00115,CTR-0036,DEPT-010,2023-01-07,Toll-free services,1200,USD,Open,Naomi Weiss,Dept Head
+PO-00098,VEND-00181,,DEPT-009,2025-03-19,Platform support,40500,USD,Open,Cesar Ruiz,VP
+PO-00099,VEND-00091,,DEPT-011,2024-07-19,Implementation sprint,1400,USD,Received,Sasha Mwangi,Dept Head
+PO-00100,VEND-00040,,DEPT-015,2025-01-21,DR storage tier,43500,USD,Received,Priya Raman,VP
+PO-00101,VEND-00047,CTR-0078,DEPT-019,2024-09-11,Advisory engagement,1000,USD,Closed,Peter Chen,Dept Head
+PO-00102,VEND-00152,,DEPT-020,2024-05-10,Mobile fleet lines,11500,USD,Open,Ingrid Voss,VP
+PO-00103,VEND-00039,,DEPT-015,2024-01-17,Network installation,6400,USD,Closed,Devon Parker,Dept Head
+PO-00104,VEND-00113,,DEPT-006,2024-02-17,IP counsel hours,210000,USD,Closed,Marco Alvarez,CFO
+PO-00105,VEND-00106,CTR-0061,DEPT-004,2023-10-27,IP counsel hours,1000,USD,Open,Robin Park,Dept Head
+PO-00106,VEND-00192,,DEPT-018,2024-11-17,Freight LTL lane,6400,USD,Closed,Samira Okafor,Dept Head
+PO-00107,VEND-00111,,DEPT-012,2025-06-25,Advisory engagement,24500,USD,Open,Harish Patel,VP
+PO-00108,VEND-00180,,DEPT-002,2023-11-03,Annual subscription renewal,223000,USD,Closed,Harish Patel,CFO
+PO-00109,VEND-00192,,DEPT-008,2024-11-06,Last-mile delivery,32000,USD,Received,Marco Alvarez,VP
+PO-00110,VEND-00176,CTR-0025,DEPT-001,2025-06-27,Reserved capacity,31000,USD,Received,Jamie Chen,VP
+PO-00111,VEND-00158,,DEPT-002,2026-04-02,Last-mile delivery,21500,USD,Received,Alex Rivera,VP
+PO-00112,VEND-00036,,DEPT-009,2026-03-11,HVAC maintenance,41000,USD,Open,Robin Park,VP
+PO-00113,VEND-00062,CTR-0050,DEPT-005,2025-12-22,Datacenter hardware,36000,USD,Received,Jamie Chen,VP
+PO-00114,VEND-00008,CTR-0008,DEPT-015,2023-02-19,Print consumables,600,USD,Cancelled,Devon Parker,Dept Head
+PO-00115,VEND-00154,,DEPT-004,2025-08-23,Conference travel,7200,USD,Closed,Priya Raman,Dept Head
+PO-00116,VEND-00008,CTR-0008,DEPT-014,2023-03-18,Print consumables,3400,USD,Closed,Ingrid Voss,Dept Head
+PO-00117,VEND-00009,,DEPT-018,2024-03-01,Monitors and peripherals,18500,USD,Open,Julia Hwang,VP
+PO-00118,VEND-00193,,DEPT-009,2023-01-13,Security services,17500,USD,Received,Jamie Chen,VP
+PO-00119,VEND-00158,,DEPT-002,2023-10-01,Warehousing month,44000,USD,Cancelled,Priya Raman,VP
+PO-00120,VEND-00173,,DEPT-010,2023-03-13,Ergonomics,2500,USD,Closed,Julia Hwang,Dept Head
+PO-00121,VEND-00106,CTR-0061,DEPT-014,2025-04-21,Litigation retainer,19000,USD,Closed,Julia Hwang,VP
+PO-00122,VEND-00050,CTR-0016,DEPT-019,2023-08-04,Network installation,229000,USD,Received,Ingrid Voss,CFO
+PO-00123,VEND-00104,,DEPT-005,2023-10-01,DR storage tier,33500,USD,Open,Alex Rivera,VP
+PO-00124,VEND-00015,CTR-0015,DEPT-005,2023-02-10,Brand refresh SOW,6000,USD,Open,Lena Brooks,Dept Head
+PO-00125,VEND-00086,,DEPT-009,2025-11-01,Datacenter hardware,6900,USD,Closed,Marco Alvarez,Dept Head
+PO-00126,VEND-00176,,DEPT-007,2025-07-18,Monthly cloud consumption,36500,USD,Closed,Derek Yoon,VP
+PO-00127,VEND-00188,,DEPT-020,2025-06-20,Assessment phase,16000,USD,Closed,Marco Alvarez,VP
+PO-00128,VEND-00141,CTR-0028,DEPT-005,2024-08-02,Landscaping,149000,USD,Closed,Owen Marsh,CFO
+PO-00129,VEND-00026,,DEPT-004,2025-01-13,Implementation sprint,6000,USD,Open,Naomi Weiss,Dept Head
+PO-00130,VEND-00165,CTR-0037,DEPT-012,2023-06-12,Seat expansion QQ2,1900,USD,Closed,Samira Okafor,Dept Head
+PO-00131,VEND-00127,,DEPT-014,2024-09-01,Assessment phase,2600,USD,Closed,Quinn Reyes,Dept Head
+PO-00132,VEND-00100,,DEPT-010,2023-12-11,Litigation retainer,23500,USD,Received,Harish Patel,VP
+PO-00133,VEND-00110,,DEPT-003,2026-01-19,Warehousing month,42500,USD,Closed,Peter Chen,VP
+PO-00134,VEND-00050,CTR-0016,DEPT-008,2023-02-20,MPLS circuits month,45500,USD,Closed,Claire Benoit,VP
+PO-00135,VEND-00173,CTR-0072,DEPT-003,2026-03-25,Quarterly office supplies replen,20000,USD,Closed,Derek Yoon,VP
+PO-00136,VEND-00019,,DEPT-002,2025-06-04,Cleaning services month,6700,USD,Closed,Alex Rivera,Dept Head
+PO-00137,VEND-00050,CTR-0016,DEPT-016,2025-11-16,Mobile fleet lines,38500,USD,Received,Robin Park,VP
+PO-00138,VEND-00140,,DEPT-012,2024-09-16,Toll-free services,1400,USD,Open,Sasha Mwangi,Dept Head
+PO-00139,VEND-00004,CTR-0004,DEPT-007,2024-11-05,IP counsel hours,3500,USD,Closed,Jamie Chen,Dept Head
+PO-00140,VEND-00025,CTR-0067,DEPT-014,2026-03-16,Seat expansion QQ1,4500,USD,Closed,Rafael Mendez,Dept Head
+PO-00141,VEND-00170,,DEPT-002,2025-09-02,Quarterly office supplies replen,5600,USD,Closed,Harish Patel,Dept Head
+PO-00142,VEND-00084,CTR-0041,DEPT-012,2026-03-12,Customs clearance,38000,USD,Closed,Ingrid Voss,VP
+PO-00143,VEND-00078,,DEPT-011,2025-05-08,Annual SKO travel,450000,USD,Closed,Owen Marsh,CEO
+PO-00144,VEND-00188,,DEPT-004,2026-03-19,Assessment phase,34000,USD,Received,Quinn Reyes,VP
+PO-00145,VEND-00113,,DEPT-019,2024-07-17,IP counsel hours,6700,USD,Closed,Cesar Ruiz,Dept Head
+PO-00146,VEND-00145,,DEPT-001,2024-02-25,Customs clearance,2400,USD,Closed,Jamie Chen,Dept Head
+PO-00147,VEND-00183,,DEPT-017,2023-03-24,Print consumables,500,USD,Closed,Robin Park,Dept Head
+PO-00148,VEND-00190,CTR-0051,DEPT-010,2025-09-21,Compliance advisory,203000,USD,Closed,Hana Kobayashi,CFO
+PO-00149,VEND-00174,,DEPT-003,2025-05-11,Assessment phase,127000,USD,Closed,Devon Parker,CFO
+PO-00150,VEND-00098,,DEPT-014,2023-08-03,Contracts review package,21500,USD,Received,Peter Chen,VP
+PO-00151,VEND-00017,,DEPT-020,2026-03-27,Staff augmentation month,243000,USD,Open,Robin Park,CFO
+PO-00152,VEND-00073,,DEPT-003,2023-09-02,Reserved capacity,6100,USD,Received,Derek Yoon,Dept Head
+PO-00153,VEND-00193,,DEPT-002,2025-01-31,Security services,13500,USD,Received,Derek Yoon,VP
+PO-00154,VEND-00114,,DEPT-006,2026-02-06,Events travel block,48000,USD,Received,Luis Ortega,VP
+PO-00155,VEND-00067,,DEPT-020,2024-11-05,Networking gear,24500,USD,Closed,Claire Benoit,VP
+PO-00156,VEND-00065,,DEPT-012,2023-12-24,Freight LTL lane,7400,USD,Closed,Jamie Chen,Dept Head
+PO-00157,VEND-00157,,DEPT-014,2025-09-15,IP counsel hours,35000,USD,Received,Marco Alvarez,VP
+PO-00158,VEND-00067,,DEPT-016,2025-12-25,Laptop refresh batch,32500,USD,Closed,Samira Okafor,VP
+PO-00159,VEND-00080,,DEPT-020,2025-10-16,Freight LTL lane,7800,USD,Closed,Harish Patel,Dept Head
+PO-00160,VEND-00061,,DEPT-011,2024-08-15,Toll-free services,144000,USD,Received,Harish Patel,CFO
+PO-00161,VEND-00159,,DEPT-004,2025-07-17,Last-mile delivery,4400,USD,Closed,Claire Benoit,Dept Head
+PO-00162,VEND-00106,CTR-0061,DEPT-006,2023-07-11,Compliance advisory,76000,USD,Open,Naomi Weiss,CFO
+PO-00163,VEND-00180,CTR-0065,DEPT-016,2026-04-11,Add-on modules,28000,USD,Open,Devon Parker,VP
+PO-00164,VEND-00190,CTR-0051,DEPT-018,2024-01-15,IP counsel hours,4000,USD,Closed,Jamie Chen,Dept Head
+PO-00165,VEND-00157,,DEPT-007,2023-06-23,Litigation retainer,24000,USD,Received,Devon Parker,VP
+PO-00166,VEND-00031,,DEPT-010,2023-06-09,Conference travel,1600,USD,Received,Naomi Weiss,Dept Head
+PO-00167,VEND-00131,,DEPT-007,2025-07-30,Conference travel,4500,USD,Received,Aditi Shah,Dept Head
+PO-00168,VEND-00091,,DEPT-001,2025-01-03,Implementation sprint,53000,USD,Received,Tomas Kellerman,CFO
+PO-00169,VEND-00189,,DEPT-012,2025-06-21,Contract engineer placement,238000,USD,Open,Aditi Shah,CFO
+PO-00170,VEND-00086,,DEPT-003,2025-09-25,Datacenter hardware,700,USD,Received,Claire Benoit,Dept Head
+PO-00171,VEND-00152,,DEPT-003,2024-05-26,Toll-free services,3000,USD,Received,Jamie Chen,Dept Head
+PO-00172,VEND-00002,,DEPT-010,2023-10-19,Platform support,6100,USD,Open,Devon Parker,Dept Head
+PO-00173,VEND-00199,,DEPT-012,2025-10-16,Mobile fleet lines,600,USD,Closed,Naomi Weiss,Dept Head
+PO-00174,VEND-00008,,DEPT-014,2024-07-13,Ergonomics,39000,USD,Closed,Lena Brooks,VP
+PO-00175,VEND-00083,,DEPT-009,2025-11-20,DR storage tier,35500,USD,Open,Tomas Kellerman,VP
+PO-00176,VEND-00045,CTR-0039,DEPT-018,2025-05-26,Campaign retainer,4500,USD,Received,Devon Parker,Dept Head
+PO-00177,VEND-00068,,DEPT-017,2024-08-04,Specialist placement,14000,USD,Open,Priya Raman,VP
+PO-00178,VEND-00175,,DEPT-010,2024-12-14,Datacenter hardware,15000,USD,Closed,Alex Rivera,VP
+PO-00179,VEND-00116,,DEPT-013,2024-07-07,HVAC maintenance,69000,USD,Received,Hana Kobayashi,CFO
+PO-00180,VEND-00032,CTR-0045,DEPT-002,2025-11-29,Specialist placement,10000,USD,Closed,Robin Park,VP
+PO-00181,VEND-00127,CTR-0055,DEPT-013,2023-04-26,Assessment phase,6700,USD,Received,Jamie Chen,Dept Head
+PO-00182,VEND-00125,,DEPT-013,2023-10-26,Implementation sprint,31000,USD,Received,Alex Rivera,VP
+PO-00183,VEND-00154,,DEPT-018,2024-09-02,Annual SKO travel,40000,USD,Closed,Devon Parker,VP
+PO-00184,VEND-00033,,DEPT-002,2026-01-19,Litigation retainer,66000,USD,Open,Devon Parker,CFO
+PO-00185,VEND-00041,CTR-0021,DEPT-006,2023-11-18,Specialist placement,2500,USD,Closed,Priya Raman,Dept Head
+PO-00186,VEND-00006,CTR-0006,DEPT-008,2025-06-17,Brand refresh SOW,7400,USD,Closed,Naomi Weiss,Dept Head
+PO-00187,VEND-00017,,DEPT-018,2024-02-29,Staff augmentation month,35000,USD,Received,Marco Alvarez,VP
+PO-00188,VEND-00113,,DEPT-016,2026-01-15,Contracts review package,5000,USD,Closed,Julia Hwang,Dept Head
+PO-00189,VEND-00095,,DEPT-006,2024-06-23,Laptop refresh batch,34500,USD,Closed,Tomas Kellerman,VP
+PO-00190,VEND-00181,,DEPT-012,2025-06-07,Platform support,215000,USD,Closed,Ingrid Voss,CFO
+PO-00191,VEND-00087,,DEPT-002,2023-06-26,IP counsel hours,73000,USD,Received,Rafael Mendez,CFO
+PO-00192,VEND-00072,CTR-0069,DEPT-016,2023-01-11,Landscaping,201000,USD,Cancelled,Hana Kobayashi,CFO
+PO-00193,VEND-00083,,DEPT-008,2024-10-15,Monthly cloud consumption,3400,USD,Closed,Derek Yoon,Dept Head
+PO-00194,VEND-00021,,DEPT-020,2025-06-23,Brand refresh SOW,29500,USD,Closed,Robin Park,VP
+PO-00195,VEND-00077,,DEPT-010,2025-10-17,Specialist placement,34500,USD,Closed,Ingrid Voss,VP
+PO-00196,VEND-00068,,DEPT-013,2026-01-06,Temp-to-hire fee,8000,USD,Received,Lena Brooks,Dept Head
+PO-00197,VEND-00124,,DEPT-018,2023-03-29,Conference travel,2300,USD,Closed,Quinn Reyes,Dept Head
+PO-00198,VEND-00100,,DEPT-018,2023-07-16,Compliance advisory,5000,USD,Received,Jamie Chen,Dept Head
+PO-00199,VEND-00143,,DEPT-016,2023-03-17,Creative production,1900,USD,Closed,Marco Alvarez,Dept Head
+PO-00200,VEND-00065,,DEPT-019,2025-04-01,Last-mile delivery,34000,USD,Received,Marco Alvarez,VP
+PO-00201,VEND-00168,,DEPT-015,2024-07-18,Staff augmentation month,555000,USD,Received,Samira Okafor,CEO
+PO-00202,VEND-00138,CTR-0053,DEPT-018,2024-02-04,Annual SKO travel,600,USD,Closed,Devon Parker,Dept Head
+PO-00203,VEND-00172,,DEPT-005,2024-12-17,Networking gear,500,USD,Received,Lena Brooks,Dept Head
+PO-00204,VEND-00094,CTR-0080,DEPT-014,2025-10-15,HVAC maintenance,7200,USD,Received,Derek Yoon,Dept Head
+PO-00205,VEND-00120,,DEPT-001,2023-11-01,Ergonomics,29000,USD,Closed,Priya Raman,VP
+PO-00206,VEND-00200,,DEPT-009,2024-01-24,Staff augmentation month,3800,USD,Closed,Quinn Reyes,Dept Head
+PO-00207,VEND-00025,,DEPT-011,2024-10-10,Annual subscription renewal,15500,USD,Closed,Julia Hwang,VP
+PO-00208,VEND-00158,,DEPT-019,2024-05-16,Warehousing month,102000,USD,Closed,Robin Park,CFO
+PO-00209,VEND-00116,,DEPT-016,2023-02-02,HVAC maintenance,5500,USD,Closed,Hana Kobayashi,Dept Head
+PO-00210,VEND-00118,,DEPT-008,2023-09-12,Conference travel,1700,USD,Closed,Quinn Reyes,Dept Head
+PO-00211,VEND-00086,,DEPT-016,2023-09-30,Laptop refresh batch,1600,USD,Closed,Marco Alvarez,Dept Head
+PO-00212,VEND-00173,CTR-0072,DEPT-016,2024-02-24,Quarterly office supplies replen,705000,USD,Closed,Hana Kobayashi,CEO
+PO-00213,VEND-00038,,DEPT-016,2023-11-03,Events travel block,76000,USD,Closed,Luis Ortega,CFO
+PO-00214,VEND-00063,CTR-0042,DEPT-003,2024-01-21,Breakroom supplies,275000,USD,Closed,Tomas Kellerman,CEO
+PO-00215,VEND-00108,,DEPT-005,2023-07-08,Print consumables,43000,USD,Received,Jamie Chen,VP
+PO-00216,VEND-00065,,DEPT-006,2024-11-06,Warehousing month,5600,USD,Received,Derek Yoon,Dept Head
+PO-00217,VEND-00007,,DEPT-005,2025-08-25,Network installation,49500,USD,Open,Tomas Kellerman,VP
+PO-00218,VEND-00068,,DEPT-014,2023-09-20,Temp-to-hire fee,11500,USD,Closed,Sasha Mwangi,VP
+PO-00219,VEND-00073,,DEPT-013,2024-12-09,Egress overage,1800,USD,Open,Sasha Mwangi,Dept Head
+PO-00220,VEND-00075,,DEPT-016,2026-04-10,Events travel block,765000,USD,Received,Robin Park,CEO
+PO-00221,VEND-00054,,DEPT-006,2024-12-02,Last-mile delivery,105000,USD,Cancelled,Jamie Chen,CFO
+PO-00222,VEND-00033,,DEPT-008,2025-02-15,IP counsel hours,4600,USD,Closed,Derek Yoon,Dept Head
+PO-00223,VEND-00155,,DEPT-018,2025-03-27,Ergonomics,28000,USD,Closed,Julia Hwang,VP
+PO-00224,VEND-00125,,DEPT-004,2023-12-01,Advisory engagement,20000,USD,Closed,Samira Okafor,VP
+PO-00225,VEND-00058,,DEPT-003,2023-04-27,Advisory engagement,1200,USD,Closed,Claire Benoit,Dept Head
+PO-00226,VEND-00151,,DEPT-006,2025-06-07,IP counsel hours,4800,USD,Received,Tomas Kellerman,Dept Head
+PO-00227,VEND-00185,,DEPT-009,2023-04-11,Freight LTL lane,2000,USD,Received,Ingrid Voss,Dept Head
+PO-00228,VEND-00068,,DEPT-019,2023-12-31,Temp-to-hire fee,895000,USD,Received,Aditi Shah,CEO
+PO-00229,VEND-00104,,DEPT-004,2025-11-14,Egress overage,7500,USD,Received,Cesar Ruiz,Dept Head
+PO-00230,VEND-00113,,DEPT-005,2025-04-04,Litigation retainer,4000,USD,Received,Naomi Weiss,Dept Head
+PO-00231,VEND-00074,CTR-0024,DEPT-010,2025-05-12,Annual subscription renewal,7900,USD,Closed,Lena Brooks,Dept Head
+PO-00232,VEND-00142,CTR-0044,DEPT-011,2023-04-12,Events travel block,26500,USD,Closed,Peter Chen,VP
+PO-00233,VEND-00084,CTR-0041,DEPT-002,2025-10-15,Freight LTL lane,1200,USD,Closed,Harish Patel,Dept Head
+PO-00234,VEND-00098,,DEPT-016,2025-09-21,Contracts review package,5600,USD,Closed,Robin Park,Dept Head
+PO-00235,VEND-00008,,DEPT-013,2023-07-20,Quarterly office supplies replen,5100,USD,Closed,Tomas Kellerman,Dept Head
+PO-00236,VEND-00136,,DEPT-014,2024-02-25,Implementation sprint,50000,USD,Received,Luis Ortega,CFO
+PO-00237,VEND-00022,,DEPT-020,2023-02-21,Litigation retainer,89000,USD,Received,Marco Alvarez,CFO
+PO-00238,VEND-00137,,DEPT-003,2025-10-01,Print consumables,36500,USD,Received,Claire Benoit,VP
+PO-00239,VEND-00200,,DEPT-010,2025-01-11,Temp-to-hire fee,7300,USD,Closed,Sasha Mwangi,Dept Head
+PO-00240,VEND-00199,,DEPT-015,2026-03-14,MPLS circuits month,7100,USD,Closed,Aditi Shah,Dept Head
+PO-00241,VEND-00180,,DEPT-003,2024-05-23,Annual subscription renewal,116000,USD,Received,Julia Hwang,CFO
+PO-00242,VEND-00078,,DEPT-002,2024-06-01,Events travel block,6400,USD,Received,Lena Brooks,Dept Head
+PO-00243,VEND-00071,,DEPT-005,2023-03-22,DR storage tier,3600,USD,Received,Marco Alvarez,Dept Head
+PO-00244,VEND-00120,,DEPT-008,2025-12-27,Quarterly office supplies replen,97000,USD,Closed,Luis Ortega,CFO
+PO-00245,VEND-00153,,DEPT-012,2024-09-06,Specialist placement,188000,USD,Open,Rafael Mendez,CFO
+PO-00246,VEND-00059,CTR-0019,DEPT-019,2023-11-06,Add-on modules,2500,USD,Received,Claire Benoit,Dept Head
+PO-00247,VEND-00148,CTR-0068,DEPT-013,2026-04-13,Landscaping,20500,USD,Received,Julia Hwang,VP
+PO-00248,VEND-00107,,DEPT-013,2023-05-14,Monitors and peripherals,7400,USD,Received,Sasha Mwangi,Dept Head
+PO-00249,VEND-00196,,DEPT-018,2024-09-24,Last-mile delivery,4100,USD,Closed,Samira Okafor,Dept Head
+PO-00250,VEND-00189,,DEPT-004,2026-03-21,Contract engineer placement,18000,USD,Received,Luis Ortega,VP
+PO-00251,VEND-00142,CTR-0044,DEPT-005,2026-03-06,Conference travel,5300,USD,Closed,Naomi Weiss,Dept Head
+PO-00252,VEND-00114,,DEPT-005,2026-03-29,Annual SKO travel,24000,USD,Open,Samira Okafor,VP
+PO-00253,VEND-00038,,DEPT-011,2023-09-07,Corporate travel management fee,2300,USD,Closed,Harish Patel,Dept Head
+PO-00254,VEND-00152,,DEPT-008,2023-11-11,Network installation,34000,USD,Received,Derek Yoon,VP
+PO-00255,VEND-00177,CTR-0027,DEPT-012,2023-06-24,Compliance advisory,905000,USD,Closed,Ingrid Voss,CEO
+PO-00256,VEND-00115,,DEPT-018,2025-04-22,Toll-free services,7300,USD,Open,Priya Raman,Dept Head
+PO-00257,VEND-00167,,DEPT-007,2024-01-08,Network installation,1400,USD,Received,Devon Parker,Dept Head
+PO-00258,VEND-00049,,DEPT-012,2025-08-07,Contracts review package,3900,USD,Closed,Claire Benoit,Dept Head
+PO-00259,VEND-00009,,DEPT-015,2023-06-03,Networking gear,6600,USD,Closed,Priya Raman,Dept Head
+PO-00260,VEND-00140,,DEPT-020,2025-05-03,MPLS circuits month,1500,USD,Open,Hana Kobayashi,Dept Head
+PO-00261,VEND-00077,,DEPT-002,2025-08-13,Contract engineer placement,3400,USD,Open,Claire Benoit,Dept Head
+PO-00262,VEND-00095,,DEPT-017,2026-02-27,Monitors and peripherals,35500,USD,Received,Harish Patel,VP
+PO-00263,VEND-00163,,DEPT-011,2024-04-03,Events travel block,485000,USD,Received,Robin Park,CEO
+PO-00264,VEND-00132,,DEPT-010,2023-07-22,Quarterly office supplies replen,6500,USD,Received,Robin Park,Dept Head
+PO-00265,VEND-00021,,DEPT-010,2024-07-19,Brand refresh SOW,3900,USD,Closed,Priya Raman,Dept Head
+PO-00266,VEND-00174,,DEPT-020,2023-03-31,Process transformation SOW,6800,USD,Received,Ingrid Voss,Dept Head
+PO-00267,VEND-00062,CTR-0050,DEPT-002,2024-11-23,Datacenter hardware,42000,USD,Closed,Samira Okafor,VP
+PO-00268,VEND-00138,CTR-0053,DEPT-004,2025-11-07,Conference travel,40500,USD,Closed,Jamie Chen,VP
+PO-00269,VEND-00012,,DEPT-014,2026-01-01,Events travel block,2200,USD,Open,Naomi Weiss,Dept Head
+PO-00270,VEND-00100,,DEPT-016,2024-05-25,Litigation retainer,1700,USD,Received,Samira Okafor,Dept Head
+PO-00271,VEND-00044,CTR-0031,DEPT-005,2025-11-12,IP counsel hours,98000,USD,Closed,Samira Okafor,CFO
+PO-00272,VEND-00103,CTR-0059,DEPT-017,2023-07-07,Annual SKO travel,169000,USD,Closed,Tomas Kellerman,CFO
+PO-00273,VEND-00041,CTR-0021,DEPT-018,2024-05-19,Temp-to-hire fee,5100,USD,Open,Peter Chen,Dept Head
+PO-00274,VEND-00016,,DEPT-015,2023-05-20,Monitors and peripherals,13500,USD,Received,Alex Rivera,VP
+PO-00275,VEND-00175,,DEPT-006,2026-02-12,Networking gear,3100,USD,Closed,Luis Ortega,Dept Head
+PO-00276,VEND-00083,,DEPT-003,2023-03-06,Egress overage,49500,USD,Closed,Derek Yoon,VP
+PO-00277,VEND-00032,,DEPT-010,2023-02-15,Staff augmentation month,25000,USD,Closed,Robin Park,VP
+PO-00278,VEND-00157,,DEPT-018,2024-02-23,Litigation retainer,1300,USD,Closed,Devon Parker,Dept Head
+PO-00279,VEND-00076,,DEPT-002,2023-07-18,Litigation retainer,5300,USD,Open,Cesar Ruiz,Dept Head
+PO-00280,VEND-00033,,DEPT-010,2025-04-23,Compliance advisory,1100,USD,Closed,Jamie Chen,Dept Head
+PO-00281,VEND-00082,,DEPT-019,2023-05-18,Specialist placement,8000,USD,Received,Ingrid Voss,Dept Head
+PO-00282,VEND-00135,,DEPT-018,2023-11-21,Mobile fleet lines,24500,USD,Closed,Julia Hwang,VP
+PO-00283,VEND-00094,,DEPT-015,2026-03-25,HVAC maintenance,6600,USD,Cancelled,Owen Marsh,Dept Head
+PO-00284,VEND-00040,,DEPT-010,2025-05-15,Reserved capacity,47000,USD,Received,Alex Rivera,VP
+PO-00285,VEND-00098,,DEPT-017,2023-12-20,Contracts review package,6500,USD,Cancelled,Julia Hwang,Dept Head
+PO-00286,VEND-00148,CTR-0068,DEPT-007,2025-10-31,HVAC maintenance,6100,USD,Closed,Julia Hwang,Dept Head
+PO-00287,VEND-00072,,DEPT-004,2025-06-26,Landscaping,4600,USD,Closed,Ingrid Voss,Dept Head
+PO-00288,VEND-00134,,DEPT-005,2024-10-18,Add-on modules,28500,USD,Closed,Hana Kobayashi,VP
+PO-00289,VEND-00127,,DEPT-018,2025-06-02,Assessment phase,5300,USD,Closed,Derek Yoon,Dept Head
+PO-00290,VEND-00061,,DEPT-019,2026-04-04,Toll-free services,34000,USD,Closed,Sasha Mwangi,VP
+PO-00291,VEND-00110,,DEPT-014,2023-08-19,Warehousing month,940000,USD,Open,Naomi Weiss,CEO
+PO-00292,VEND-00126,,DEPT-013,2025-09-09,Quarterly office supplies replen,1300,USD,Closed,Cesar Ruiz,Dept Head
+PO-00293,VEND-00190,,DEPT-012,2025-08-30,IP counsel hours,3100,USD,Open,Hana Kobayashi,Dept Head
+PO-00294,VEND-00144,,DEPT-013,2024-10-14,Assessment phase,33500,USD,Closed,Owen Marsh,VP
+PO-00295,VEND-00039,,DEPT-004,2025-01-23,Toll-free services,2500,USD,Closed,Lena Brooks,Dept Head
+PO-00296,VEND-00134,,DEPT-010,2024-03-06,Seat expansion QQ2,965000,USD,Closed,Sasha Mwangi,CEO
+PO-00297,VEND-00180,CTR-0065,DEPT-004,2025-01-16,Seat expansion QQ1,27500,USD,Closed,Cesar Ruiz,VP
+PO-00298,VEND-00020,,DEPT-003,2023-06-06,Add-on modules,7100,USD,Closed,Jamie Chen,Dept Head
+PO-00299,VEND-00122,,DEPT-005,2025-03-01,Contracts review package,34500,USD,Received,Marco Alvarez,VP
+PO-00300,VEND-00077,,DEPT-012,2024-11-14,Contract engineer placement,45500,USD,Closed,Naomi Weiss,VP
+PO-00301,VEND-00114,,DEPT-009,2023-11-01,Conference travel,6200,USD,Received,Rafael Mendez,Dept Head
+PO-00302,VEND-00043,,DEPT-018,2023-05-19,Network installation,12500,USD,Closed,Tomas Kellerman,VP
+PO-00303,VEND-00175,,DEPT-005,2024-12-14,Laptop refresh batch,10500,USD,Closed,Alex Rivera,VP
+PO-00304,VEND-00088,,DEPT-020,2023-02-21,Breakroom supplies,900,USD,Received,Luis Ortega,Dept Head
+PO-00305,VEND-00151,,DEPT-002,2023-10-24,Compliance advisory,4000,USD,Open,Rafael Mendez,Dept Head
+PO-00306,VEND-00061,,DEPT-017,2023-02-12,MPLS circuits month,6100,USD,Open,Devon Parker,Dept Head
+PO-00307,VEND-00058,,DEPT-016,2023-01-05,Assessment phase,415000,USD,Closed,Devon Parker,CEO
+PO-00308,VEND-00016,,DEPT-020,2023-04-16,Laptop refresh batch,1700,USD,Open,Owen Marsh,Dept Head
+PO-00309,VEND-00042,CTR-0057,DEPT-002,2026-01-21,Creative production,5600,USD,Closed,Priya Raman,Dept Head
+PO-00310,VEND-00033,,DEPT-011,2025-03-22,Litigation retainer,44500,USD,Received,Naomi Weiss,VP
+PO-00311,VEND-00113,,DEPT-012,2024-04-01,IP counsel hours,3500,USD,Closed,Julia Hwang,Dept Head
+PO-00312,VEND-00058,,DEPT-007,2024-07-08,Implementation sprint,96000,USD,Open,Derek Yoon,CFO
+PO-00313,VEND-00178,,DEPT-018,2023-06-10,Contracts review package,1300,USD,Closed,Hana Kobayashi,Dept Head
+PO-00314,VEND-00108,,DEPT-006,2025-09-15,Ergonomics,6100,USD,Received,Claire Benoit,Dept Head
+PO-00315,VEND-00194,,DEPT-015,2026-02-28,Corporate travel management fee,6800,USD,Closed,Peter Chen,Dept Head
+PO-00316,VEND-00154,,DEPT-008,2025-01-08,Corporate travel management fee,8500,USD,Open,Claire Benoit,Dept Head
+PO-00317,VEND-00013,,DEPT-008,2026-02-14,Annual subscription renewal,42500,USD,Received,Quinn Reyes,VP
+PO-00318,VEND-00045,,DEPT-017,2023-01-28,Creative production,800,USD,Closed,Owen Marsh,Dept Head
+PO-00319,VEND-00049,,DEPT-007,2025-01-29,Litigation retainer,20000,USD,Received,Peter Chen,VP
+PO-00320,VEND-00042,,DEPT-012,2023-05-14,Campaign retainer,232000,USD,Received,Priya Raman,CFO
+PO-00321,VEND-00034,,DEPT-020,2024-04-22,Assessment phase,26500,USD,Closed,Cesar Ruiz,VP
+PO-00322,VEND-00154,,DEPT-016,2023-04-17,Conference travel,960000,USD,Closed,Aditi Shah,CEO
+PO-00323,VEND-00180,CTR-0065,DEPT-004,2025-11-21,Seat expansion QQ2,4800,USD,Received,Naomi Weiss,Dept Head
+PO-00324,VEND-00033,,DEPT-010,2025-09-04,IP counsel hours,61000,USD,Closed,Aditi Shah,CFO
+PO-00325,VEND-00053,,DEPT-014,2024-10-05,Media buy,5800,USD,Open,Peter Chen,Dept Head
+PO-00326,VEND-00154,,DEPT-012,2023-05-13,Events travel block,127000,USD,Cancelled,Sasha Mwangi,CFO
+PO-00327,VEND-00165,CTR-0037,DEPT-004,2023-01-16,Platform support,7700,USD,Received,Peter Chen,Dept Head
+PO-00328,VEND-00116,,DEPT-013,2023-02-08,HVAC maintenance,1100,USD,Closed,Peter Chen,Dept Head
+PO-00329,VEND-00091,,DEPT-012,2025-06-13,Assessment phase,1300,USD,Received,Marco Alvarez,Dept Head
+PO-00330,VEND-00007,CTR-0007,DEPT-001,2025-10-11,Mobile fleet lines,7300,USD,Open,Devon Parker,Dept Head
+PO-00331,VEND-00125,,DEPT-019,2025-02-02,Process transformation SOW,24500,USD,Cancelled,Aditi Shah,VP
+PO-00332,VEND-00079,,DEPT-012,2024-12-08,Print consumables,30500,USD,Open,Naomi Weiss,VP
+PO-00333,VEND-00144,,DEPT-011,2023-07-01,Implementation sprint,4000,USD,Received,Harish Patel,Dept Head
+PO-00334,VEND-00091,,DEPT-020,2023-06-01,Advisory engagement,12000,USD,Received,Lena Brooks,VP
+PO-00335,VEND-00069,,DEPT-014,2024-06-01,Customs clearance,5500,USD,Closed,Cesar Ruiz,Dept Head
+PO-00336,VEND-00179,,DEPT-011,2025-10-04,Customs clearance,52000,USD,Open,Robin Park,CFO
+PO-00337,VEND-00115,CTR-0036,DEPT-008,2024-04-29,Toll-free services,44500,USD,Closed,Robin Park,VP
+PO-00338,VEND-00006,CTR-0006,DEPT-003,2024-05-29,Campaign retainer,19500,USD,Closed,Devon Parker,VP
+PO-00339,VEND-00162,CTR-0062,DEPT-015,2023-04-09,Egress overage,2300,USD,Closed,Jamie Chen,Dept Head
+PO-00340,VEND-00083,,DEPT-001,2025-03-23,Egress overage,28000,USD,Open,Aditi Shah,VP
+PO-00341,VEND-00109,,DEPT-005,2023-12-20,Implementation sprint,4500,USD,Open,Luis Ortega,Dept Head
+PO-00342,VEND-00186,,DEPT-007,2025-06-05,DR storage tier,2100,USD,Received,Alex Rivera,Dept Head
+PO-00343,VEND-00074,CTR-0024,DEPT-011,2023-05-13,Seat expansion QQ1,9500,USD,Open,Claire Benoit,Dept Head
+PO-00344,VEND-00168,,DEPT-006,2024-03-05,Specialist placement,2500,USD,Closed,Luis Ortega,Dept Head
+PO-00345,VEND-00043,,DEPT-001,2025-02-27,Toll-free services,4900,USD,Received,Priya Raman,Dept Head
+PO-00346,VEND-00045,,DEPT-004,2026-02-05,Campaign retainer,2800,USD,Closed,Samira Okafor,Dept Head
+PO-00347,VEND-00190,,DEPT-008,2024-11-14,Compliance advisory,34500,USD,Closed,Alex Rivera,VP
+PO-00348,VEND-00168,,DEPT-020,2025-02-04,Specialist placement,4300,USD,Open,Samira Okafor,Dept Head
+PO-00349,VEND-00050,,DEPT-020,2023-11-07,MPLS circuits month,117000,USD,Received,Claire Benoit,CFO
+PO-00350,VEND-00168,,DEPT-008,2025-06-07,Specialist placement,3000,USD,Closed,Priya Raman,Dept Head
+PO-00351,VEND-00036,,DEPT-005,2024-08-14,HVAC maintenance,6100,USD,Closed,Cesar Ruiz,Dept Head
+PO-00352,VEND-00038,,DEPT-020,2024-06-11,Conference travel,6600,USD,Received,Jamie Chen,Dept Head
+PO-00353,VEND-00115,,DEPT-009,2023-12-04,Mobile fleet lines,3700,USD,Closed,Naomi Weiss,Dept Head
+PO-00354,VEND-00119,CTR-0049,DEPT-005,2023-01-04,Corporate travel management fee,18500,USD,Closed,Quinn Reyes,VP
+PO-00355,VEND-00050,CTR-0016,DEPT-012,2026-01-19,Toll-free services,22000,USD,Received,Luis Ortega,VP
+PO-00356,VEND-00186,,DEPT-019,2023-09-22,Monthly cloud consumption,5600,USD,Cancelled,Owen Marsh,Dept Head
+PO-00357,VEND-00035,,DEPT-019,2025-07-03,Networking gear,4900,USD,Closed,Julia Hwang,Dept Head
+PO-00358,VEND-00104,,DEPT-014,2023-02-16,DR storage tier,143000,USD,Closed,Jamie Chen,CFO
+PO-00359,VEND-00124,CTR-0035,DEPT-009,2025-12-27,Annual SKO travel,33500,USD,Closed,Ingrid Voss,VP
+PO-00360,VEND-00160,,DEPT-003,2025-04-24,Contracts review package,42500,USD,Received,Rafael Mendez,VP
+PO-00361,VEND-00158,,DEPT-020,2024-04-21,Customs clearance,3000,USD,Open,Claire Benoit,Dept Head
+PO-00362,VEND-00095,,DEPT-001,2023-02-23,Datacenter hardware,29000,USD,Closed,Samira Okafor,VP
+PO-00363,VEND-00045,CTR-0039,DEPT-013,2025-12-30,Creative production,3300,USD,Received,Samira Okafor,Dept Head
+PO-00364,VEND-00144,,DEPT-001,2024-07-21,Implementation sprint,3800,USD,Closed,Derek Yoon,Dept Head
+PO-00365,VEND-00047,,DEPT-019,2025-07-23,Advisory engagement,70000,USD,Closed,Priya Raman,CFO
+PO-00366,VEND-00058,,DEPT-003,2023-06-02,Process transformation SOW,22000,USD,Open,Samira Okafor,VP
+PO-00367,VEND-00143,,DEPT-015,2025-12-22,Media buy,790000,USD,Cancelled,Harish Patel,CEO
+PO-00368,VEND-00031,,DEPT-007,2023-12-07,Annual SKO travel,500,USD,Received,Marco Alvarez,Dept Head
+PO-00369,VEND-00113,,DEPT-006,2025-06-03,Litigation retainer,181000,USD,Received,Marco Alvarez,CFO
+PO-00370,VEND-00151,CTR-0070,DEPT-013,2025-08-26,Litigation retainer,24500,USD,Received,Cesar Ruiz,VP
+PO-00371,VEND-00100,,DEPT-020,2025-11-15,IP counsel hours,1600,USD,Open,Peter Chen,Dept Head
+PO-00372,VEND-00015,CTR-0015,DEPT-008,2026-02-16,Creative production,7900,USD,Closed,Cesar Ruiz,Dept Head
+PO-00373,VEND-00019,,DEPT-007,2024-04-17,HVAC maintenance,133000,USD,Closed,Quinn Reyes,CFO
+PO-00374,VEND-00063,,DEPT-014,2025-06-01,Ergonomics,144000,USD,Open,Priya Raman,CFO
+PO-00375,VEND-00125,,DEPT-001,2023-11-15,Implementation sprint,190000,USD,Received,Luis Ortega,CFO
+PO-00376,VEND-00079,CTR-0077,DEPT-003,2024-05-21,Print consumables,26000,USD,Received,Samira Okafor,VP
+PO-00377,VEND-00132,,DEPT-010,2024-04-21,Quarterly office supplies replen,4100,USD,Received,Hana Kobayashi,Dept Head
+PO-00378,VEND-00042,CTR-0057,DEPT-009,2024-08-27,Creative production,18000,USD,Closed,Peter Chen,VP
+PO-00379,VEND-00041,CTR-0021,DEPT-018,2025-11-12,Specialist placement,4300,USD,Closed,Claire Benoit,Dept Head
+PO-00380,VEND-00018,,DEPT-007,2026-01-02,Temp-to-hire fee,2200,USD,Cancelled,Samira Okafor,Dept Head
+PO-00381,VEND-00151,,DEPT-020,2025-01-10,IP counsel hours,4200,USD,Cancelled,Lena Brooks,Dept Head
+PO-00382,VEND-00049,,DEPT-017,2023-09-01,Contracts review package,49000,USD,Open,Derek Yoon,VP
+PO-00383,VEND-00081,,DEPT-001,2023-08-15,Specialist placement,3900,USD,Received,Devon Parker,Dept Head
+PO-00384,VEND-00029,,DEPT-020,2023-02-19,Assessment phase,191000,USD,Closed,Jamie Chen,CFO
+PO-00385,VEND-00115,,DEPT-005,2023-01-09,Mobile fleet lines,29000,USD,Closed,Claire Benoit,VP
+PO-00386,VEND-00067,,DEPT-011,2026-04-14,Monitors and peripherals,5600,USD,Received,Julia Hwang,Dept Head
+PO-00387,VEND-00123,,DEPT-020,2026-01-27,Cleaning services month,6500,USD,Cancelled,Cesar Ruiz,Dept Head
+PO-00388,VEND-00173,,DEPT-002,2024-05-17,Print consumables,16500,USD,Closed,Julia Hwang,VP
+PO-00389,VEND-00095,,DEPT-005,2025-12-17,Monitors and peripherals,1900,USD,Closed,Aditi Shah,Dept Head
+PO-00390,VEND-00178,,DEPT-020,2024-11-24,IP counsel hours,7900,USD,Closed,Naomi Weiss,Dept Head
+PO-00391,VEND-00002,CTR-0002,DEPT-013,2024-07-02,Platform support,6600,USD,Closed,Devon Parker,Dept Head
+PO-00392,VEND-00084,CTR-0041,DEPT-016,2024-05-30,Customs clearance,3700,USD,Received,Luis Ortega,Dept Head
+PO-00393,VEND-00084,,DEPT-020,2023-03-30,Freight LTL lane,3100,USD,Closed,Alex Rivera,Dept Head
+PO-00394,VEND-00016,,DEPT-020,2025-02-03,Networking gear,600,USD,Open,Rafael Mendez,Dept Head
+PO-00395,VEND-00056,,DEPT-014,2024-11-30,Seat expansion QQ1,145000,USD,Open,Hana Kobayashi,CFO
+PO-00396,VEND-00189,,DEPT-015,2025-02-01,Specialist placement,1000,USD,Cancelled,Sasha Mwangi,Dept Head
+PO-00397,VEND-00055,,DEPT-004,2025-03-19,HVAC maintenance,5000,USD,Cancelled,Lena Brooks,Dept Head
+PO-00398,VEND-00040,,DEPT-016,2025-08-17,DR storage tier,26000,USD,Received,Alex Rivera,VP
+PO-00399,VEND-00139,,DEPT-006,2024-10-02,Cleaning services month,3900,USD,Open,Hana Kobayashi,Dept Head
+PO-00400,VEND-00050,,DEPT-020,2023-03-09,Network installation,3000,USD,Closed,Cesar Ruiz,Dept Head
+PO-00401,VEND-00185,,DEPT-016,2024-07-19,Last-mile delivery,1300,USD,Received,Peter Chen,Dept Head
+PO-00402,VEND-00100,,DEPT-013,2025-08-12,Litigation retainer,6700,USD,Closed,Julia Hwang,Dept Head
+PO-00403,VEND-00072,CTR-0069,DEPT-007,2023-10-30,Cleaning services month,18500,USD,Cancelled,Claire Benoit,VP
+PO-00404,VEND-00003,CTR-0003,DEPT-014,2024-07-12,Freight LTL lane,43000,USD,Closed,Lena Brooks,VP
+PO-00405,VEND-00071,,DEPT-013,2023-09-06,Monthly cloud consumption,3200,USD,Received,Cesar Ruiz,Dept Head
+PO-00406,VEND-00026,,DEPT-008,2025-05-20,Advisory engagement,800,USD,Received,Marco Alvarez,Dept Head
+PO-00407,VEND-00198,,DEPT-006,2025-02-17,Last-mile delivery,2300,USD,Closed,Hana Kobayashi,Dept Head
+PO-00408,VEND-00129,CTR-0073,DEPT-002,2024-04-18,Breakroom supplies,39500,USD,Received,Samira Okafor,VP
+PO-00409,VEND-00119,CTR-0049,DEPT-014,2026-01-18,Events travel block,7800,USD,Closed,Cesar Ruiz,Dept Head
+PO-00410,VEND-00096,,DEPT-006,2025-10-04,Networking gear,6800,USD,Received,Aditi Shah,Dept Head
+PO-00411,VEND-00077,,DEPT-002,2025-06-09,Staff augmentation month,500,USD,Closed,Hana Kobayashi,Dept Head
+PO-00412,VEND-00174,,DEPT-007,2024-06-24,Advisory engagement,5300,USD,Received,Quinn Reyes,Dept Head
+PO-00413,VEND-00102,,DEPT-014,2023-07-04,Networking gear,30500,USD,Closed,Alex Rivera,VP
+PO-00414,VEND-00049,,DEPT-016,2025-11-22,Compliance advisory,98000,USD,Open,Luis Ortega,CFO
+PO-00415,VEND-00037,,DEPT-001,2023-08-12,Corporate travel management fee,1500,USD,Closed,Peter Chen,Dept Head
+PO-00416,VEND-00039,,DEPT-016,2024-07-15,Network installation,8500,USD,Cancelled,Derek Yoon,Dept Head
+PO-00417,VEND-00133,CTR-0046,DEPT-013,2023-12-12,Freight LTL lane,156000,USD,Closed,Peter Chen,CFO
+PO-00418,VEND-00069,,DEPT-003,2023-08-05,Customs clearance,87000,USD,Closed,Luis Ortega,CFO
+PO-00419,VEND-00108,,DEPT-006,2025-11-16,Breakroom supplies,45500,USD,Closed,Luis Ortega,VP
+PO-00420,VEND-00142,CTR-0044,DEPT-009,2024-12-30,Conference travel,1300,USD,Closed,Alex Rivera,Dept Head
+PO-00421,VEND-00075,,DEPT-015,2026-03-06,Events travel block,206000,USD,Closed,Derek Yoon,CFO
+PO-00422,VEND-00056,,DEPT-007,2025-12-06,Seat expansion QQ3,3700,USD,Received,Lena Brooks,Dept Head
+PO-00423,VEND-00183,,DEPT-004,2023-11-30,Breakroom supplies,3000,USD,Closed,Tomas Kellerman,Dept Head
+PO-00424,VEND-00141,CTR-0028,DEPT-002,2025-11-09,Cleaning services month,2200,USD,Cancelled,Tomas Kellerman,Dept Head
+PO-00425,VEND-00160,,DEPT-002,2023-04-29,IP counsel hours,1800,USD,Closed,Priya Raman,Dept Head
+PO-00426,VEND-00010,,DEPT-015,2025-02-19,Advisory engagement,3600,USD,Closed,Cesar Ruiz,Dept Head
+PO-00427,VEND-00099,,DEPT-014,2025-06-05,Security services,10500,USD,Closed,Julia Hwang,VP
+PO-00428,VEND-00192,,DEPT-008,2025-10-22,Customs clearance,217000,USD,Received,Aditi Shah,CFO
+PO-00429,VEND-00088,,DEPT-019,2023-01-11,Breakroom supplies,36500,USD,Closed,Claire Benoit,VP
+PO-00430,VEND-00189,,DEPT-013,2023-10-17,Contract engineer placement,7600,USD,Closed,Naomi Weiss,Dept Head
+PO-00431,VEND-00110,,DEPT-003,2026-03-19,Warehousing month,7100,USD,Cancelled,Sasha Mwangi,Dept Head
+PO-00432,VEND-00161,,DEPT-011,2025-01-07,Annual SKO travel,30500,USD,Open,Julia Hwang,VP
+PO-00433,VEND-00127,CTR-0055,DEPT-019,2024-10-04,Advisory engagement,2100,USD,Closed,Naomi Weiss,Dept Head
+PO-00434,VEND-00112,,DEPT-019,2024-03-15,Advisory engagement,30500,USD,Closed,Quinn Reyes,VP
+PO-00435,VEND-00025,CTR-0067,DEPT-003,2025-06-30,Seat expansion QQ1,27500,USD,Received,Jamie Chen,VP
+PO-00436,VEND-00017,,DEPT-005,2024-10-25,Contract engineer placement,29000,USD,Closed,Rafael Mendez,VP
+PO-00437,VEND-00177,,DEPT-003,2026-02-04,Contracts review package,700,USD,Closed,Luis Ortega,Dept Head
+PO-00438,VEND-00052,,DEPT-020,2024-10-24,Monthly cloud consumption,4600,USD,Closed,Samira Okafor,Dept Head
+PO-00439,VEND-00078,,DEPT-010,2024-04-27,Events travel block,6000,USD,Closed,Cesar Ruiz,Dept Head
+PO-00440,VEND-00044,CTR-0031,DEPT-018,2024-07-26,Litigation retainer,16500,USD,Received,Rafael Mendez,VP
+PO-00441,VEND-00195,,DEPT-016,2025-12-09,MPLS circuits month,2500,USD,Received,Marco Alvarez,Dept Head
+PO-00442,VEND-00075,CTR-0075,DEPT-001,2026-01-13,Events travel block,120000,USD,Closed,Devon Parker,CFO
+PO-00443,VEND-00069,,DEPT-013,2023-10-21,Freight LTL lane,4900,USD,Closed,Ingrid Voss,Dept Head
+PO-00444,VEND-00140,,DEPT-010,2026-03-27,Network installation,2800,USD,Closed,Sasha Mwangi,Dept Head
+PO-00445,VEND-00061,,DEPT-012,2026-04-13,Toll-free services,5900,USD,Open,Samira Okafor,Dept Head
+PO-00446,VEND-00087,,DEPT-019,2024-09-15,IP counsel hours,4000,USD,Closed,Priya Raman,Dept Head
+PO-00447,VEND-00112,,DEPT-001,2024-05-05,Process transformation SOW,3600,USD,Closed,Cesar Ruiz,Dept Head
+PO-00448,VEND-00002,,DEPT-013,2024-03-16,Platform support,48500,USD,Received,Derek Yoon,VP
+PO-00449,VEND-00105,,DEPT-018,2023-09-03,IP counsel hours,31500,USD,Received,Tomas Kellerman,VP
+PO-00450,VEND-00069,,DEPT-003,2023-01-09,Customs clearance,6100,USD,Received,Claire Benoit,Dept Head
+PO-00451,VEND-00069,,DEPT-019,2025-05-11,Last-mile delivery,15500,USD,Closed,Robin Park,VP
+PO-00452,VEND-00074,CTR-0024,DEPT-009,2024-12-02,Annual subscription renewal,3700,USD,Received,Claire Benoit,Dept Head
+PO-00453,VEND-00048,,DEPT-007,2026-03-16,Advisory engagement,17500,USD,Closed,Aditi Shah,VP
+PO-00454,VEND-00013,,DEPT-016,2023-09-29,Seat expansion QQ3,7600,USD,Closed,Samira Okafor,Dept Head
+PO-00455,VEND-00143,,DEPT-017,2024-12-16,Media buy,27500,USD,Received,Sasha Mwangi,VP
+PO-00456,VEND-00003,CTR-0003,DEPT-019,2023-04-21,Warehousing month,16000,USD,Cancelled,Samira Okafor,VP
+PO-00457,VEND-00090,,DEPT-003,2023-03-08,Landscaping,7100,USD,Closed,Cesar Ruiz,Dept Head
+PO-00458,VEND-00039,,DEPT-007,2025-02-04,MPLS circuits month,28500,USD,Received,Peter Chen,VP
+PO-00459,VEND-00176,CTR-0025,DEPT-007,2025-01-31,Egress overage,10000,USD,Received,Owen Marsh,VP
+PO-00460,VEND-00062,CTR-0050,DEPT-017,2025-04-10,Laptop refresh batch,239000,USD,Closed,Priya Raman,CFO
+PO-00461,VEND-00103,CTR-0059,DEPT-005,2024-02-23,Corporate travel management fee,18000,USD,Received,Lena Brooks,VP
+PO-00462,VEND-00146,,DEPT-011,2026-03-08,Compliance advisory,7300,USD,Received,Sasha Mwangi,Dept Head
+PO-00463,VEND-00144,,DEPT-019,2024-10-16,Assessment phase,23500,USD,Closed,Devon Parker,VP
+PO-00464,VEND-00144,,DEPT-002,2023-04-17,Assessment phase,660000,USD,Cancelled,Ingrid Voss,CEO
+PO-00465,VEND-00115,,DEPT-005,2023-02-08,Network installation,1800,USD,Closed,Ingrid Voss,Dept Head
+PO-00466,VEND-00200,,DEPT-019,2023-01-20,Specialist placement,19500,USD,Open,Sasha Mwangi,VP
+PO-00467,VEND-00159,,DEPT-006,2024-01-25,Freight LTL lane,3700,USD,Closed,Luis Ortega,Dept Head
+PO-00468,VEND-00011,CTR-0011,DEPT-015,2023-01-18,Landscaping,5900,USD,Open,Samira Okafor,Dept Head
+PO-00469,VEND-00062,,DEPT-010,2024-06-28,Datacenter hardware,1700,USD,Received,Jamie Chen,Dept Head
+PO-00470,VEND-00176,,DEPT-002,2024-05-03,DR storage tier,199000,USD,Received,Aditi Shah,CFO
+PO-00471,VEND-00104,,DEPT-010,2024-10-28,Monthly cloud consumption,2100,USD,Open,Samira Okafor,Dept Head
+PO-00472,VEND-00129,CTR-0073,DEPT-010,2024-09-16,Breakroom supplies,3400,USD,Open,Aditi Shah,Dept Head
+PO-00473,VEND-00168,,DEPT-007,2024-09-02,Temp-to-hire fee,46500,USD,Closed,Claire Benoit,VP
+PO-00474,VEND-00066,,DEPT-016,2026-04-14,Contract engineer placement,11500,USD,Closed,Rafael Mendez,VP
+PO-00475,VEND-00102,,DEPT-002,2023-07-18,Monitors and peripherals,2300,USD,Closed,Samira Okafor,Dept Head
+PO-00476,VEND-00074,,DEPT-016,2023-09-14,Add-on modules,21000,USD,Closed,Devon Parker,VP
+PO-00477,VEND-00172,,DEPT-020,2024-05-02,Monitors and peripherals,7800,USD,Received,Harish Patel,Dept Head
+PO-00478,VEND-00200,,DEPT-015,2025-11-23,Temp-to-hire fee,7400,USD,Received,Samira Okafor,Dept Head
+PO-00479,VEND-00167,CTR-0063,DEPT-005,2023-09-23,MPLS circuits month,4200,USD,Closed,Claire Benoit,Dept Head
+PO-00480,VEND-00194,CTR-0038,DEPT-007,2026-01-01,Events travel block,600,USD,Received,Quinn Reyes,Dept Head
+PO-00481,VEND-00023,CTR-0023,DEPT-002,2023-01-13,MPLS circuits month,190000,USD,Closed,Rafael Mendez,CFO
+PO-00482,VEND-00052,,DEPT-003,2026-01-25,Reserved capacity,111000,USD,Closed,Cesar Ruiz,CFO
+PO-00483,VEND-00091,,DEPT-010,2025-10-16,Process transformation SOW,14000,USD,Received,Sasha Mwangi,VP
+PO-00484,VEND-00076,,DEPT-013,2025-09-11,Litigation retainer,8000,USD,Closed,Derek Yoon,Dept Head
+PO-00485,VEND-00069,,DEPT-001,2023-09-16,Customs clearance,35000,USD,Cancelled,Hana Kobayashi,VP
+PO-00486,VEND-00029,,DEPT-003,2024-04-15,Process transformation SOW,45000,USD,Open,Peter Chen,VP
+PO-00487,VEND-00123,,DEPT-019,2024-12-17,Landscaping,3100,USD,Cancelled,Jamie Chen,Dept Head
+PO-00488,VEND-00163,,DEPT-006,2025-03-01,Corporate travel management fee,9000,USD,Cancelled,Cesar Ruiz,Dept Head
+PO-00489,VEND-00012,,DEPT-003,2025-12-18,Corporate travel management fee,31500,USD,Received,Julia Hwang,VP
+PO-00490,VEND-00065,,DEPT-007,2023-03-12,Last-mile delivery,1300,USD,Received,Quinn Reyes,Dept Head
+PO-00491,VEND-00089,CTR-0074,DEPT-018,2023-02-15,Conference travel,2800,USD,Closed,Ingrid Voss,Dept Head
+PO-00492,VEND-00138,,DEPT-001,2023-06-07,Corporate travel management fee,48500,USD,Received,Alex Rivera,VP
+PO-00493,VEND-00180,,DEPT-018,2023-07-17,Platform support,42500,USD,Open,Jamie Chen,VP
+PO-00494,VEND-00121,,DEPT-004,2024-03-13,Platform support,7100,USD,Received,Sasha Mwangi,Dept Head
+PO-00495,VEND-00193,,DEPT-018,2025-11-12,Cleaning services month,38000,USD,Closed,Robin Park,VP
+PO-00496,VEND-00174,,DEPT-011,2023-05-14,Implementation sprint,23500,USD,Received,Alex Rivera,VP
+PO-00497,VEND-00008,CTR-0008,DEPT-001,2025-08-13,Print consumables,6300,USD,Received,Harish Patel,Dept Head
+PO-00498,VEND-00191,,DEPT-005,2025-09-30,Annual SKO travel,7400,USD,Closed,Quinn Reyes,Dept Head
+PO-00499,VEND-00091,,DEPT-013,2025-09-27,Assessment phase,700,USD,Closed,Derek Yoon,Dept Head
+PO-00500,VEND-00173,,DEPT-002,2023-01-04,Print consumables,53000,USD,Closed,Alex Rivera,CFO
+PO-00501,VEND-00049,,DEPT-006,2024-04-16,Contracts review package,49500,USD,Received,Cesar Ruiz,VP
+PO-00502,VEND-00155,,DEPT-018,2023-08-01,Ergonomics,500,USD,Closed,Cesar Ruiz,Dept Head
+PO-00503,VEND-00087,,DEPT-020,2023-01-25,Contracts review package,33500,USD,Closed,Robin Park,VP
+PO-00504,VEND-00145,,DEPT-013,2023-11-21,Freight LTL lane,21000,USD,Open,Lena Brooks,VP
+PO-00505,VEND-00072,CTR-0069,DEPT-007,2023-01-03,HVAC maintenance,37500,USD,Closed,Sasha Mwangi,VP
+PO-00506,VEND-00084,CTR-0041,DEPT-016,2023-09-01,Freight LTL lane,3600,USD,Closed,Devon Parker,Dept Head
+PO-00507,VEND-00072,CTR-0069,DEPT-004,2026-03-28,Cleaning services month,1900,USD,Closed,Ingrid Voss,Dept Head
+PO-00508,VEND-00138,CTR-0053,DEPT-018,2025-05-13,Events travel block,4300,USD,Open,Peter Chen,Dept Head
+PO-00509,VEND-00192,,DEPT-017,2024-11-16,Warehousing month,49000,USD,Closed,Ingrid Voss,VP
+PO-00510,VEND-00151,CTR-0070,DEPT-007,2025-07-07,Contracts review package,1200,USD,Open,Aditi Shah,Dept Head
+PO-00511,VEND-00192,,DEPT-005,2024-04-12,Last-mile delivery,35500,USD,Open,Hana Kobayashi,VP
+PO-00512,VEND-00172,,DEPT-013,2025-08-05,Monitors and peripherals,10000,USD,Closed,Julia Hwang,VP
+PO-00513,VEND-00129,CTR-0073,DEPT-001,2025-06-25,Breakroom supplies,1500,USD,Received,Ingrid Voss,Dept Head
+PO-00514,VEND-00020,,DEPT-012,2025-11-23,Platform support,144000,USD,Closed,Robin Park,CFO
+PO-00515,VEND-00155,,DEPT-013,2023-04-13,Ergonomics,7500,USD,Closed,Priya Raman,Dept Head
+PO-00516,VEND-00163,,DEPT-017,2023-09-24,Annual SKO travel,20500,USD,Open,Quinn Reyes,VP
+PO-00517,VEND-00137,,DEPT-018,2025-10-01,Quarterly office supplies replen,46000,USD,Closed,Claire Benoit,VP
+PO-00518,VEND-00132,,DEPT-016,2024-11-16,Ergonomics,7600,USD,Received,Cesar Ruiz,Dept Head
+PO-00519,VEND-00171,CTR-0040,DEPT-010,2024-02-13,Landscaping,3300,USD,Received,Hana Kobayashi,Dept Head
+PO-00520,VEND-00151,CTR-0070,DEPT-015,2025-05-07,Contracts review package,23000,USD,Closed,Claire Benoit,VP
+PO-00521,VEND-00169,,DEPT-018,2023-11-21,DR storage tier,5700,USD,Closed,Priya Raman,Dept Head
+PO-00522,VEND-00099,,DEPT-016,2024-12-03,Cleaning services month,21000,USD,Open,Naomi Weiss,VP
+PO-00523,VEND-00176,,DEPT-003,2025-05-11,Monthly cloud consumption,4500,USD,Received,Hana Kobayashi,Dept Head
+PO-00524,VEND-00194,CTR-0038,DEPT-004,2026-02-02,Conference travel,44000,USD,Closed,Rafael Mendez,VP
+PO-00525,VEND-00111,,DEPT-010,2025-12-11,Assessment phase,36000,USD,Closed,Ingrid Voss,VP
+PO-00526,VEND-00167,,DEPT-015,2025-06-26,Toll-free services,5200,USD,Cancelled,Sasha Mwangi,Dept Head
+PO-00527,VEND-00034,CTR-0032,DEPT-017,2025-11-13,Assessment phase,163000,USD,Open,Samira Okafor,CFO
+PO-00528,VEND-00049,,DEPT-012,2023-06-24,Compliance advisory,600,USD,Closed,Devon Parker,Dept Head
+PO-00529,VEND-00082,,DEPT-020,2024-12-29,Temp-to-hire fee,1100,USD,Closed,Tomas Kellerman,Dept Head
+PO-00530,VEND-00009,CTR-0009,DEPT-003,2024-05-23,Monitors and peripherals,222000,USD,Cancelled,Harish Patel,CFO
+PO-00531,VEND-00136,,DEPT-014,2023-04-11,Assessment phase,15500,USD,Closed,Julia Hwang,VP
+PO-00532,VEND-00130,CTR-0018,DEPT-009,2024-07-07,Assessment phase,5100,USD,Closed,Devon Parker,Dept Head
+PO-00533,VEND-00200,,DEPT-002,2025-01-19,Temp-to-hire fee,4400,USD,Closed,Samira Okafor,Dept Head
+PO-00534,VEND-00162,CTR-0062,DEPT-015,2023-07-20,Monthly cloud consumption,8500,USD,Received,Julia Hwang,Dept Head
+PO-00535,VEND-00173,,DEPT-010,2023-01-23,Print consumables,13500,USD,Closed,Owen Marsh,VP
+PO-00536,VEND-00066,,DEPT-008,2023-05-13,Temp-to-hire fee,490000,USD,Closed,Priya Raman,CEO
+PO-00537,VEND-00009,,DEPT-002,2026-01-07,Monitors and peripherals,10500,USD,Closed,Quinn Reyes,VP
+PO-00538,VEND-00183,,DEPT-019,2025-10-10,Breakroom supplies,3700,USD,Open,Owen Marsh,Dept Head
+PO-00539,VEND-00116,CTR-0052,DEPT-002,2023-11-14,Security services,205000,USD,Cancelled,Devon Parker,CFO
+PO-00540,VEND-00135,,DEPT-009,2025-09-21,MPLS circuits month,800,USD,Cancelled,Harish Patel,Dept Head
+PO-00541,VEND-00158,,DEPT-005,2023-04-27,Customs clearance,600,USD,Closed,Samira Okafor,Dept Head
+PO-00542,VEND-00158,,DEPT-014,2023-05-05,Customs clearance,13000,USD,Closed,Ingrid Voss,VP
+PO-00543,VEND-00042,,DEPT-018,2023-06-24,Creative production,33500,USD,Closed,Alex Rivera,VP
+PO-00544,VEND-00170,,DEPT-019,2024-05-07,Quarterly office supplies replen,6700,USD,Closed,Devon Parker,Dept Head
+PO-00545,VEND-00199,,DEPT-011,2026-04-05,MPLS circuits month,36500,USD,Closed,Naomi Weiss,VP
+PO-00546,VEND-00197,,DEPT-006,2025-11-18,Network installation,145000,USD,Open,Robin Park,CFO
+PO-00547,VEND-00009,,DEPT-016,2023-11-18,Laptop refresh batch,29000,USD,Received,Samira Okafor,VP
+PO-00548,VEND-00096,,DEPT-013,2023-04-25,Networking gear,900,USD,Received,Harish Patel,Dept Head
+PO-00549,VEND-00064,CTR-0058,DEPT-016,2024-12-26,Egress overage,1300,USD,Cancelled,Peter Chen,Dept Head
+PO-00550,VEND-00021,,DEPT-009,2024-08-17,Campaign retainer,3700,USD,Closed,Tomas Kellerman,Dept Head
+PO-00551,VEND-00080,,DEPT-011,2026-02-21,Last-mile delivery,30000,USD,Closed,Derek Yoon,VP
+PO-00552,VEND-00041,CTR-0021,DEPT-018,2025-06-29,Staff augmentation month,6400,USD,Received,Claire Benoit,Dept Head
+PO-00553,VEND-00153,,DEPT-005,2023-01-16,Contract engineer placement,7500,USD,Open,Naomi Weiss,Dept Head
+PO-00554,VEND-00126,,DEPT-005,2023-11-18,Print consumables,195000,USD,Closed,Quinn Reyes,CFO
+PO-00555,VEND-00111,,DEPT-017,2025-10-30,Advisory engagement,47000,USD,Open,Sasha Mwangi,VP
+PO-00556,VEND-00116,CTR-0052,DEPT-008,2023-05-03,Security services,5700,USD,Closed,Julia Hwang,Dept Head
+PO-00557,VEND-00194,CTR-0038,DEPT-018,2024-04-11,Corporate travel management fee,5600,USD,Closed,Alex Rivera,Dept Head
+PO-00558,VEND-00020,,DEPT-004,2025-03-31,Add-on modules,31000,USD,Closed,Aditi Shah,VP
+PO-00559,VEND-00004,,DEPT-010,2024-06-16,Litigation retainer,4100,USD,Cancelled,Marco Alvarez,Dept Head
+PO-00560,VEND-00178,,DEPT-005,2025-05-10,Compliance advisory,146000,USD,Closed,Marco Alvarez,CFO
+PO-00561,VEND-00176,CTR-0025,DEPT-006,2023-06-11,DR storage tier,1300,USD,Closed,Devon Parker,Dept Head
+PO-00562,VEND-00090,,DEPT-015,2024-01-04,Landscaping,5500,USD,Received,Julia Hwang,Dept Head
+PO-00563,VEND-00142,,DEPT-001,2023-04-12,Corporate travel management fee,18500,USD,Closed,Owen Marsh,VP
+PO-00564,VEND-00138,CTR-0053,DEPT-017,2023-03-26,Annual SKO travel,7900,USD,Closed,Devon Parker,Dept Head
+PO-00565,VEND-00162,CTR-0062,DEPT-015,2023-07-15,Monthly cloud consumption,4200,USD,Cancelled,Quinn Reyes,Dept Head
+PO-00566,VEND-00016,,DEPT-017,2025-08-27,Monitors and peripherals,161000,USD,Closed,Alex Rivera,CFO
+PO-00567,VEND-00144,,DEPT-006,2024-10-20,Implementation sprint,48500,USD,Received,Aditi Shah,VP
+PO-00568,VEND-00027,,DEPT-003,2023-08-01,Quarterly office supplies replen,38000,USD,Received,Alex Rivera,VP
+PO-00569,VEND-00091,,DEPT-015,2024-08-28,Process transformation SOW,2300,USD,Open,Owen Marsh,Dept Head
+PO-00570,VEND-00089,,DEPT-009,2024-05-09,Conference travel,249000,USD,Received,Ingrid Voss,CFO
+PO-00571,VEND-00026,,DEPT-020,2023-09-04,Assessment phase,46500,USD,Received,Julia Hwang,VP
+PO-00572,VEND-00006,,DEPT-018,2024-04-11,Campaign retainer,3100,USD,Closed,Peter Chen,Dept Head
+PO-00573,VEND-00044,,DEPT-015,2024-04-30,Contracts review package,1600,USD,Received,Cesar Ruiz,Dept Head
+PO-00574,VEND-00194,,DEPT-016,2024-09-16,Events travel block,5000,USD,Received,Tomas Kellerman,Dept Head
+PO-00575,VEND-00070,,DEPT-010,2025-10-23,MPLS circuits month,1500,USD,Closed,Samira Okafor,Dept Head
+PO-00576,VEND-00159,,DEPT-010,2024-05-02,Customs clearance,23500,USD,Closed,Claire Benoit,VP
+PO-00577,VEND-00155,,DEPT-016,2024-01-27,Print consumables,11000,USD,Closed,Julia Hwang,VP
+PO-00578,VEND-00190,CTR-0051,DEPT-011,2025-04-05,Litigation retainer,171000,USD,Cancelled,Samira Okafor,CFO
+PO-00579,VEND-00061,,DEPT-012,2025-08-23,MPLS circuits month,174000,USD,Cancelled,Aditi Shah,CFO
+PO-00580,VEND-00153,,DEPT-016,2024-05-13,Temp-to-hire fee,4000,USD,Closed,Naomi Weiss,Dept Head
+PO-00581,VEND-00069,,DEPT-011,2025-02-07,Customs clearance,5300,USD,Closed,Claire Benoit,Dept Head
+PO-00582,VEND-00015,,DEPT-018,2023-11-26,Creative production,8500,USD,Closed,Devon Parker,Dept Head
+PO-00583,VEND-00076,,DEPT-013,2025-04-13,Litigation retainer,34500,USD,Closed,Owen Marsh,VP
+PO-00584,VEND-00193,,DEPT-003,2026-02-11,Security services,2000,USD,Received,Naomi Weiss,Dept Head
+PO-00585,VEND-00140,,DEPT-009,2023-10-01,Mobile fleet lines,7000,USD,Received,Peter Chen,Dept Head
+PO-00586,VEND-00167,CTR-0063,DEPT-018,2023-10-24,Network installation,7800,USD,Closed,Claire Benoit,Dept Head
+PO-00587,VEND-00105,CTR-0022,DEPT-011,2025-01-01,IP counsel hours,40500,USD,Closed,Naomi Weiss,VP
+PO-00588,VEND-00127,CTR-0055,DEPT-007,2023-01-10,Process transformation SOW,5800,USD,Closed,Alex Rivera,Dept Head
+PO-00589,VEND-00136,,DEPT-018,2024-04-18,Advisory engagement,20500,USD,Closed,Julia Hwang,VP
+PO-00590,VEND-00021,,DEPT-003,2023-10-07,Media buy,7800,USD,Received,Lena Brooks,Dept Head
+PO-00591,VEND-00048,,DEPT-009,2023-08-12,Process transformation SOW,7900,USD,Received,Devon Parker,Dept Head
+PO-00592,VEND-00007,CTR-0007,DEPT-006,2025-07-04,Network installation,23500,USD,Received,Harish Patel,VP
+PO-00593,VEND-00129,CTR-0073,DEPT-006,2026-03-25,Breakroom supplies,6100,USD,Open,Jamie Chen,Dept Head
+PO-00594,VEND-00192,,DEPT-014,2023-12-25,Last-mile delivery,18000,USD,Received,Aditi Shah,VP
+PO-00595,VEND-00001,CTR-0001,DEPT-018,2023-04-09,Egress overage,16000,USD,Received,Jamie Chen,VP
+PO-00596,VEND-00137,,DEPT-012,2024-09-02,Quarterly office supplies replen,45500,USD,Closed,Owen Marsh,VP
+PO-00597,VEND-00001,,DEPT-001,2023-02-18,Reserved capacity,900,USD,Received,Samira Okafor,Dept Head
+PO-00598,VEND-00079,CTR-0077,DEPT-009,2023-04-21,Ergonomics,11000,USD,Received,Lena Brooks,VP
+PO-00599,VEND-00174,,DEPT-003,2026-02-21,Assessment phase,27000,USD,Received,Ingrid Voss,VP
+PO-00600,VEND-00129,CTR-0073,DEPT-011,2024-05-12,Print consumables,44000,USD,Closed,Julia Hwang,VP
+PO-00601,VEND-00011,CTR-0011,DEPT-012,2023-12-01,HVAC maintenance,4300,USD,Open,Naomi Weiss,Dept Head
+PO-00602,VEND-00092,,DEPT-008,2025-07-29,Seat expansion QQ4,6000,USD,Received,Naomi Weiss,Dept Head
+PO-00603,VEND-00198,,DEPT-015,2023-03-14,Customs clearance,5900,USD,Closed,Harish Patel,Dept Head
+PO-00604,VEND-00092,CTR-0029,DEPT-010,2024-03-09,Add-on modules,29500,USD,Closed,Marco Alvarez,VP
+PO-00605,VEND-00172,,DEPT-017,2024-03-19,Datacenter hardware,5700,USD,Open,Lena Brooks,Dept Head
+PO-00606,VEND-00015,CTR-0015,DEPT-007,2025-02-19,Campaign retainer,2200,USD,Open,Peter Chen,Dept Head
+PO-00607,VEND-00131,,DEPT-001,2025-06-29,Events travel block,1700,USD,Closed,Priya Raman,Dept Head
+PO-00608,VEND-00007,,DEPT-014,2026-03-03,Network installation,145000,USD,Received,Luis Ortega,CFO
+PO-00609,VEND-00046,CTR-0034,DEPT-006,2024-01-28,Cleaning services month,5400,USD,Received,Jamie Chen,Dept Head
+PO-00610,VEND-00120,,DEPT-009,2025-09-22,Print consumables,123000,USD,Open,Alex Rivera,CFO
+PO-00611,VEND-00132,,DEPT-014,2023-02-06,Quarterly office supplies replen,14500,USD,Received,Jamie Chen,VP
+PO-00612,VEND-00036,,DEPT-011,2023-08-02,Security services,3100,USD,Closed,Claire Benoit,Dept Head
+PO-00613,VEND-00120,,DEPT-020,2023-09-17,Quarterly office supplies replen,3300,USD,Closed,Claire Benoit,Dept Head
+PO-00614,VEND-00084,,DEPT-009,2024-01-07,Warehousing month,3800,USD,Closed,Sasha Mwangi,Dept Head
+PO-00615,VEND-00144,,DEPT-015,2025-06-27,Implementation sprint,7700,USD,Received,Quinn Reyes,Dept Head
+PO-00616,VEND-00044,,DEPT-016,2024-07-19,IP counsel hours,6600,USD,Received,Claire Benoit,Dept Head
+PO-00617,VEND-00163,,DEPT-018,2025-02-04,Conference travel,5100,USD,Closed,Rafael Mendez,Dept Head
+PO-00618,VEND-00088,CTR-0060,DEPT-013,2023-08-13,Ergonomics,66000,USD,Closed,Tomas Kellerman,CFO
+PO-00619,VEND-00084,,DEPT-019,2023-02-02,Customs clearance,45000,USD,Closed,Alex Rivera,VP
+PO-00620,VEND-00059,CTR-0019,DEPT-002,2023-09-02,Add-on modules,4100,USD,Closed,Priya Raman,Dept Head
+PO-00621,VEND-00095,,DEPT-001,2023-08-08,Laptop refresh batch,6600,USD,Closed,Quinn Reyes,Dept Head
+PO-00622,VEND-00188,,DEPT-020,2023-05-15,Assessment phase,7700,USD,Received,Luis Ortega,Dept Head
+PO-00623,VEND-00005,,DEPT-017,2023-01-11,Contract engineer placement,4900,USD,Closed,Priya Raman,Dept Head
+PO-00624,VEND-00122,,DEPT-002,2025-11-14,Compliance advisory,36500,USD,Closed,Claire Benoit,VP
+PO-00625,VEND-00095,,DEPT-001,2023-10-06,Monitors and peripherals,6600,USD,Closed,Claire Benoit,Dept Head
+PO-00626,VEND-00104,,DEPT-003,2024-05-13,DR storage tier,237000,USD,Closed,Tomas Kellerman,CFO
+PO-00627,VEND-00045,,DEPT-005,2025-11-25,Media buy,11500,USD,Closed,Naomi Weiss,VP
+PO-00628,VEND-00013,,DEPT-016,2025-07-05,Add-on modules,2700,USD,Closed,Owen Marsh,Dept Head
+PO-00629,VEND-00170,,DEPT-020,2024-08-12,Ergonomics,5200,USD,Cancelled,Alex Rivera,Dept Head
+PO-00630,VEND-00093,,DEPT-008,2025-06-12,Landscaping,21000,USD,Cancelled,Samira Okafor,VP
+PO-00631,VEND-00076,,DEPT-019,2026-01-12,Contracts review package,4600,USD,Received,Ingrid Voss,Dept Head
+PO-00632,VEND-00075,,DEPT-013,2024-06-12,Conference travel,244000,USD,Received,Lena Brooks,CFO
+PO-00633,VEND-00182,,DEPT-014,2024-07-02,Customs clearance,230000,USD,Open,Priya Raman,CFO
+PO-00634,VEND-00159,,DEPT-020,2024-10-15,Customs clearance,94000,USD,Closed,Sasha Mwangi,CFO
+PO-00635,VEND-00083,,DEPT-010,2024-09-19,Monthly cloud consumption,5800,USD,Closed,Julia Hwang,Dept Head
+PO-00636,VEND-00061,,DEPT-018,2025-10-17,Network installation,2000,USD,Cancelled,Marco Alvarez,Dept Head
+PO-00637,VEND-00197,,DEPT-006,2024-04-15,Network installation,41000,USD,Closed,Julia Hwang,VP
+PO-00638,VEND-00175,,DEPT-003,2023-05-14,Laptop refresh batch,17500,USD,Closed,Samira Okafor,VP
+PO-00639,VEND-00176,CTR-0025,DEPT-005,2026-03-02,Egress overage,16500,USD,Closed,Marco Alvarez,VP
+PO-00640,VEND-00157,,DEPT-006,2025-03-03,Compliance advisory,3400,USD,Received,Julia Hwang,Dept Head
+PO-00641,VEND-00072,,DEPT-005,2023-12-06,Landscaping,26500,USD,Closed,Claire Benoit,VP
+PO-00642,VEND-00085,,DEPT-001,2024-05-25,Corporate travel management fee,61000,USD,Closed,Quinn Reyes,CFO
+PO-00643,VEND-00063,CTR-0042,DEPT-020,2023-05-23,Ergonomics,6300,USD,Cancelled,Hana Kobayashi,Dept Head
+PO-00644,VEND-00066,,DEPT-004,2023-06-17,Staff augmentation month,860000,USD,Closed,Cesar Ruiz,CEO
+PO-00645,VEND-00003,CTR-0003,DEPT-013,2023-03-07,Warehousing month,6000,USD,Open,Priya Raman,Dept Head
+PO-00646,VEND-00119,CTR-0049,DEPT-020,2023-11-19,Conference travel,5300,USD,Received,Rafael Mendez,Dept Head
+PO-00647,VEND-00106,CTR-0061,DEPT-017,2025-05-01,IP counsel hours,7100,USD,Received,Harish Patel,Dept Head
+PO-00648,VEND-00091,,DEPT-008,2025-04-13,Process transformation SOW,2300,USD,Closed,Derek Yoon,Dept Head
+PO-00649,VEND-00064,,DEPT-011,2025-12-20,Reserved capacity,4800,USD,Received,Rafael Mendez,Dept Head
+PO-00650,VEND-00121,,DEPT-014,2023-02-08,Platform support,6200,USD,Received,Devon Parker,Dept Head
+PO-00651,VEND-00186,,DEPT-003,2025-08-16,Monthly cloud consumption,4900,USD,Received,Derek Yoon,Dept Head
+PO-00652,VEND-00176,CTR-0025,DEPT-007,2024-07-05,Monthly cloud consumption,29000,USD,Closed,Priya Raman,VP
+PO-00653,VEND-00177,,DEPT-016,2026-01-04,Compliance advisory,2600,USD,Closed,Claire Benoit,Dept Head
+PO-00654,VEND-00099,,DEPT-005,2025-08-22,HVAC maintenance,208000,USD,Received,Sasha Mwangi,CFO
+PO-00655,VEND-00120,,DEPT-016,2024-07-09,Breakroom supplies,43500,USD,Closed,Tomas Kellerman,VP
+PO-00656,VEND-00190,,DEPT-001,2024-11-04,Litigation retainer,15500,USD,Closed,Owen Marsh,VP
+PO-00657,VEND-00022,CTR-0020,DEPT-002,2024-07-15,Compliance advisory,36500,USD,Open,Jamie Chen,VP
+PO-00658,VEND-00006,CTR-0006,DEPT-015,2024-07-10,Creative production,90000,USD,Closed,Julia Hwang,CFO
+PO-00659,VEND-00029,,DEPT-010,2023-01-28,Advisory engagement,1900,USD,Closed,Hana Kobayashi,Dept Head
+PO-00660,VEND-00176,CTR-0025,DEPT-010,2023-05-19,Reserved capacity,5500,USD,Closed,Julia Hwang,Dept Head
+PO-00661,VEND-00076,,DEPT-006,2025-08-26,IP counsel hours,4700,USD,Cancelled,Claire Benoit,Dept Head
+PO-00662,VEND-00010,,DEPT-001,2023-09-23,Process transformation SOW,7100,USD,Open,Tomas Kellerman,Dept Head
+PO-00663,VEND-00006,,DEPT-012,2023-01-08,Campaign retainer,3400,USD,Received,Naomi Weiss,Dept Head
+PO-00664,VEND-00153,,DEPT-003,2025-07-29,Specialist placement,3300,USD,Received,Marco Alvarez,Dept Head
+PO-00665,VEND-00035,CTR-0043,DEPT-015,2025-11-14,Networking gear,1000,USD,Cancelled,Naomi Weiss,Dept Head
+PO-00666,VEND-00077,,DEPT-004,2023-04-05,Temp-to-hire fee,2500,USD,Received,Owen Marsh,Dept Head
+PO-00667,VEND-00050,,DEPT-001,2024-04-18,MPLS circuits month,3600,USD,Open,Cesar Ruiz,Dept Head
+PO-00668,VEND-00087,,DEPT-008,2024-12-11,Contracts review package,2500,USD,Received,Sasha Mwangi,Dept Head
+PO-00669,VEND-00073,,DEPT-010,2024-08-08,Monthly cloud consumption,44500,USD,Received,Sasha Mwangi,VP
+PO-00670,VEND-00041,,DEPT-016,2026-01-10,Staff augmentation month,1500,USD,Open,Owen Marsh,Dept Head
+PO-00671,VEND-00145,,DEPT-011,2025-04-20,Freight LTL lane,15000,USD,Closed,Aditi Shah,VP
+PO-00672,VEND-00176,CTR-0025,DEPT-019,2025-07-17,Monthly cloud consumption,21000,USD,Closed,Samira Okafor,VP
+PO-00673,VEND-00066,,DEPT-004,2025-09-23,Specialist placement,6100,USD,Received,Luis Ortega,Dept Head
+PO-00674,VEND-00016,,DEPT-003,2023-11-24,Datacenter hardware,1800,USD,Cancelled,Quinn Reyes,Dept Head
+PO-00675,VEND-00157,,DEPT-020,2024-07-30,IP counsel hours,3300,USD,Closed,Alex Rivera,Dept Head
+PO-00676,VEND-00137,,DEPT-017,2025-04-23,Breakroom supplies,7000,USD,Received,Rafael Mendez,Dept Head
+PO-00677,VEND-00065,,DEPT-014,2025-09-30,Warehousing month,36500,USD,Received,Ingrid Voss,VP
+PO-00678,VEND-00108,,DEPT-016,2025-06-28,Print consumables,4500,USD,Closed,Hana Kobayashi,Dept Head
+PO-00679,VEND-00134,,DEPT-004,2025-06-04,Seat expansion QQ4,7400,USD,Received,Claire Benoit,Dept Head
+PO-00680,VEND-00145,,DEPT-015,2023-07-14,Freight LTL lane,9000,USD,Closed,Claire Benoit,Dept Head
+PO-00681,VEND-00147,,DEPT-011,2024-01-01,Laptop refresh batch,900,USD,Cancelled,Owen Marsh,Dept Head
+PO-00682,VEND-00138,,DEPT-012,2026-01-16,Corporate travel management fee,15000,USD,Cancelled,Quinn Reyes,VP
+PO-00683,VEND-00015,,DEPT-020,2025-10-04,Creative production,1200,USD,Closed,Hana Kobayashi,Dept Head
+PO-00684,VEND-00070,,DEPT-015,2023-09-23,Network installation,236000,USD,Open,Robin Park,CFO
+PO-00685,VEND-00099,,DEPT-011,2025-03-18,HVAC maintenance,2200,USD,Closed,Hana Kobayashi,Dept Head
+PO-00686,VEND-00041,,DEPT-002,2024-11-03,Contract engineer placement,500,USD,Closed,Jamie Chen,Dept Head
+PO-00687,VEND-00069,,DEPT-001,2024-04-27,Warehousing month,22500,USD,Open,Priya Raman,VP
+PO-00688,VEND-00104,,DEPT-011,2025-10-17,Egress overage,15000,USD,Closed,Lena Brooks,VP
+PO-00689,VEND-00080,,DEPT-011,2023-08-29,Last-mile delivery,12500,USD,Open,Alex Rivera,VP
+PO-00690,VEND-00056,,DEPT-020,2026-04-06,Annual subscription renewal,5300,USD,Open,Marco Alvarez,Dept Head
+PO-00691,VEND-00090,,DEPT-012,2024-05-21,Cleaning services month,5100,USD,Closed,Devon Parker,Dept Head
+PO-00692,VEND-00159,,DEPT-010,2024-11-05,Freight LTL lane,43500,USD,Cancelled,Tomas Kellerman,VP
+PO-00693,VEND-00128,,DEPT-012,2023-05-17,Annual subscription renewal,3600,USD,Open,Alex Rivera,Dept Head
+PO-00694,VEND-00170,,DEPT-009,2024-06-21,Quarterly office supplies replen,4100,USD,Open,Hana Kobayashi,Dept Head
+PO-00695,VEND-00138,,DEPT-013,2024-08-12,Corporate travel management fee,16500,USD,Open,Rafael Mendez,VP
+PO-00696,VEND-00108,,DEPT-017,2026-01-20,Breakroom supplies,21500,USD,Closed,Julia Hwang,VP
+PO-00697,VEND-00014,CTR-0014,DEPT-017,2024-04-21,Monthly cloud consumption,9000,USD,Closed,Julia Hwang,Dept Head
+PO-00698,VEND-00179,,DEPT-002,2024-05-11,Customs clearance,5100,USD,Closed,Claire Benoit,Dept Head
+PO-00699,VEND-00135,,DEPT-014,2024-04-01,Network installation,5700,USD,Cancelled,Naomi Weiss,Dept Head
+PO-00700,VEND-00015,CTR-0015,DEPT-009,2023-07-18,Campaign retainer,3300,USD,Closed,Peter Chen,Dept Head
+PO-00701,VEND-00140,,DEPT-013,2023-01-06,MPLS circuits month,4000,USD,Closed,Julia Hwang,Dept Head
+PO-00702,VEND-00120,,DEPT-006,2024-03-30,Print consumables,39500,USD,Closed,Ingrid Voss,VP
+PO-00703,VEND-00169,,DEPT-011,2026-01-31,Egress overage,7900,USD,Closed,Jamie Chen,Dept Head
+PO-00704,VEND-00037,CTR-0071,DEPT-010,2024-09-29,Annual SKO travel,2600,USD,Received,Devon Parker,Dept Head
+PO-00705,VEND-00170,,DEPT-015,2023-07-03,Quarterly office supplies replen,5700,USD,Received,Devon Parker,Dept Head
+PO-00706,VEND-00177,CTR-0027,DEPT-001,2024-02-19,Compliance advisory,34500,USD,Cancelled,Ingrid Voss,VP
+PO-00707,VEND-00028,,DEPT-008,2024-12-22,Contract engineer placement,7300,USD,Received,Cesar Ruiz,Dept Head
+PO-00708,VEND-00085,CTR-0079,DEPT-009,2024-07-15,Conference travel,4100,USD,Open,Priya Raman,Dept Head
+PO-00709,VEND-00089,CTR-0074,DEPT-006,2025-06-24,Events travel block,10000,USD,Closed,Harish Patel,VP
+PO-00710,VEND-00017,,DEPT-020,2023-12-14,Contract engineer placement,2500,USD,Closed,Cesar Ruiz,Dept Head
+PO-00711,VEND-00036,,DEPT-002,2025-08-24,HVAC maintenance,2600,USD,Received,Devon Parker,Dept Head
+PO-00712,VEND-00025,CTR-0067,DEPT-016,2024-09-09,Platform support,5000,USD,Cancelled,Jamie Chen,Dept Head
+PO-00713,VEND-00158,,DEPT-005,2023-08-15,Last-mile delivery,4400,USD,Closed,Priya Raman,Dept Head
+PO-00714,VEND-00022,,DEPT-002,2026-03-01,Contracts review package,4100,USD,Closed,Ingrid Voss,Dept Head
+PO-00715,VEND-00063,CTR-0042,DEPT-008,2023-05-24,Ergonomics,3900,USD,Closed,Quinn Reyes,Dept Head
+PO-00716,VEND-00112,,DEPT-009,2024-04-01,Advisory engagement,2300,USD,Received,Hana Kobayashi,Dept Head
+PO-00717,VEND-00168,,DEPT-011,2026-03-21,Temp-to-hire fee,7000,USD,Received,Ingrid Voss,Dept Head
+PO-00718,VEND-00047,CTR-0078,DEPT-012,2026-01-05,Assessment phase,25500,USD,Received,Julia Hwang,VP
+PO-00719,VEND-00065,,DEPT-014,2025-05-03,Last-mile delivery,2200,USD,Closed,Hana Kobayashi,Dept Head
+PO-00720,VEND-00186,,DEPT-005,2026-01-04,DR storage tier,42000,USD,Received,Robin Park,VP
+PO-00721,VEND-00099,,DEPT-010,2026-04-01,HVAC maintenance,205000,USD,Closed,Julia Hwang,CFO
+PO-00722,VEND-00001,,DEPT-018,2024-09-18,Reserved capacity,4800,USD,Received,Ingrid Voss,Dept Head
+PO-00723,VEND-00157,,DEPT-007,2024-01-07,Contracts review package,4000,USD,Closed,Owen Marsh,Dept Head
+PO-00724,VEND-00199,,DEPT-020,2024-07-16,MPLS circuits month,3700,USD,Cancelled,Cesar Ruiz,Dept Head
+PO-00725,VEND-00034,CTR-0032,DEPT-019,2023-07-23,Implementation sprint,5400,USD,Closed,Derek Yoon,Dept Head
+PO-00726,VEND-00152,,DEPT-013,2025-12-10,Toll-free services,18500,USD,Closed,Luis Ortega,VP
+PO-00727,VEND-00172,,DEPT-014,2025-07-24,Datacenter hardware,5500,USD,Closed,Harish Patel,Dept Head
+PO-00728,VEND-00139,,DEPT-019,2023-04-13,HVAC maintenance,43000,USD,Closed,Claire Benoit,VP
+PO-00729,VEND-00168,,DEPT-012,2023-02-06,Staff augmentation month,7600,USD,Received,Sasha Mwangi,Dept Head
+PO-00730,VEND-00131,,DEPT-012,2026-03-26,Annual SKO travel,4000,USD,Received,Devon Parker,Dept Head
+PO-00731,VEND-00099,,DEPT-006,2023-11-18,Landscaping,7500,USD,Closed,Priya Raman,Dept Head
+PO-00732,VEND-00087,,DEPT-001,2023-11-23,Contracts review package,1400,USD,Received,Hana Kobayashi,Dept Head
+PO-00733,VEND-00198,,DEPT-015,2024-11-24,Customs clearance,233000,USD,Received,Quinn Reyes,CFO
+PO-00734,VEND-00111,,DEPT-005,2026-03-08,Assessment phase,4800,USD,Closed,Jamie Chen,Dept Head
+PO-00735,VEND-00032,,DEPT-006,2025-03-11,Specialist placement,5200,USD,Closed,Ingrid Voss,Dept Head
+PO-00736,VEND-00031,,DEPT-016,2025-08-29,Events travel block,5100,USD,Closed,Claire Benoit,Dept Head
+PO-00737,VEND-00060,,DEPT-019,2023-10-18,Laptop refresh batch,50000,USD,Received,Sasha Mwangi,CFO
+PO-00738,VEND-00046,CTR-0034,DEPT-008,2023-03-03,Cleaning services month,3600,USD,Closed,Rafael Mendez,Dept Head
+PO-00739,VEND-00146,,DEPT-001,2025-02-16,Contracts review package,800,USD,Received,Devon Parker,Dept Head
+PO-00740,VEND-00157,,DEPT-006,2023-12-16,Compliance advisory,204000,USD,Closed,Ingrid Voss,CFO
+PO-00741,VEND-00132,,DEPT-014,2025-07-05,Print consumables,895000,USD,Closed,Ingrid Voss,CEO
+PO-00742,VEND-00189,,DEPT-007,2024-04-25,Specialist placement,5300,USD,Closed,Cesar Ruiz,Dept Head
+PO-00743,VEND-00189,,DEPT-007,2025-11-28,Specialist placement,6200,USD,Closed,Owen Marsh,Dept Head
+PO-00744,VEND-00098,,DEPT-010,2023-02-15,Litigation retainer,6100,USD,Open,Tomas Kellerman,Dept Head
+PO-00745,VEND-00071,,DEPT-016,2025-12-11,Egress overage,7600,USD,Received,Owen Marsh,Dept Head
+PO-00746,VEND-00172,,DEPT-017,2023-06-14,Monitors and peripherals,4800,USD,Received,Sasha Mwangi,Dept Head
+PO-00747,VEND-00140,,DEPT-001,2023-07-14,Network installation,2900,USD,Closed,Priya Raman,Dept Head
+PO-00748,VEND-00091,,DEPT-009,2025-07-25,Advisory engagement,5100,USD,Closed,Hana Kobayashi,Dept Head
+PO-00749,VEND-00040,,DEPT-013,2023-12-18,Reserved capacity,760000,USD,Closed,Luis Ortega,CEO
+PO-00750,VEND-00047,CTR-0078,DEPT-009,2025-04-12,Process transformation SOW,43500,USD,Received,Lena Brooks,VP
+PO-00751,VEND-00073,,DEPT-005,2025-12-07,Reserved capacity,2000,USD,Open,Rafael Mendez,Dept Head
+PO-00752,VEND-00036,,DEPT-001,2024-07-03,HVAC maintenance,3600,USD,Closed,Derek Yoon,Dept Head
+PO-00753,VEND-00062,,DEPT-011,2026-02-12,Laptop refresh batch,7300,USD,Received,Peter Chen,Dept Head
+PO-00754,VEND-00043,,DEPT-013,2025-06-15,Network installation,1100,USD,Closed,Alex Rivera,Dept Head
+PO-00755,VEND-00044,,DEPT-003,2026-03-02,IP counsel hours,5500,USD,Closed,Luis Ortega,Dept Head
+PO-00756,VEND-00129,CTR-0073,DEPT-008,2024-01-22,Ergonomics,32500,USD,Open,Hana Kobayashi,VP
+PO-00757,VEND-00056,,DEPT-006,2026-01-08,Annual subscription renewal,2300,USD,Closed,Ingrid Voss,Dept Head
+PO-00758,VEND-00110,,DEPT-015,2023-03-23,Last-mile delivery,44500,USD,Closed,Rafael Mendez,VP
+PO-00759,VEND-00012,,DEPT-008,2024-03-17,Conference travel,7400,USD,Closed,Lena Brooks,Dept Head
+PO-00760,VEND-00132,,DEPT-006,2025-01-01,Print consumables,1400,USD,Closed,Lena Brooks,Dept Head
+PO-00761,VEND-00158,,DEPT-005,2026-01-01,Freight LTL lane,7300,USD,Cancelled,Owen Marsh,Dept Head
+PO-00762,VEND-00132,,DEPT-015,2024-05-07,Quarterly office supplies replen,6500,USD,Open,Priya Raman,Dept Head
+PO-00763,VEND-00014,CTR-0014,DEPT-016,2023-03-19,Reserved capacity,1400,USD,Cancelled,Claire Benoit,Dept Head
+PO-00764,VEND-00166,,DEPT-007,2025-06-02,Security services,600,USD,Closed,Robin Park,Dept Head
+PO-00765,VEND-00003,CTR-0003,DEPT-015,2023-10-06,Warehousing month,5800,USD,Closed,Tomas Kellerman,Dept Head
+PO-00766,VEND-00170,,DEPT-004,2023-10-12,Quarterly office supplies replen,7500,USD,Closed,Claire Benoit,Dept Head
+PO-00767,VEND-00124,CTR-0035,DEPT-006,2024-06-21,Annual SKO travel,5400,USD,Closed,Rafael Mendez,Dept Head
+PO-00768,VEND-00053,,DEPT-013,2025-10-15,Brand refresh SOW,7200,USD,Received,Lena Brooks,Dept Head
+PO-00769,VEND-00010,,DEPT-020,2025-02-21,Implementation sprint,2700,USD,Closed,Derek Yoon,Dept Head
+PO-00770,VEND-00152,,DEPT-003,2023-01-14,MPLS circuits month,1000,USD,Received,Naomi Weiss,Dept Head
+PO-00771,VEND-00192,,DEPT-020,2026-04-19,Freight LTL lane,7200,USD,Closed,Hana Kobayashi,Dept Head
+PO-00772,VEND-00048,,DEPT-015,2026-04-02,Advisory engagement,6800,USD,Closed,Lena Brooks,Dept Head
+PO-00773,VEND-00105,,DEPT-020,2025-11-06,Contracts review package,198000,USD,Received,Sasha Mwangi,CFO
+PO-00774,VEND-00179,,DEPT-012,2024-10-18,Warehousing month,7700,USD,Closed,Devon Parker,Dept Head
+PO-00775,VEND-00013,,DEPT-004,2024-08-04,Seat expansion QQ2,3200,USD,Closed,Alex Rivera,Dept Head
+PO-00776,VEND-00090,,DEPT-014,2024-05-17,Cleaning services month,7400,USD,Closed,Lena Brooks,Dept Head
+PO-00777,VEND-00166,,DEPT-013,2023-04-30,Security services,800,USD,Received,Samira Okafor,Dept Head
+PO-00778,VEND-00009,,DEPT-011,2024-09-01,Networking gear,31500,USD,Closed,Devon Parker,VP
+PO-00779,VEND-00005,CTR-0005,DEPT-004,2025-03-15,Specialist placement,7300,USD,Received,Ingrid Voss,Dept Head
+PO-00780,VEND-00094,,DEPT-006,2024-02-26,Security services,26500,USD,Closed,Rafael Mendez,VP
+PO-00781,VEND-00102,,DEPT-005,2024-02-21,Networking gear,22000,USD,Closed,Quinn Reyes,VP
+PO-00782,VEND-00109,CTR-0033,DEPT-015,2026-02-01,Implementation sprint,1800,USD,Closed,Alex Rivera,Dept Head
+PO-00783,VEND-00043,,DEPT-014,2023-01-01,Network installation,2400,USD,Received,Sasha Mwangi,Dept Head
+PO-00784,VEND-00186,,DEPT-006,2025-07-13,Egress overage,210000,USD,Closed,Tomas Kellerman,CFO
+PO-00785,VEND-00003,,DEPT-016,2024-02-12,Freight LTL lane,11500,USD,Closed,Devon Parker,VP
+PO-00786,VEND-00075,CTR-0075,DEPT-007,2024-09-15,Events travel block,4500,USD,Closed,Robin Park,Dept Head
+PO-00787,VEND-00121,,DEPT-012,2025-06-12,Add-on modules,27500,USD,Open,Hana Kobayashi,VP
+PO-00788,VEND-00001,,DEPT-005,2026-03-07,Monthly cloud consumption,134000,USD,Open,Robin Park,CFO
+PO-00789,VEND-00020,,DEPT-007,2025-03-30,Annual subscription renewal,6600,USD,Closed,Marco Alvarez,Dept Head
+PO-00790,VEND-00059,CTR-0019,DEPT-003,2023-01-17,Add-on modules,4000,USD,Open,Cesar Ruiz,Dept Head
+PO-00791,VEND-00033,,DEPT-006,2024-10-03,Compliance advisory,6100,USD,Closed,Alex Rivera,Dept Head
+PO-00792,VEND-00104,,DEPT-010,2025-07-31,Egress overage,4000,USD,Closed,Owen Marsh,Dept Head
+PO-00793,VEND-00006,CTR-0006,DEPT-019,2023-09-16,Media buy,33500,USD,Received,Harish Patel,VP
+PO-00794,VEND-00077,,DEPT-017,2024-08-06,Contract engineer placement,3800,USD,Cancelled,Cesar Ruiz,Dept Head
+PO-00795,VEND-00179,,DEPT-002,2026-03-05,Customs clearance,220000,USD,Closed,Luis Ortega,CFO
+PO-00796,VEND-00042,,DEPT-010,2026-03-16,Media buy,15500,USD,Received,Alex Rivera,VP
+PO-00797,VEND-00053,,DEPT-005,2025-09-03,Campaign retainer,1600,USD,Closed,Hana Kobayashi,Dept Head
+PO-00798,VEND-00017,,DEPT-005,2024-05-09,Contract engineer placement,28000,USD,Open,Devon Parker,VP
+PO-00799,VEND-00116,CTR-0052,DEPT-007,2025-10-29,Security services,217000,USD,Open,Julia Hwang,CFO
+PO-00800,VEND-00101,,DEPT-015,2023-11-18,Monthly cloud consumption,56000,USD,Closed,Owen Marsh,CFO
+PO-00801,VEND-00163,,DEPT-008,2023-01-06,Annual SKO travel,2700,USD,Closed,Hana Kobayashi,Dept Head
+PO-00802,VEND-00128,,DEPT-013,2026-02-09,Annual subscription renewal,4100,USD,Received,Owen Marsh,Dept Head
+PO-00803,VEND-00007,,DEPT-015,2024-01-19,Mobile fleet lines,7400,USD,Closed,Luis Ortega,Dept Head
+PO-00804,VEND-00073,,DEPT-001,2025-11-14,Monthly cloud consumption,24500,USD,Closed,Sasha Mwangi,VP
+PO-00805,VEND-00124,,DEPT-018,2025-05-12,Corporate travel management fee,565000,USD,Received,Julia Hwang,CEO
+PO-00806,VEND-00094,CTR-0080,DEPT-020,2024-12-17,Landscaping,4000,USD,Received,Owen Marsh,Dept Head
+PO-00807,VEND-00165,CTR-0037,DEPT-009,2025-03-25,Annual subscription renewal,21000,USD,Received,Owen Marsh,VP
+PO-00808,VEND-00099,,DEPT-006,2023-08-18,Landscaping,5200,USD,Closed,Harish Patel,Dept Head
+PO-00809,VEND-00064,,DEPT-005,2024-09-19,Reserved capacity,7500,USD,Received,Priya Raman,Dept Head
+PO-00810,VEND-00175,,DEPT-009,2025-12-01,Monitors and peripherals,7900,USD,Cancelled,Claire Benoit,Dept Head
+PO-00811,VEND-00062,,DEPT-011,2025-12-31,Monitors and peripherals,3600,USD,Cancelled,Alex Rivera,Dept Head
+PO-00812,VEND-00006,CTR-0006,DEPT-018,2023-03-10,Brand refresh SOW,5000,USD,Received,Julia Hwang,Dept Head
+PO-00813,VEND-00043,,DEPT-007,2024-04-20,Toll-free services,6900,USD,Received,Priya Raman,Dept Head
+PO-00814,VEND-00130,CTR-0018,DEPT-007,2025-12-11,Implementation sprint,5700,USD,Cancelled,Tomas Kellerman,Dept Head
+PO-00815,VEND-00166,,DEPT-013,2024-07-26,Cleaning services month,18500,USD,Closed,Devon Parker,VP
+PO-00816,VEND-00008,CTR-0008,DEPT-011,2024-08-23,Quarterly office supplies replen,28500,USD,Closed,Devon Parker,VP
+PO-00817,VEND-00126,,DEPT-015,2025-12-15,Breakroom supplies,6100,USD,Closed,Harish Patel,Dept Head
+PO-00818,VEND-00198,CTR-0026,DEPT-005,2023-12-17,Warehousing month,7900,USD,Received,Aditi Shah,Dept Head
+PO-00819,VEND-00167,,DEPT-015,2024-02-12,MPLS circuits month,3000,USD,Closed,Naomi Weiss,Dept Head
+PO-00820,VEND-00121,,DEPT-008,2026-03-15,Seat expansion QQ3,700000,USD,Closed,Rafael Mendez,CEO
+PO-00821,VEND-00009,CTR-0009,DEPT-005,2023-12-26,Laptop refresh batch,5600,USD,Received,Marco Alvarez,Dept Head
+PO-00822,VEND-00083,,DEPT-019,2025-07-02,DR storage tier,1700,USD,Received,Marco Alvarez,Dept Head
+PO-00823,VEND-00105,CTR-0022,DEPT-018,2023-12-17,Litigation retainer,7100,USD,Received,Claire Benoit,Dept Head
+PO-00824,VEND-00167,,DEPT-019,2025-06-29,Network installation,5300,USD,Received,Robin Park,Dept Head
+PO-00825,VEND-00046,,DEPT-013,2024-03-16,Security services,35500,USD,Closed,Luis Ortega,VP
+PO-00826,VEND-00060,,DEPT-007,2024-01-28,Laptop refresh batch,6100,USD,Cancelled,Cesar Ruiz,Dept Head
+PO-00827,VEND-00139,,DEPT-015,2026-01-16,Landscaping,7000,USD,Closed,Hana Kobayashi,Dept Head
+PO-00828,VEND-00048,,DEPT-008,2024-02-26,Advisory engagement,31000,USD,Received,Samira Okafor,VP
+PO-00829,VEND-00090,,DEPT-008,2023-03-27,HVAC maintenance,5800,USD,Received,Hana Kobayashi,Dept Head
+PO-00830,VEND-00113,,DEPT-008,2024-12-15,Compliance advisory,4700,USD,Closed,Claire Benoit,Dept Head
+PO-00831,VEND-00131,,DEPT-019,2024-06-08,Events travel block,275000,USD,Cancelled,Luis Ortega,CEO
+PO-00832,VEND-00193,,DEPT-012,2025-05-10,HVAC maintenance,36500,USD,Received,Samira Okafor,VP
+PO-00833,VEND-00156,,DEPT-009,2023-05-03,Litigation retainer,33000,USD,Closed,Jamie Chen,VP
+PO-00834,VEND-00133,,DEPT-019,2023-12-25,Freight LTL lane,54000,USD,Open,Peter Chen,CFO
+PO-00835,VEND-00029,,DEPT-016,2023-02-07,Advisory engagement,4400,USD,Received,Quinn Reyes,Dept Head
+PO-00836,VEND-00190,CTR-0051,DEPT-007,2023-12-09,Contracts review package,22500,USD,Closed,Hana Kobayashi,VP
+PO-00837,VEND-00129,CTR-0073,DEPT-010,2023-08-24,Print consumables,2700,USD,Open,Luis Ortega,Dept Head
+PO-00838,VEND-00175,,DEPT-019,2026-02-08,Datacenter hardware,600,USD,Received,Priya Raman,Dept Head
+PO-00839,VEND-00186,,DEPT-013,2024-05-23,Egress overage,197000,USD,Closed,Robin Park,CFO
+PO-00840,VEND-00171,CTR-0040,DEPT-019,2025-10-18,Security services,96000,USD,Received,Tomas Kellerman,CFO
+PO-00841,VEND-00060,,DEPT-016,2026-02-22,Laptop refresh batch,20000,USD,Received,Priya Raman,VP
+PO-00842,VEND-00043,,DEPT-020,2025-05-12,MPLS circuits month,21500,USD,Closed,Ingrid Voss,VP
+PO-00843,VEND-00012,,DEPT-008,2023-06-03,Conference travel,3100,USD,Cancelled,Hana Kobayashi,Dept Head
+PO-00844,VEND-00087,,DEPT-006,2024-11-01,Compliance advisory,231000,USD,Open,Owen Marsh,CFO
+PO-00845,VEND-00100,,DEPT-014,2024-11-24,Litigation retainer,186000,USD,Closed,Robin Park,CFO
+PO-00846,VEND-00013,CTR-0013,DEPT-001,2026-03-06,Seat expansion QQ1,7600,USD,Open,Rafael Mendez,Dept Head
+PO-00847,VEND-00185,,DEPT-013,2026-04-20,Freight LTL lane,1000,USD,Open,Claire Benoit,Dept Head
+PO-00848,VEND-00038,,DEPT-014,2025-02-05,Annual SKO travel,8000,USD,Closed,Sasha Mwangi,Dept Head
+PO-00849,VEND-00084,CTR-0041,DEPT-001,2024-03-08,Last-mile delivery,29000,USD,Closed,Julia Hwang,VP
+PO-00850,VEND-00059,,DEPT-018,2024-01-04,Platform support,5400,USD,Closed,Ingrid Voss,Dept Head
+PO-00851,VEND-00185,,DEPT-017,2024-12-05,Warehousing month,4800,USD,Received,Peter Chen,Dept Head
+PO-00852,VEND-00019,,DEPT-006,2025-05-06,Landscaping,6400,USD,Received,Claire Benoit,Dept Head
+PO-00853,VEND-00186,,DEPT-020,2025-06-24,Monthly cloud consumption,1200,USD,Received,Rafael Mendez,Dept Head
+PO-00854,VEND-00087,,DEPT-015,2024-09-04,Contracts review package,700,USD,Open,Hana Kobayashi,Dept Head
+PO-00855,VEND-00081,,DEPT-018,2026-01-02,Staff augmentation month,18500,USD,Closed,Ingrid Voss,VP
+PO-00856,VEND-00010,CTR-0010,DEPT-009,2023-04-18,Assessment phase,6100,USD,Open,Hana Kobayashi,Dept Head
+PO-00857,VEND-00101,,DEPT-015,2023-07-13,DR storage tier,4100,USD,Closed,Marco Alvarez,Dept Head
+PO-00858,VEND-00135,,DEPT-010,2026-01-22,Network installation,27500,USD,Received,Hana Kobayashi,VP
+PO-00859,VEND-00134,,DEPT-004,2023-10-17,Annual subscription renewal,4200,USD,Closed,Aditi Shah,Dept Head
+PO-00860,VEND-00012,,DEPT-001,2025-08-10,Corporate travel management fee,2200,USD,Received,Aditi Shah,Dept Head
+PO-00861,VEND-00117,CTR-0066,DEPT-006,2024-09-27,Seat expansion QQ2,5700,USD,Closed,Sasha Mwangi,Dept Head
+PO-00862,VEND-00121,,DEPT-015,2026-02-25,Annual subscription renewal,11500,USD,Received,Rafael Mendez,VP
+PO-00863,VEND-00082,,DEPT-017,2024-09-09,Temp-to-hire fee,5300,USD,Closed,Aditi Shah,Dept Head
+PO-00864,VEND-00002,CTR-0002,DEPT-006,2025-06-08,Add-on modules,4500,USD,Closed,Naomi Weiss,Dept Head
+PO-00865,VEND-00158,,DEPT-019,2025-09-03,Customs clearance,1200,USD,Received,Devon Parker,Dept Head
+PO-00866,VEND-00173,,DEPT-010,2024-10-16,Quarterly office supplies replen,163000,USD,Closed,Claire Benoit,CFO
+PO-00867,VEND-00188,,DEPT-011,2024-11-15,Advisory engagement,4800,USD,Received,Aditi Shah,Dept Head
+PO-00868,VEND-00077,,DEPT-016,2023-11-30,Staff augmentation month,38500,USD,Received,Alex Rivera,VP
+PO-00869,VEND-00133,,DEPT-013,2025-03-25,Last-mile delivery,6300,USD,Closed,Robin Park,Dept Head
+PO-00870,VEND-00108,,DEPT-010,2024-08-31,Ergonomics,4900,USD,Received,Derek Yoon,Dept Head
+PO-00871,VEND-00108,,DEPT-014,2023-09-28,Breakroom supplies,5800,USD,Received,Tomas Kellerman,Dept Head
+PO-00872,VEND-00090,,DEPT-005,2023-02-02,HVAC maintenance,7700,USD,Received,Claire Benoit,Dept Head
+PO-00873,VEND-00197,,DEPT-007,2025-12-21,MPLS circuits month,4000,USD,Closed,Naomi Weiss,Dept Head
+PO-00874,VEND-00192,,DEPT-001,2023-08-08,Last-mile delivery,3000,USD,Open,Samira Okafor,Dept Head
+PO-00875,VEND-00077,,DEPT-012,2023-01-27,Staff augmentation month,116000,USD,Closed,Jamie Chen,CFO
+PO-00876,VEND-00075,CTR-0075,DEPT-001,2024-01-23,Corporate travel management fee,39000,USD,Open,Peter Chen,VP
+PO-00877,VEND-00135,,DEPT-010,2024-12-01,MPLS circuits month,17500,USD,Received,Priya Raman,VP
+PO-00878,VEND-00162,,DEPT-001,2026-02-05,Monthly cloud consumption,6400,USD,Closed,Rafael Mendez,Dept Head
+PO-00879,VEND-00089,,DEPT-016,2025-11-07,Conference travel,5900,USD,Received,Samira Okafor,Dept Head
+PO-00880,VEND-00125,,DEPT-011,2023-05-17,Implementation sprint,11500,USD,Cancelled,Harish Patel,VP
+PO-00881,VEND-00077,,DEPT-013,2024-04-30,Staff augmentation month,5400,USD,Closed,Hana Kobayashi,Dept Head
+PO-00882,VEND-00157,,DEPT-006,2025-12-22,Litigation retainer,1600,USD,Open,Samira Okafor,Dept Head
+PO-00883,VEND-00196,,DEPT-010,2024-12-25,Customs clearance,1700,USD,Open,Cesar Ruiz,Dept Head
+PO-00884,VEND-00112,,DEPT-006,2024-06-09,Assessment phase,45500,USD,Closed,Tomas Kellerman,VP
+PO-00885,VEND-00147,CTR-0030,DEPT-017,2025-10-04,Networking gear,7700,USD,Open,Devon Parker,Dept Head
+PO-00886,VEND-00040,,DEPT-006,2025-08-23,DR storage tier,11500,USD,Received,Julia Hwang,VP
+PO-00887,VEND-00029,,DEPT-004,2024-12-04,Advisory engagement,2700,USD,Closed,Quinn Reyes,Dept Head
+PO-00888,VEND-00126,,DEPT-009,2023-09-02,Print consumables,7700,USD,Received,Lena Brooks,Dept Head
+PO-00889,VEND-00194,CTR-0038,DEPT-014,2023-10-11,Events travel block,6700,USD,Closed,Harish Patel,Dept Head
+PO-00890,VEND-00123,,DEPT-001,2024-01-10,Cleaning services month,2900,USD,Cancelled,Cesar Ruiz,Dept Head
+PO-00891,VEND-00157,,DEPT-014,2023-03-20,IP counsel hours,110000,USD,Closed,Rafael Mendez,CFO
+PO-00892,VEND-00059,CTR-0019,DEPT-019,2024-12-30,Add-on modules,179000,USD,Open,Lena Brooks,CFO
+PO-00893,VEND-00196,,DEPT-006,2024-02-20,Customs clearance,35000,USD,Closed,Derek Yoon,VP
+PO-00894,VEND-00144,,DEPT-015,2025-04-19,Process transformation SOW,7000,USD,Closed,Julia Hwang,Dept Head
+PO-00895,VEND-00173,CTR-0072,DEPT-011,2023-07-31,Breakroom supplies,15500,USD,Received,Cesar Ruiz,VP
+PO-00896,VEND-00179,,DEPT-018,2024-05-25,Warehousing month,700,USD,Received,Harish Patel,Dept Head
+PO-00897,VEND-00070,,DEPT-020,2024-07-22,MPLS circuits month,3100,USD,Closed,Owen Marsh,Dept Head
+PO-00898,VEND-00006,CTR-0006,DEPT-015,2026-03-20,Creative production,7300,USD,Received,Aditi Shah,Dept Head
+PO-00899,VEND-00080,,DEPT-016,2025-07-30,Warehousing month,10500,USD,Received,Quinn Reyes,VP
+PO-00900,VEND-00047,,DEPT-017,2025-09-07,Assessment phase,39000,USD,Closed,Tomas Kellerman,VP
+PO-00901,VEND-00029,,DEPT-001,2026-03-07,Implementation sprint,46500,USD,Received,Owen Marsh,VP
+PO-00902,VEND-00146,,DEPT-013,2025-08-10,IP counsel hours,4700,USD,Received,Robin Park,Dept Head
+PO-00903,VEND-00013,CTR-0013,DEPT-003,2025-09-03,Seat expansion QQ3,28000,USD,Received,Cesar Ruiz,VP
+PO-00904,VEND-00075,CTR-0075,DEPT-008,2025-01-09,Corporate travel management fee,3200,USD,Closed,Robin Park,Dept Head
+PO-00905,VEND-00170,,DEPT-017,2025-01-25,Quarterly office supplies replen,2900,USD,Open,Aditi Shah,Dept Head
+PO-00906,VEND-00167,CTR-0063,DEPT-017,2025-06-25,MPLS circuits month,1900,USD,Closed,Aditi Shah,Dept Head
+PO-00907,VEND-00111,,DEPT-003,2024-10-26,Implementation sprint,5800,USD,Cancelled,Tomas Kellerman,Dept Head
+PO-00908,VEND-00137,,DEPT-017,2025-01-20,Quarterly office supplies replen,246000,USD,Closed,Naomi Weiss,CFO
+PO-00909,VEND-00076,,DEPT-014,2024-12-25,Litigation retainer,56000,USD,Closed,Samira Okafor,CFO
+PO-00910,VEND-00110,,DEPT-017,2024-03-16,Warehousing month,5700,USD,Closed,Claire Benoit,Dept Head
+PO-00911,VEND-00094,,DEPT-018,2024-10-10,Security services,2900,USD,Closed,Cesar Ruiz,Dept Head
+PO-00912,VEND-00062,CTR-0050,DEPT-004,2025-03-07,Networking gear,2100,USD,Received,Samira Okafor,Dept Head
+PO-00913,VEND-00049,,DEPT-018,2025-07-07,Litigation retainer,1300,USD,Closed,Julia Hwang,Dept Head
+PO-00914,VEND-00071,,DEPT-009,2023-05-20,DR storage tier,1800,USD,Closed,Naomi Weiss,Dept Head
+PO-00915,VEND-00107,,DEPT-003,2025-08-05,Datacenter hardware,3900,USD,Received,Tomas Kellerman,Dept Head
+PO-00916,VEND-00127,,DEPT-004,2024-04-27,Advisory engagement,16500,USD,Closed,Naomi Weiss,VP
+PO-00917,VEND-00053,,DEPT-017,2024-10-30,Campaign retainer,3900,USD,Closed,Robin Park,Dept Head
+PO-00918,VEND-00101,,DEPT-018,2024-01-04,DR storage tier,35000,USD,Closed,Cesar Ruiz,VP
+PO-00919,VEND-00157,,DEPT-004,2023-08-05,IP counsel hours,22500,USD,Received,Luis Ortega,VP
+PO-00920,VEND-00158,,DEPT-005,2025-03-18,Freight LTL lane,71000,USD,Closed,Sasha Mwangi,CFO
+PO-00921,VEND-00197,,DEPT-016,2025-12-09,Network installation,42000,USD,Open,Tomas Kellerman,VP
+PO-00922,VEND-00046,CTR-0034,DEPT-014,2023-06-04,Security services,121000,USD,Closed,Jamie Chen,CFO
+PO-00923,VEND-00155,,DEPT-013,2024-10-11,Quarterly office supplies replen,33500,USD,Closed,Sasha Mwangi,VP
+PO-00924,VEND-00141,CTR-0028,DEPT-010,2024-06-07,HVAC maintenance,36000,USD,Closed,Luis Ortega,VP
+PO-00925,VEND-00052,,DEPT-010,2025-04-26,Monthly cloud consumption,4000,USD,Closed,Sasha Mwangi,Dept Head
+PO-00926,VEND-00069,,DEPT-019,2025-11-10,Freight LTL lane,6300,USD,Open,Owen Marsh,Dept Head
+PO-00927,VEND-00167,CTR-0063,DEPT-017,2023-10-19,MPLS circuits month,31500,USD,Received,Alex Rivera,VP
+PO-00928,VEND-00177,CTR-0027,DEPT-014,2024-07-30,Litigation retainer,6300,USD,Open,Ingrid Voss,Dept Head
+PO-00929,VEND-00119,,DEPT-012,2026-03-13,Conference travel,39500,USD,Closed,Robin Park,VP
+PO-00930,VEND-00148,,DEPT-010,2023-01-06,Landscaping,34000,USD,Open,Peter Chen,VP
+PO-00931,VEND-00090,,DEPT-007,2023-02-13,Cleaning services month,7300,USD,Received,Hana Kobayashi,Dept Head
+PO-00932,VEND-00001,,DEPT-013,2025-10-23,DR storage tier,1100,USD,Received,Tomas Kellerman,Dept Head
+PO-00933,VEND-00086,,DEPT-017,2023-10-04,Networking gear,8500,USD,Open,Hana Kobayashi,Dept Head
+PO-00934,VEND-00061,,DEPT-013,2023-05-30,Mobile fleet lines,86000,USD,Closed,Priya Raman,CFO
+PO-00935,VEND-00192,,DEPT-020,2024-02-24,Warehousing month,1900,USD,Closed,Priya Raman,Dept Head
+PO-00936,VEND-00100,,DEPT-007,2025-04-20,Contracts review package,147000,USD,Closed,Jamie Chen,CFO
+PO-00937,VEND-00192,,DEPT-018,2025-04-21,Freight LTL lane,7000,USD,Received,Harish Patel,Dept Head
+PO-00938,VEND-00030,,DEPT-003,2025-09-15,Landscaping,158000,USD,Open,Robin Park,CFO
+PO-00939,VEND-00069,,DEPT-019,2023-03-10,Freight LTL lane,5800,USD,Closed,Sasha Mwangi,Dept Head
+PO-00940,VEND-00130,,DEPT-019,2025-08-23,Assessment phase,1900,USD,Closed,Ingrid Voss,Dept Head
+PO-00941,VEND-00175,,DEPT-016,2023-02-01,Laptop refresh batch,4800,USD,Received,Harish Patel,Dept Head
+PO-00942,VEND-00017,,DEPT-017,2025-01-30,Temp-to-hire fee,7600,USD,Closed,Lena Brooks,Dept Head
+PO-00943,VEND-00024,,DEPT-013,2024-12-24,Annual subscription renewal,5200,USD,Open,Sasha Mwangi,Dept Head
+PO-00944,VEND-00195,,DEPT-014,2023-02-16,Mobile fleet lines,660000,USD,Closed,Jamie Chen,CEO
+PO-00945,VEND-00104,,DEPT-015,2025-03-24,Monthly cloud consumption,35500,USD,Received,Robin Park,VP
+PO-00946,VEND-00148,,DEPT-010,2025-05-06,Landscaping,800,USD,Closed,Luis Ortega,Dept Head
+PO-00947,VEND-00003,,DEPT-001,2023-04-01,Customs clearance,4200,USD,Received,Marco Alvarez,Dept Head
+PO-00948,VEND-00007,CTR-0007,DEPT-016,2025-09-30,Mobile fleet lines,5600,USD,Closed,Alex Rivera,Dept Head
+PO-00949,VEND-00002,,DEPT-014,2023-12-07,Platform support,3900,USD,Closed,Julia Hwang,Dept Head
+PO-00950,VEND-00153,,DEPT-009,2024-12-15,Contract engineer placement,10500,USD,Open,Owen Marsh,VP
+PO-00951,VEND-00132,,DEPT-019,2025-07-25,Quarterly office supplies replen,181000,USD,Closed,Naomi Weiss,CFO
+PO-00952,VEND-00168,,DEPT-017,2024-10-30,Staff augmentation month,20000,USD,Closed,Claire Benoit,VP
+PO-00953,VEND-00063,,DEPT-005,2024-01-21,Print consumables,7300,USD,Closed,Aditi Shah,Dept Head
+PO-00954,VEND-00102,,DEPT-013,2024-04-11,Monitors and peripherals,28500,USD,Closed,Sasha Mwangi,VP
+PO-00955,VEND-00105,,DEPT-006,2024-02-10,Compliance advisory,49000,USD,Closed,Aditi Shah,VP
+PO-00956,VEND-00138,CTR-0053,DEPT-006,2025-05-10,Events travel block,1400,USD,Received,Harish Patel,Dept Head
+PO-00957,VEND-00146,,DEPT-007,2025-05-02,Litigation retainer,14500,USD,Open,Marco Alvarez,VP
+PO-00958,VEND-00126,,DEPT-011,2023-09-22,Breakroom supplies,36000,USD,Open,Quinn Reyes,VP
+PO-00959,VEND-00067,,DEPT-019,2025-12-25,Datacenter hardware,52000,USD,Open,Marco Alvarez,CFO
+PO-00960,VEND-00016,,DEPT-007,2024-01-30,Monitors and peripherals,10000,USD,Received,Alex Rivera,VP
+PO-00961,VEND-00018,,DEPT-001,2024-04-21,Temp-to-hire fee,132000,USD,Open,Tomas Kellerman,CFO
+PO-00962,VEND-00103,CTR-0059,DEPT-005,2025-06-28,Annual SKO travel,7200,USD,Received,Luis Ortega,Dept Head
+PO-00963,VEND-00071,,DEPT-013,2025-07-04,DR storage tier,760000,USD,Received,Naomi Weiss,CEO
+PO-00964,VEND-00153,,DEPT-007,2025-04-13,Specialist placement,39500,USD,Closed,Claire Benoit,VP
+PO-00965,VEND-00051,CTR-0076,DEPT-014,2024-05-09,Egress overage,7800,USD,Open,Tomas Kellerman,Dept Head
+PO-00966,VEND-00159,,DEPT-006,2024-02-24,Last-mile delivery,3300,USD,Closed,Tomas Kellerman,Dept Head
+PO-00967,VEND-00017,,DEPT-016,2024-12-02,Staff augmentation month,2700,USD,Received,Ingrid Voss,Dept Head
+PO-00968,VEND-00139,,DEPT-010,2023-07-09,Cleaning services month,4200,USD,Received,Rafael Mendez,Dept Head
+PO-00969,VEND-00145,,DEPT-009,2023-10-09,Last-mile delivery,50000,USD,Closed,Alex Rivera,CFO
+PO-00970,VEND-00076,,DEPT-007,2025-05-18,Contracts review package,132000,USD,Closed,Rafael Mendez,CFO
+PO-00971,VEND-00106,,DEPT-018,2023-10-10,Compliance advisory,30000,USD,Cancelled,Luis Ortega,VP
+PO-00972,VEND-00171,,DEPT-016,2024-07-11,Cleaning services month,40000,USD,Received,Tomas Kellerman,VP
+PO-00973,VEND-00145,,DEPT-009,2023-08-25,Last-mile delivery,7600,USD,Received,Ingrid Voss,Dept Head
+PO-00974,VEND-00172,,DEPT-001,2024-05-22,Laptop refresh batch,193000,USD,Received,Tomas Kellerman,CFO
+PO-00975,VEND-00043,,DEPT-018,2024-10-20,MPLS circuits month,8000,USD,Closed,Robin Park,Dept Head
+PO-00976,VEND-00186,,DEPT-020,2024-06-23,Reserved capacity,1700,USD,Open,Aditi Shah,Dept Head
+PO-00977,VEND-00158,,DEPT-016,2023-02-06,Last-mile delivery,14000,USD,Received,Luis Ortega,VP
+PO-00978,VEND-00120,,DEPT-012,2023-11-18,Ergonomics,15500,USD,Closed,Claire Benoit,VP
+PO-00979,VEND-00137,,DEPT-014,2023-10-26,Quarterly office supplies replen,7500,USD,Received,Aditi Shah,Dept Head
+PO-00980,VEND-00145,,DEPT-010,2023-10-21,Warehousing month,54000,USD,Closed,Devon Parker,CFO
+PO-00981,VEND-00154,,DEPT-015,2023-02-24,Corporate travel management fee,1700,USD,Received,Cesar Ruiz,Dept Head
+PO-00982,VEND-00041,CTR-0021,DEPT-016,2025-08-22,Specialist placement,33500,USD,Cancelled,Julia Hwang,VP
+PO-00983,VEND-00027,,DEPT-018,2025-02-23,Quarterly office supplies replen,28000,USD,Received,Claire Benoit,VP
+PO-00984,VEND-00064,,DEPT-018,2023-05-20,DR storage tier,7800,USD,Open,Devon Parker,Dept Head
+PO-00985,VEND-00140,,DEPT-010,2024-11-02,Toll-free services,10500,USD,Closed,Priya Raman,VP
+PO-00986,VEND-00120,,DEPT-003,2025-11-29,Breakroom supplies,20500,USD,Closed,Peter Chen,VP
+PO-00987,VEND-00061,,DEPT-013,2023-05-30,Toll-free services,8000,USD,Received,Devon Parker,Dept Head
+PO-00988,VEND-00154,,DEPT-014,2023-05-04,Annual SKO travel,3000,USD,Open,Samira Okafor,Dept Head
+PO-00989,VEND-00186,,DEPT-019,2025-05-04,DR storage tier,8000,USD,Closed,Julia Hwang,Dept Head
+PO-00990,VEND-00107,,DEPT-002,2024-05-02,Laptop refresh batch,33500,USD,Received,Ingrid Voss,VP
+PO-00991,VEND-00084,CTR-0041,DEPT-013,2024-06-13,Last-mile delivery,221000,USD,Closed,Sasha Mwangi,CFO
+PO-00992,VEND-00107,,DEPT-010,2024-07-13,Monitors and peripherals,181000,USD,Closed,Robin Park,CFO
+PO-00993,VEND-00071,,DEPT-015,2025-10-09,Reserved capacity,37000,USD,Open,Cesar Ruiz,VP
+PO-00994,VEND-00181,,DEPT-020,2024-06-08,Seat expansion QQ1,31500,USD,Closed,Luis Ortega,VP
+PO-00995,VEND-00141,,DEPT-010,2025-05-15,Cleaning services month,5600,USD,Closed,Alex Rivera,Dept Head
+PO-00996,VEND-00173,CTR-0072,DEPT-003,2025-07-30,Ergonomics,8000,USD,Received,Lena Brooks,Dept Head
+PO-00997,VEND-00008,CTR-0008,DEPT-016,2023-06-15,Ergonomics,109000,USD,Received,Devon Parker,CFO
+PO-00998,VEND-00047,CTR-0078,DEPT-009,2025-08-16,Advisory engagement,23500,USD,Cancelled,Samira Okafor,VP
+PO-00999,VEND-00002,CTR-0002,DEPT-008,2024-05-09,Platform support,6700,USD,Closed,Peter Chen,Dept Head
+PO-01000,VEND-00107,,DEPT-006,2026-02-15,Networking gear,2700,USD,Closed,Marco Alvarez,Dept Head
+PO-01001,VEND-00113,,DEPT-006,2023-12-15,Litigation retainer,23500,USD,Received,Jamie Chen,VP
+PO-01002,VEND-00010,,DEPT-001,2025-10-11,Process transformation SOW,225000,USD,Closed,Peter Chen,CFO
+PO-01003,VEND-00168,,DEPT-020,2023-08-12,Contract engineer placement,211000,USD,Received,Cesar Ruiz,CFO
+PO-01004,VEND-00198,CTR-0026,DEPT-016,2023-11-08,Freight LTL lane,3400,USD,Closed,Ingrid Voss,Dept Head
+PO-01005,VEND-00141,,DEPT-016,2024-03-04,HVAC maintenance,4200,USD,Closed,Peter Chen,Dept Head
+PO-01006,VEND-00037,CTR-0071,DEPT-009,2025-11-29,Conference travel,7500,USD,Closed,Priya Raman,Dept Head
+PO-01007,VEND-00148,CTR-0068,DEPT-002,2023-01-01,Security services,3200,USD,Closed,Alex Rivera,Dept Head
+PO-01008,VEND-00043,,DEPT-001,2025-08-19,Toll-free services,16500,USD,Received,Derek Yoon,VP
+PO-01009,VEND-00111,,DEPT-017,2025-05-01,Assessment phase,1100,USD,Received,Naomi Weiss,Dept Head
+PO-01010,VEND-00119,CTR-0049,DEPT-011,2024-07-21,Events travel block,4400,USD,Open,Lena Brooks,Dept Head
+PO-01011,VEND-00113,,DEPT-015,2023-02-06,IP counsel hours,198000,USD,Closed,Aditi Shah,CFO
+PO-01012,VEND-00015,CTR-0015,DEPT-005,2025-07-21,Media buy,6200,USD,Received,Lena Brooks,Dept Head
+PO-01013,VEND-00181,,DEPT-008,2024-12-23,Add-on modules,460000,USD,Closed,Owen Marsh,CEO
+PO-01014,VEND-00134,,DEPT-012,2023-12-26,Platform support,1200,USD,Cancelled,Alex Rivera,Dept Head
+PO-01015,VEND-00046,CTR-0034,DEPT-012,2026-03-17,Security services,28000,USD,Closed,Peter Chen,VP
+PO-01016,VEND-00185,,DEPT-016,2023-06-30,Warehousing month,29500,USD,Open,Tomas Kellerman,VP
+PO-01017,VEND-00136,,DEPT-008,2025-05-17,Implementation sprint,15500,USD,Closed,Cesar Ruiz,VP
+PO-01018,VEND-00113,,DEPT-008,2023-09-08,Contracts review package,600,USD,Received,Harish Patel,Dept Head
+PO-01019,VEND-00112,,DEPT-017,2023-12-02,Assessment phase,3300,USD,Closed,Peter Chen,Dept Head
+PO-01020,VEND-00049,,DEPT-010,2026-04-06,Compliance advisory,1500,USD,Cancelled,Devon Parker,Dept Head
+PO-01021,VEND-00139,,DEPT-007,2024-02-01,HVAC maintenance,2800,USD,Closed,Marco Alvarez,Dept Head
+PO-01022,VEND-00176,,DEPT-009,2026-02-20,DR storage tier,700,USD,Open,Samira Okafor,Dept Head
+PO-01023,VEND-00192,,DEPT-018,2025-04-28,Freight LTL lane,5900,USD,Closed,Robin Park,Dept Head
+PO-01024,VEND-00186,,DEPT-015,2025-03-08,Reserved capacity,1300,USD,Received,Harish Patel,Dept Head
+PO-01025,VEND-00076,,DEPT-017,2023-02-15,Compliance advisory,3600,USD,Received,Robin Park,Dept Head
+PO-01026,VEND-00165,,DEPT-016,2024-08-12,Seat expansion QQ3,3300,USD,Closed,Harish Patel,Dept Head
+PO-01027,VEND-00147,,DEPT-017,2024-02-27,Monitors and peripherals,40000,USD,Closed,Sasha Mwangi,VP
+PO-01028,VEND-00200,,DEPT-020,2026-03-22,Specialist placement,5800,USD,Closed,Rafael Mendez,Dept Head
+PO-01029,VEND-00169,,DEPT-016,2023-10-28,Monthly cloud consumption,22500,USD,Closed,Naomi Weiss,VP
+PO-01030,VEND-00033,,DEPT-007,2025-04-27,Contracts review package,2800,USD,Received,Sasha Mwangi,Dept Head
+PO-01031,VEND-00039,,DEPT-012,2025-06-02,MPLS circuits month,5700,USD,Received,Luis Ortega,Dept Head
+PO-01032,VEND-00013,,DEPT-007,2026-02-04,Platform support,835000,USD,Closed,Rafael Mendez,CEO
+PO-01033,VEND-00110,,DEPT-007,2026-01-09,Warehousing month,5100,USD,Closed,Tomas Kellerman,Dept Head
+PO-01034,VEND-00008,CTR-0008,DEPT-016,2024-04-20,Breakroom supplies,228000,USD,Closed,Naomi Weiss,CFO
+PO-01035,VEND-00067,,DEPT-020,2025-02-11,Datacenter hardware,42500,USD,Closed,Owen Marsh,VP
+PO-01036,VEND-00108,,DEPT-002,2026-03-08,Ergonomics,38000,USD,Closed,Peter Chen,VP
+PO-01037,VEND-00146,,DEPT-020,2024-12-15,Contracts review package,1600,USD,Open,Robin Park,Dept Head
+PO-01038,VEND-00171,,DEPT-018,2023-03-14,HVAC maintenance,9500,USD,Closed,Naomi Weiss,Dept Head
+PO-01039,VEND-00172,,DEPT-008,2023-02-20,Networking gear,14000,USD,Received,Jamie Chen,VP
+PO-01040,VEND-00046,CTR-0034,DEPT-007,2025-08-06,Security services,1500,USD,Closed,Lena Brooks,Dept Head
+PO-01041,VEND-00176,,DEPT-001,2023-09-17,Egress overage,190000,USD,Open,Lena Brooks,CFO
+PO-01042,VEND-00078,,DEPT-012,2023-02-19,Annual SKO travel,3900,USD,Closed,Sasha Mwangi,Dept Head
+PO-01043,VEND-00157,,DEPT-017,2024-08-10,Litigation retainer,290000,USD,Received,Hana Kobayashi,CEO
+PO-01044,VEND-00021,,DEPT-004,2026-01-21,Media buy,42500,USD,Closed,Harish Patel,VP
+PO-01045,VEND-00140,,DEPT-017,2023-02-12,MPLS circuits month,2000,USD,Received,Hana Kobayashi,Dept Head
+PO-01046,VEND-00159,,DEPT-001,2023-02-23,Last-mile delivery,40500,USD,Closed,Lena Brooks,VP
+PO-01047,VEND-00167,CTR-0063,DEPT-005,2023-11-10,Mobile fleet lines,2800,USD,Received,Tomas Kellerman,Dept Head
+PO-01048,VEND-00138,,DEPT-006,2023-01-15,Annual SKO travel,21000,USD,Open,Marco Alvarez,VP
+PO-01049,VEND-00010,CTR-0010,DEPT-007,2024-12-16,Process transformation SOW,7900,USD,Cancelled,Lena Brooks,Dept Head
+PO-01050,VEND-00021,,DEPT-010,2026-04-07,Brand refresh SOW,3400,USD,Closed,Sasha Mwangi,Dept Head
+PO-01051,VEND-00192,,DEPT-001,2024-11-30,Last-mile delivery,40000,USD,Received,Priya Raman,VP
+PO-01052,VEND-00077,,DEPT-015,2023-07-12,Staff augmentation month,800,USD,Received,Marco Alvarez,Dept Head
+PO-01053,VEND-00114,,DEPT-003,2025-10-29,Annual SKO travel,10500,USD,Closed,Samira Okafor,VP
+PO-01054,VEND-00033,,DEPT-012,2025-08-12,Contracts review package,5800,USD,Received,Peter Chen,Dept Head
+PO-01055,VEND-00167,CTR-0063,DEPT-014,2025-08-31,Mobile fleet lines,28500,USD,Closed,Naomi Weiss,VP
+PO-01056,VEND-00173,CTR-0072,DEPT-017,2025-12-12,Print consumables,50000,USD,Closed,Cesar Ruiz,CFO
+PO-01057,VEND-00082,,DEPT-013,2024-07-19,Contract engineer placement,139000,USD,Closed,Rafael Mendez,CFO
+PO-01058,VEND-00020,,DEPT-016,2023-12-08,Annual subscription renewal,700,USD,Received,Claire Benoit,Dept Head
+PO-01059,VEND-00027,,DEPT-002,2023-05-03,Print consumables,22500,USD,Closed,Hana Kobayashi,VP
+PO-01060,VEND-00146,,DEPT-014,2023-05-07,Litigation retainer,5600,USD,Closed,Aditi Shah,Dept Head
+PO-01061,VEND-00176,,DEPT-014,2024-11-08,Monthly cloud consumption,1800,USD,Received,Cesar Ruiz,Dept Head
+PO-01062,VEND-00179,,DEPT-018,2023-02-09,Warehousing month,6800,USD,Closed,Jamie Chen,Dept Head
+PO-01063,VEND-00072,,DEPT-017,2025-04-06,Landscaping,7100,USD,Open,Samira Okafor,Dept Head
+PO-01064,VEND-00094,CTR-0080,DEPT-013,2023-03-04,Cleaning services month,3300,USD,Closed,Devon Parker,Dept Head
+PO-01065,VEND-00189,,DEPT-017,2023-10-01,Staff augmentation month,36500,USD,Closed,Julia Hwang,VP
+PO-01066,VEND-00148,CTR-0068,DEPT-006,2024-08-22,Landscaping,3600,USD,Closed,Owen Marsh,Dept Head
+PO-01067,VEND-00018,,DEPT-005,2024-05-02,Staff augmentation month,1800,USD,Received,Ingrid Voss,Dept Head
+PO-01068,VEND-00119,CTR-0049,DEPT-011,2024-06-22,Conference travel,44000,USD,Received,Naomi Weiss,VP
+PO-01069,VEND-00002,CTR-0002,DEPT-014,2024-06-19,Seat expansion QQ2,4600,USD,Received,Devon Parker,Dept Head
+PO-01070,VEND-00039,,DEPT-008,2023-12-23,Mobile fleet lines,3300,USD,Open,Marco Alvarez,Dept Head
+PO-01071,VEND-00006,CTR-0006,DEPT-015,2024-10-25,Campaign retainer,95000,USD,Received,Rafael Mendez,CFO
+PO-01072,VEND-00200,,DEPT-004,2024-03-15,Specialist placement,67000,USD,Open,Marco Alvarez,CFO
+PO-01073,VEND-00181,,DEPT-012,2023-09-27,Seat expansion QQ4,450000,USD,Closed,Cesar Ruiz,CEO
+PO-01074,VEND-00053,,DEPT-001,2024-10-20,Creative production,5100,USD,Received,Luis Ortega,Dept Head
+PO-01075,VEND-00021,,DEPT-004,2023-10-12,Campaign retainer,5300,USD,Received,Cesar Ruiz,Dept Head
+PO-01076,VEND-00098,,DEPT-011,2024-10-29,IP counsel hours,139000,USD,Open,Naomi Weiss,CFO
+PO-01077,VEND-00078,,DEPT-016,2025-04-23,Annual SKO travel,5400,USD,Closed,Hana Kobayashi,Dept Head
+PO-01078,VEND-00154,,DEPT-010,2025-07-07,Corporate travel management fee,6400,USD,Closed,Claire Benoit,Dept Head
+PO-01079,VEND-00059,CTR-0019,DEPT-015,2024-04-03,Annual subscription renewal,12000,USD,Closed,Alex Rivera,VP
+PO-01080,VEND-00016,,DEPT-005,2025-12-07,Laptop refresh batch,8500,USD,Open,Samira Okafor,Dept Head
+PO-01081,VEND-00123,CTR-0048,DEPT-007,2025-05-12,HVAC maintenance,3500,USD,Closed,Quinn Reyes,Dept Head
+PO-01082,VEND-00047,,DEPT-011,2023-08-26,Implementation sprint,6300,USD,Received,Aditi Shah,Dept Head
+PO-01083,VEND-00075,,DEPT-020,2024-09-03,Conference travel,210000,USD,Open,Sasha Mwangi,CFO
+PO-01084,VEND-00165,,DEPT-012,2023-06-18,Annual subscription renewal,8500,USD,Open,Quinn Reyes,Dept Head
+PO-01085,VEND-00111,,DEPT-014,2024-02-28,Assessment phase,118000,USD,Open,Derek Yoon,CFO
+PO-01086,VEND-00007,,DEPT-018,2026-04-18,Mobile fleet lines,6900,USD,Received,Claire Benoit,Dept Head
+PO-01087,VEND-00032,CTR-0045,DEPT-010,2026-03-24,Staff augmentation month,10500,USD,Received,Devon Parker,VP
+PO-01088,VEND-00129,,DEPT-001,2024-10-05,Breakroom supplies,1400,USD,Closed,Alex Rivera,Dept Head
+PO-01089,VEND-00140,,DEPT-013,2025-09-26,Mobile fleet lines,7300,USD,Received,Devon Parker,Dept Head
+PO-01090,VEND-00030,,DEPT-019,2024-06-11,Landscaping,35500,USD,Received,Jamie Chen,VP
+PO-01091,VEND-00087,,DEPT-019,2023-07-20,IP counsel hours,42500,USD,Cancelled,Rafael Mendez,VP
+PO-01092,VEND-00166,,DEPT-018,2024-11-02,Security services,16000,USD,Closed,Quinn Reyes,VP
+PO-01093,VEND-00165,,DEPT-004,2023-04-18,Seat expansion QQ3,38500,USD,Received,Aditi Shah,VP
+PO-01094,VEND-00088,,DEPT-005,2025-09-16,Breakroom supplies,128000,USD,Closed,Ingrid Voss,CFO
+PO-01095,VEND-00139,,DEPT-003,2023-03-12,HVAC maintenance,7100,USD,Received,Julia Hwang,Dept Head
+PO-01096,VEND-00002,,DEPT-018,2023-10-20,Annual subscription renewal,4000,USD,Closed,Samira Okafor,Dept Head
+PO-01097,VEND-00167,,DEPT-005,2025-10-01,Toll-free services,3700,USD,Open,Tomas Kellerman,Dept Head
+PO-01098,VEND-00141,,DEPT-015,2023-01-22,HVAC maintenance,5500,USD,Open,Harish Patel,Dept Head
+PO-01099,VEND-00175,,DEPT-002,2025-12-13,Datacenter hardware,36000,USD,Received,Rafael Mendez,VP
+PO-01100,VEND-00111,,DEPT-014,2024-02-28,Process transformation SOW,41000,USD,Closed,Ingrid Voss,VP
+PO-01101,VEND-00167,,DEPT-001,2025-07-08,Toll-free services,3500,USD,Closed,Priya Raman,Dept Head
+PO-01102,VEND-00087,,DEPT-015,2026-02-01,Litigation retainer,180000,USD,Closed,Claire Benoit,CFO
+PO-01103,VEND-00108,,DEPT-005,2026-02-27,Quarterly office supplies replen,7500,USD,Closed,Marco Alvarez,Dept Head
+PO-01104,VEND-00155,,DEPT-003,2025-08-03,Print consumables,11000,USD,Received,Ingrid Voss,VP
+PO-01105,VEND-00100,,DEPT-006,2024-01-05,Compliance advisory,1400,USD,Open,Sasha Mwangi,Dept Head
+PO-01106,VEND-00068,,DEPT-018,2023-03-18,Specialist placement,50000,USD,Received,Naomi Weiss,CFO
+PO-01107,VEND-00022,CTR-0020,DEPT-019,2023-12-16,Contracts review package,900,USD,Open,Sasha Mwangi,Dept Head
+PO-01108,VEND-00062,,DEPT-003,2023-05-20,Laptop refresh batch,2300,USD,Cancelled,Luis Ortega,Dept Head
+PO-01109,VEND-00168,,DEPT-007,2025-03-29,Temp-to-hire fee,3200,USD,Closed,Owen Marsh,Dept Head
+PO-01110,VEND-00125,,DEPT-009,2024-10-16,Process transformation SOW,7800,USD,Closed,Robin Park,Dept Head
+PO-01111,VEND-00030,,DEPT-020,2025-07-12,HVAC maintenance,32000,USD,Closed,Julia Hwang,VP
+PO-01112,VEND-00176,,DEPT-016,2023-11-19,Monthly cloud consumption,800,USD,Received,Lena Brooks,Dept Head
+PO-01113,VEND-00172,,DEPT-016,2026-03-24,Laptop refresh batch,15000,USD,Received,Naomi Weiss,VP
+PO-01114,VEND-00153,,DEPT-004,2024-04-24,Temp-to-hire fee,28500,USD,Received,Peter Chen,VP
+PO-01115,VEND-00083,,DEPT-009,2024-11-10,Monthly cloud consumption,5300,USD,Cancelled,Peter Chen,Dept Head
+PO-01116,VEND-00195,,DEPT-002,2026-04-19,Mobile fleet lines,65000,USD,Closed,Tomas Kellerman,CFO
+PO-01117,VEND-00147,CTR-0030,DEPT-014,2023-12-05,Monitors and peripherals,37500,USD,Received,Priya Raman,VP
+PO-01118,VEND-00195,,DEPT-018,2025-01-30,Mobile fleet lines,38500,USD,Closed,Claire Benoit,VP
+PO-01119,VEND-00171,,DEPT-004,2024-03-13,Security services,7500,USD,Cancelled,Derek Yoon,Dept Head
+PO-01120,VEND-00021,,DEPT-014,2026-03-12,Creative production,23000,USD,Open,Peter Chen,VP
+PO-01121,VEND-00034,CTR-0032,DEPT-017,2025-05-26,Assessment phase,5200,USD,Open,Peter Chen,Dept Head
+PO-01122,VEND-00033,,DEPT-014,2024-08-30,IP counsel hours,1400,USD,Closed,Robin Park,Dept Head
+PO-01123,VEND-00010,CTR-0010,DEPT-015,2026-02-16,Implementation sprint,222000,USD,Closed,Samira Okafor,CFO
+PO-01124,VEND-00053,,DEPT-017,2023-09-12,Brand refresh SOW,420000,USD,Closed,Julia Hwang,CEO
+PO-01125,VEND-00032,CTR-0045,DEPT-013,2023-03-19,Contract engineer placement,229000,USD,Received,Samira Okafor,CFO
+PO-01126,VEND-00170,,DEPT-002,2023-01-24,Breakroom supplies,29500,USD,Closed,Samira Okafor,VP
+PO-01127,VEND-00061,,DEPT-020,2026-04-02,Mobile fleet lines,18000,USD,Closed,Owen Marsh,VP
+PO-01128,VEND-00079,,DEPT-019,2024-05-12,Ergonomics,7500,USD,Received,Claire Benoit,Dept Head
+PO-01129,VEND-00173,CTR-0072,DEPT-017,2025-12-14,Ergonomics,4100,USD,Open,Alex Rivera,Dept Head
+PO-01130,VEND-00042,CTR-0057,DEPT-001,2025-04-18,Creative production,2800,USD,Cancelled,Claire Benoit,Dept Head
+PO-01131,VEND-00158,,DEPT-016,2023-07-15,Warehousing month,42000,USD,Closed,Claire Benoit,VP
+PO-01132,VEND-00080,,DEPT-017,2025-11-24,Customs clearance,3100,USD,Closed,Owen Marsh,Dept Head
+PO-01133,VEND-00179,,DEPT-008,2024-06-30,Customs clearance,7600,USD,Open,Marco Alvarez,Dept Head
+PO-01134,VEND-00013,CTR-0013,DEPT-018,2025-11-29,Seat expansion QQ1,30500,USD,Received,Alex Rivera,VP
+PO-01135,VEND-00033,,DEPT-011,2025-07-05,Compliance advisory,4600,USD,Closed,Hana Kobayashi,Dept Head
+PO-01136,VEND-00014,,DEPT-007,2025-06-22,DR storage tier,2600,USD,Closed,Robin Park,Dept Head
+PO-01137,VEND-00046,,DEPT-005,2025-12-06,Landscaping,23000,USD,Cancelled,Peter Chen,VP
+PO-01138,VEND-00015,,DEPT-001,2025-12-03,Media buy,8000,USD,Received,Devon Parker,Dept Head
+PO-01139,VEND-00183,,DEPT-011,2025-05-22,Ergonomics,214000,USD,Closed,Luis Ortega,CFO
+PO-01140,VEND-00129,CTR-0073,DEPT-004,2023-09-21,Quarterly office supplies replen,7800,USD,Closed,Rafael Mendez,Dept Head
+PO-01141,VEND-00082,,DEPT-018,2024-12-09,Contract engineer placement,1200,USD,Received,Quinn Reyes,Dept Head
+PO-01142,VEND-00101,,DEPT-001,2025-10-29,DR storage tier,900,USD,Received,Quinn Reyes,Dept Head
+PO-01143,VEND-00006,CTR-0006,DEPT-014,2025-03-08,Creative production,22500,USD,Received,Rafael Mendez,VP
+PO-01144,VEND-00182,,DEPT-011,2024-03-21,Customs clearance,23500,USD,Open,Luis Ortega,VP
+PO-01145,VEND-00067,,DEPT-014,2025-04-18,Datacenter hardware,6900,USD,Closed,Derek Yoon,Dept Head
+PO-01146,VEND-00020,,DEPT-001,2024-05-08,Seat expansion QQ4,1100,USD,Closed,Harish Patel,Dept Head
+PO-01147,VEND-00016,,DEPT-014,2024-03-24,Laptop refresh batch,4800,USD,Closed,Luis Ortega,Dept Head
+PO-01148,VEND-00109,CTR-0033,DEPT-019,2024-12-14,Advisory engagement,46000,USD,Closed,Alex Rivera,VP
+PO-01149,VEND-00080,,DEPT-020,2024-01-22,Freight LTL lane,3500,USD,Closed,Rafael Mendez,Dept Head
+PO-01150,VEND-00011,CTR-0011,DEPT-003,2023-05-17,HVAC maintenance,840000,USD,Cancelled,Peter Chen,CEO
+PO-01151,VEND-00098,,DEPT-004,2025-12-20,Litigation retainer,5200,USD,Closed,Julia Hwang,Dept Head
+PO-01152,VEND-00026,,DEPT-015,2023-09-20,Implementation sprint,66000,USD,Received,Sasha Mwangi,CFO
+PO-01153,VEND-00167,,DEPT-015,2023-07-22,MPLS circuits month,1600,USD,Received,Harish Patel,Dept Head
+PO-01154,VEND-00142,CTR-0044,DEPT-016,2024-02-07,Corporate travel management fee,6000,USD,Closed,Priya Raman,Dept Head
+PO-01155,VEND-00110,,DEPT-011,2023-11-07,Warehousing month,46000,USD,Closed,Peter Chen,VP
+PO-01156,VEND-00151,,DEPT-010,2024-04-08,Litigation retainer,34000,USD,Open,Priya Raman,VP
+PO-01157,VEND-00157,,DEPT-006,2025-06-05,Contracts review package,7300,USD,Received,Jamie Chen,Dept Head
+PO-01158,VEND-00074,CTR-0024,DEPT-020,2025-03-15,Add-on modules,38000,USD,Open,Sasha Mwangi,VP
+PO-01159,VEND-00072,,DEPT-001,2026-02-07,Landscaping,29000,USD,Closed,Derek Yoon,VP
+PO-01160,VEND-00051,,DEPT-003,2025-01-25,DR storage tier,5800,USD,Received,Robin Park,Dept Head
+PO-01161,VEND-00103,,DEPT-011,2024-08-01,Events travel block,6900,USD,Received,Rafael Mendez,Dept Head
+PO-01162,VEND-00029,,DEPT-011,2024-01-13,Implementation sprint,3100,USD,Closed,Tomas Kellerman,Dept Head
+PO-01163,VEND-00168,,DEPT-003,2026-04-14,Staff augmentation month,38500,USD,Closed,Aditi Shah,VP
+PO-01164,VEND-00027,,DEPT-001,2024-08-17,Ergonomics,22000,USD,Closed,Lena Brooks,VP
+PO-01165,VEND-00012,CTR-0012,DEPT-003,2023-05-02,Conference travel,1400,USD,Received,Devon Parker,Dept Head
+PO-01166,VEND-00188,,DEPT-013,2023-07-20,Implementation sprint,1100,USD,Received,Robin Park,Dept Head
+PO-01167,VEND-00127,CTR-0055,DEPT-013,2023-03-01,Implementation sprint,211000,USD,Received,Peter Chen,CFO
+PO-01168,VEND-00026,,DEPT-011,2026-04-11,Advisory engagement,900,USD,Closed,Robin Park,Dept Head
+PO-01169,VEND-00011,CTR-0011,DEPT-007,2024-10-11,Cleaning services month,6200,USD,Open,Robin Park,Dept Head
+PO-01170,VEND-00143,,DEPT-004,2025-09-02,Brand refresh SOW,2600,USD,Open,Tomas Kellerman,Dept Head
+PO-01171,VEND-00133,CTR-0046,DEPT-010,2025-09-06,Freight LTL lane,2600,USD,Closed,Lena Brooks,Dept Head
+PO-01172,VEND-00173,CTR-0072,DEPT-003,2025-10-13,Breakroom supplies,51000,USD,Closed,Devon Parker,CFO
+PO-01173,VEND-00045,CTR-0039,DEPT-012,2025-06-11,Campaign retainer,925000,USD,Cancelled,Rafael Mendez,CEO
+PO-01174,VEND-00078,,DEPT-016,2024-08-03,Corporate travel management fee,1100,USD,Open,Ingrid Voss,Dept Head
+PO-01175,VEND-00116,,DEPT-017,2025-06-03,Cleaning services month,7600,USD,Closed,Marco Alvarez,Dept Head
+PO-01176,VEND-00111,,DEPT-001,2024-03-04,Assessment phase,48500,USD,Open,Sasha Mwangi,VP
+PO-01177,VEND-00151,,DEPT-007,2025-06-05,Contracts review package,16000,USD,Closed,Robin Park,VP
+PO-01178,VEND-00127,,DEPT-019,2023-03-22,Advisory engagement,1700,USD,Open,Alex Rivera,Dept Head
+PO-01179,VEND-00142,,DEPT-003,2023-04-24,Conference travel,4300,USD,Closed,Derek Yoon,Dept Head
+PO-01180,VEND-00046,CTR-0034,DEPT-006,2025-09-29,HVAC maintenance,41500,USD,Closed,Peter Chen,VP
+PO-01181,VEND-00147,CTR-0030,DEPT-004,2023-04-21,Monitors and peripherals,5600,USD,Open,Derek Yoon,Dept Head
+PO-01182,VEND-00066,,DEPT-008,2023-07-20,Contract engineer placement,7400,USD,Received,Harish Patel,Dept Head
+PO-01183,VEND-00076,,DEPT-018,2024-09-20,IP counsel hours,7800,USD,Open,Claire Benoit,Dept Head
+PO-01184,VEND-00001,,DEPT-014,2025-12-12,Egress overage,545000,USD,Received,Aditi Shah,CEO
+PO-01185,VEND-00065,,DEPT-001,2023-02-22,Last-mile delivery,80000,USD,Open,Alex Rivera,CFO
+PO-01186,VEND-00053,,DEPT-012,2024-07-19,Media buy,1800,USD,Received,Rafael Mendez,Dept Head
+PO-01187,VEND-00008,CTR-0008,DEPT-001,2025-06-03,Breakroom supplies,13000,USD,Closed,Marco Alvarez,VP
+PO-01188,VEND-00101,,DEPT-020,2024-09-30,DR storage tier,5100,USD,Closed,Alex Rivera,Dept Head
+PO-01189,VEND-00188,,DEPT-020,2025-06-26,Process transformation SOW,4400,USD,Closed,Jamie Chen,Dept Head
+PO-01190,VEND-00167,CTR-0063,DEPT-009,2025-05-17,Mobile fleet lines,4400,USD,Cancelled,Samira Okafor,Dept Head
+PO-01191,VEND-00089,,DEPT-002,2025-02-03,Events travel block,4800,USD,Received,Aditi Shah,Dept Head
+PO-01192,VEND-00172,,DEPT-020,2026-02-24,Datacenter hardware,231000,USD,Closed,Hana Kobayashi,CFO
+PO-01193,VEND-00128,,DEPT-007,2024-07-07,Annual subscription renewal,2100,USD,Received,Lena Brooks,Dept Head
+PO-01194,VEND-00113,,DEPT-018,2024-09-23,Litigation retainer,36000,USD,Closed,Harish Patel,VP
+PO-01195,VEND-00025,CTR-0067,DEPT-012,2025-05-06,Annual subscription renewal,177000,USD,Closed,Claire Benoit,CFO
+PO-01196,VEND-00014,CTR-0014,DEPT-020,2024-04-25,Monthly cloud consumption,2100,USD,Closed,Devon Parker,Dept Head
+PO-01197,VEND-00087,,DEPT-020,2025-10-01,IP counsel hours,37000,USD,Closed,Peter Chen,VP
+PO-01198,VEND-00052,,DEPT-005,2025-07-23,Monthly cloud consumption,47000,USD,Closed,Aditi Shah,VP
+PO-01199,VEND-00004,,DEPT-002,2025-10-19,IP counsel hours,2400,USD,Closed,Hana Kobayashi,Dept Head
+PO-01200,VEND-00138,,DEPT-019,2023-03-12,Corporate travel management fee,36500,USD,Received,Ingrid Voss,VP
+PO-01201,VEND-00029,,DEPT-013,2023-03-16,Process transformation SOW,3200,USD,Closed,Devon Parker,Dept Head
+PO-01202,VEND-00146,,DEPT-005,2023-09-20,Compliance advisory,500,USD,Closed,Marco Alvarez,Dept Head
+PO-01203,VEND-00040,,DEPT-001,2026-04-16,DR storage tier,31500,USD,Received,Owen Marsh,VP
+PO-01204,VEND-00174,,DEPT-002,2023-06-04,Assessment phase,7600,USD,Received,Lena Brooks,Dept Head
+PO-01205,VEND-00123,CTR-0048,DEPT-018,2023-03-06,Security services,29000,USD,Cancelled,Tomas Kellerman,VP
+PO-01206,VEND-00133,CTR-0046,DEPT-005,2024-02-03,Warehousing month,740000,USD,Closed,Tomas Kellerman,CEO
+PO-01207,VEND-00144,,DEPT-005,2024-10-02,Advisory engagement,5000,USD,Closed,Tomas Kellerman,Dept Head
+PO-01208,VEND-00010,CTR-0010,DEPT-017,2024-05-25,Implementation sprint,44000,USD,Closed,Robin Park,VP
+PO-01209,VEND-00107,,DEPT-015,2024-02-20,Laptop refresh batch,1000,USD,Received,Robin Park,Dept Head
+PO-01210,VEND-00074,CTR-0024,DEPT-015,2026-03-12,Seat expansion QQ4,26500,USD,Closed,Luis Ortega,VP
+PO-01211,VEND-00051,CTR-0076,DEPT-001,2023-04-17,Egress overage,4900,USD,Received,Devon Parker,Dept Head
+PO-01212,VEND-00108,,DEPT-014,2023-11-23,Breakroom supplies,129000,USD,Closed,Jamie Chen,CFO
+PO-01213,VEND-00190,CTR-0051,DEPT-005,2023-01-21,Compliance advisory,7700,USD,Open,Quinn Reyes,Dept Head
+PO-01214,VEND-00155,,DEPT-013,2025-01-15,Breakroom supplies,5600,USD,Closed,Aditi Shah,Dept Head
+PO-01215,VEND-00039,,DEPT-014,2024-07-29,Toll-free services,47000,USD,Open,Rafael Mendez,VP
+PO-01216,VEND-00148,CTR-0068,DEPT-003,2024-01-06,Cleaning services month,8000,USD,Received,Quinn Reyes,Dept Head
+PO-01217,VEND-00004,,DEPT-004,2025-11-02,Contracts review package,16000,USD,Closed,Claire Benoit,VP
+PO-01218,VEND-00140,,DEPT-020,2025-08-01,Mobile fleet lines,5600,USD,Open,Derek Yoon,Dept Head
+PO-01219,VEND-00047,CTR-0078,DEPT-014,2026-01-07,Implementation sprint,5300,USD,Received,Owen Marsh,Dept Head
+PO-01220,VEND-00053,,DEPT-008,2025-02-23,Media buy,7200,USD,Cancelled,Claire Benoit,Dept Head
+PO-01221,VEND-00147,CTR-0030,DEPT-001,2025-10-27,Datacenter hardware,6400,USD,Closed,Jamie Chen,Dept Head
+PO-01222,VEND-00127,CTR-0055,DEPT-004,2024-10-01,Assessment phase,46000,USD,Received,Samira Okafor,VP
+PO-01223,VEND-00013,,DEPT-007,2024-08-24,Platform support,42000,USD,Closed,Hana Kobayashi,VP
+PO-01224,VEND-00197,,DEPT-007,2025-01-12,Toll-free services,3000,USD,Received,Harish Patel,Dept Head
+PO-01225,VEND-00005,,DEPT-015,2024-09-01,Contract engineer placement,48000,USD,Received,Julia Hwang,VP
+PO-01226,VEND-00035,CTR-0043,DEPT-018,2023-09-27,Laptop refresh batch,14500,USD,Open,Ingrid Voss,VP
+PO-01227,VEND-00154,,DEPT-005,2024-12-13,Events travel block,600,USD,Closed,Julia Hwang,Dept Head
+PO-01228,VEND-00175,,DEPT-004,2024-07-08,Monitors and peripherals,1700,USD,Open,Rafael Mendez,Dept Head
+PO-01229,VEND-00047,,DEPT-010,2025-11-13,Advisory engagement,2900,USD,Closed,Cesar Ruiz,Dept Head
+PO-01230,VEND-00174,,DEPT-005,2024-10-23,Assessment phase,6600,USD,Closed,Harish Patel,Dept Head
+PO-01231,VEND-00110,,DEPT-001,2025-12-11,Freight LTL lane,16500,USD,Open,Quinn Reyes,VP
+PO-01232,VEND-00101,,DEPT-008,2025-01-11,Reserved capacity,11500,USD,Closed,Luis Ortega,VP
+PO-01233,VEND-00124,CTR-0035,DEPT-019,2025-06-11,Conference travel,3100,USD,Received,Lena Brooks,Dept Head
+PO-01234,VEND-00107,,DEPT-008,2023-06-25,Laptop refresh batch,4600,USD,Cancelled,Julia Hwang,Dept Head
+PO-01235,VEND-00071,,DEPT-017,2025-05-16,DR storage tier,32000,USD,Closed,Aditi Shah,VP
+PO-01236,VEND-00158,,DEPT-002,2024-04-28,Last-mile delivery,18500,USD,Closed,Sasha Mwangi,VP
+PO-01237,VEND-00121,,DEPT-020,2024-12-02,Add-on modules,43000,USD,Closed,Lena Brooks,VP
+PO-01238,VEND-00091,,DEPT-001,2023-04-28,Advisory engagement,4700,USD,Closed,Tomas Kellerman,Dept Head
+PO-01239,VEND-00035,CTR-0043,DEPT-020,2024-08-18,Monitors and peripherals,700,USD,Received,Samira Okafor,Dept Head
+PO-01240,VEND-00102,,DEPT-018,2024-10-14,Laptop refresh batch,680000,USD,Closed,Naomi Weiss,CEO
+PO-01241,VEND-00084,CTR-0041,DEPT-018,2024-12-10,Customs clearance,2100,USD,Closed,Ingrid Voss,Dept Head
+PO-01242,VEND-00102,,DEPT-017,2023-08-26,Monitors and peripherals,6800,USD,Received,Claire Benoit,Dept Head
+PO-01243,VEND-00004,CTR-0004,DEPT-005,2023-09-29,Litigation retainer,1700,USD,Closed,Robin Park,Dept Head
+PO-01244,VEND-00026,,DEPT-002,2024-01-07,Advisory engagement,1000,USD,Closed,Peter Chen,Dept Head
+PO-01245,VEND-00025,CTR-0067,DEPT-015,2023-08-23,Seat expansion QQ3,840000,USD,Received,Rafael Mendez,CEO
+PO-01246,VEND-00051,CTR-0076,DEPT-016,2025-11-16,Monthly cloud consumption,1000,USD,Received,Aditi Shah,Dept Head
+PO-01247,VEND-00094,CTR-0080,DEPT-004,2025-06-24,Landscaping,2800,USD,Received,Lena Brooks,Dept Head
+PO-01248,VEND-00079,CTR-0077,DEPT-003,2025-07-05,Print consumables,225000,USD,Cancelled,Samira Okafor,CFO
+PO-01249,VEND-00119,CTR-0049,DEPT-005,2024-01-12,Events travel block,7200,USD,Closed,Peter Chen,Dept Head
+PO-01250,VEND-00014,CTR-0014,DEPT-003,2025-02-14,Monthly cloud consumption,8000,USD,Received,Quinn Reyes,Dept Head
+PO-01251,VEND-00119,,DEPT-011,2024-08-02,Conference travel,14500,USD,Received,Derek Yoon,VP
+PO-01252,VEND-00072,CTR-0069,DEPT-013,2024-09-26,Landscaping,43500,USD,Closed,Naomi Weiss,VP
+PO-01253,VEND-00065,,DEPT-013,2024-04-12,Freight LTL lane,3400,USD,Cancelled,Jamie Chen,Dept Head
+PO-01254,VEND-00076,,DEPT-013,2024-07-11,Litigation retainer,12000,USD,Closed,Ingrid Voss,VP
+PO-01255,VEND-00159,,DEPT-013,2024-10-25,Last-mile delivery,8000,USD,Closed,Robin Park,Dept Head
+PO-01256,VEND-00085,CTR-0079,DEPT-020,2023-05-20,Annual SKO travel,191000,USD,Open,Marco Alvarez,CFO
+PO-01257,VEND-00194,CTR-0038,DEPT-019,2023-08-25,Corporate travel management fee,1500,USD,Received,Ingrid Voss,Dept Head
+PO-01258,VEND-00142,,DEPT-001,2025-02-15,Annual SKO travel,47500,USD,Cancelled,Ingrid Voss,VP
+PO-01259,VEND-00143,,DEPT-002,2023-12-22,Campaign retainer,43500,USD,Closed,Alex Rivera,VP
+PO-01260,VEND-00038,,DEPT-014,2023-03-24,Events travel block,3300,USD,Received,Jamie Chen,Dept Head
+PO-01261,VEND-00185,,DEPT-018,2026-02-07,Customs clearance,555000,USD,Closed,Owen Marsh,CEO
+PO-01262,VEND-00042,,DEPT-014,2024-10-04,Campaign retainer,6700,USD,Closed,Tomas Kellerman,Dept Head
+PO-01263,VEND-00047,CTR-0078,DEPT-002,2024-06-01,Process transformation SOW,6100,USD,Closed,Owen Marsh,Dept Head
+PO-01264,VEND-00061,,DEPT-019,2023-08-25,MPLS circuits month,4100,USD,Closed,Alex Rivera,Dept Head
+PO-01265,VEND-00001,CTR-0001,DEPT-015,2026-02-19,DR storage tier,198000,USD,Closed,Alex Rivera,CFO
+PO-01266,VEND-00009,CTR-0009,DEPT-018,2023-01-07,Monitors and peripherals,2900,USD,Received,Ingrid Voss,Dept Head
+PO-01267,VEND-00025,CTR-0067,DEPT-020,2025-03-20,Platform support,5800,USD,Closed,Rafael Mendez,Dept Head
+PO-01268,VEND-00070,,DEPT-020,2024-01-10,Network installation,231000,USD,Closed,Quinn Reyes,CFO
+PO-01269,VEND-00161,,DEPT-020,2026-01-30,Conference travel,4400,USD,Closed,Sasha Mwangi,Dept Head
+PO-01270,VEND-00126,,DEPT-007,2023-03-09,Ergonomics,227000,USD,Closed,Aditi Shah,CFO
+PO-01271,VEND-00053,,DEPT-020,2023-05-12,Brand refresh SOW,2600,USD,Open,Luis Ortega,Dept Head
+PO-01272,VEND-00005,CTR-0005,DEPT-019,2025-09-21,Staff augmentation month,600,USD,Closed,Ingrid Voss,Dept Head
+PO-01273,VEND-00111,,DEPT-013,2025-07-07,Process transformation SOW,5500,USD,Cancelled,Julia Hwang,Dept Head
+PO-01274,VEND-00063,,DEPT-020,2023-06-07,Ergonomics,1700,USD,Closed,Naomi Weiss,Dept Head
+PO-01275,VEND-00178,,DEPT-011,2023-01-15,Contracts review package,5200,USD,Closed,Alex Rivera,Dept Head
+PO-01276,VEND-00166,,DEPT-006,2023-03-20,HVAC maintenance,2900,USD,Open,Peter Chen,Dept Head
+PO-01277,VEND-00030,,DEPT-019,2024-09-13,HVAC maintenance,6100,USD,Closed,Lena Brooks,Dept Head
+PO-01278,VEND-00190,,DEPT-003,2026-03-14,Compliance advisory,38500,USD,Closed,Peter Chen,VP
+PO-01279,VEND-00148,CTR-0068,DEPT-012,2025-02-14,Landscaping,12000,USD,Closed,Claire Benoit,VP
+PO-01280,VEND-00188,,DEPT-015,2023-07-06,Implementation sprint,3900,USD,Received,Derek Yoon,Dept Head
+PO-01281,VEND-00073,,DEPT-007,2023-07-11,Reserved capacity,40500,USD,Received,Luis Ortega,VP
+PO-01282,VEND-00099,,DEPT-005,2025-01-24,Security services,7000,USD,Closed,Devon Parker,Dept Head
+PO-01283,VEND-00169,,DEPT-017,2025-02-21,DR storage tier,6200,USD,Received,Naomi Weiss,Dept Head
+PO-01284,VEND-00149,CTR-0056,DEPT-013,2025-11-02,Landscaping,1000,USD,Closed,Priya Raman,Dept Head
+PO-01285,VEND-00185,,DEPT-008,2023-05-06,Last-mile delivery,40500,USD,Received,Aditi Shah,VP
+PO-01286,VEND-00043,,DEPT-012,2025-05-17,Mobile fleet lines,22500,USD,Received,Ingrid Voss,VP
+PO-01287,VEND-00009,CTR-0009,DEPT-013,2023-05-08,Datacenter hardware,250000,USD,Cancelled,Hana Kobayashi,CEO
+PO-01288,VEND-00004,CTR-0004,DEPT-020,2023-08-09,IP counsel hours,2200,USD,Closed,Samira Okafor,Dept Head
+PO-01289,VEND-00064,,DEPT-001,2025-09-10,Monthly cloud consumption,3500,USD,Closed,Cesar Ruiz,Dept Head
+PO-01290,VEND-00014,CTR-0014,DEPT-003,2023-01-26,Monthly cloud consumption,1900,USD,Received,Alex Rivera,Dept Head
+PO-01291,VEND-00156,CTR-0054,DEPT-005,2023-03-06,Contracts review package,1600,USD,Open,Aditi Shah,Dept Head
+PO-01292,VEND-00197,,DEPT-009,2023-08-26,Mobile fleet lines,243000,USD,Closed,Devon Parker,CFO
+PO-01293,VEND-00051,,DEPT-011,2026-02-08,Reserved capacity,2500,USD,Closed,Derek Yoon,Dept Head
+PO-01294,VEND-00107,,DEPT-006,2026-04-14,Datacenter hardware,5300,USD,Open,Cesar Ruiz,Dept Head
+PO-01295,VEND-00107,,DEPT-011,2025-11-17,Networking gear,1200,USD,Closed,Priya Raman,Dept Head
+PO-01296,VEND-00021,,DEPT-005,2024-03-25,Brand refresh SOW,3400,USD,Closed,Marco Alvarez,Dept Head
+PO-01297,VEND-00098,,DEPT-018,2026-03-25,IP counsel hours,6100,USD,Cancelled,Samira Okafor,Dept Head
+PO-01298,VEND-00167,CTR-0063,DEPT-013,2025-07-16,Network installation,244000,USD,Closed,Priya Raman,CFO
+PO-01299,VEND-00078,,DEPT-019,2025-10-02,Events travel block,6400,USD,Closed,Derek Yoon,Dept Head
+PO-01300,VEND-00146,,DEPT-020,2026-01-22,Contracts review package,28500,USD,Closed,Hana Kobayashi,VP
+PO-01301,VEND-00124,CTR-0035,DEPT-017,2025-11-03,Events travel block,23500,USD,Received,Alex Rivera,VP
+PO-01302,VEND-00005,CTR-0005,DEPT-002,2026-03-24,Specialist placement,1700,USD,Closed,Samira Okafor,Dept Head
+PO-01303,VEND-00158,,DEPT-003,2025-01-04,Customs clearance,5900,USD,Closed,Priya Raman,Dept Head
+PO-01304,VEND-00041,CTR-0021,DEPT-015,2024-10-20,Contract engineer placement,7500,USD,Received,Harish Patel,Dept Head
+PO-01305,VEND-00008,CTR-0008,DEPT-009,2023-02-01,Quarterly office supplies replen,1400,USD,Cancelled,Harish Patel,Dept Head
+PO-01306,VEND-00043,,DEPT-013,2023-10-10,MPLS circuits month,6300,USD,Closed,Jamie Chen,Dept Head
+PO-01307,VEND-00093,,DEPT-015,2024-01-11,Landscaping,45000,USD,Received,Quinn Reyes,VP
+PO-01308,VEND-00159,,DEPT-008,2026-04-02,Freight LTL lane,17000,USD,Closed,Marco Alvarez,VP
+PO-01309,VEND-00138,CTR-0053,DEPT-020,2024-10-17,Events travel block,4600,USD,Closed,Rafael Mendez,Dept Head
+PO-01310,VEND-00075,,DEPT-018,2023-03-13,Conference travel,35500,USD,Cancelled,Quinn Reyes,VP
+PO-01311,VEND-00092,CTR-0029,DEPT-003,2025-05-21,Annual subscription renewal,7500,USD,Received,Cesar Ruiz,Dept Head
+PO-01312,VEND-00123,,DEPT-018,2023-12-21,Security services,1000,USD,Received,Tomas Kellerman,Dept Head
+PO-01313,VEND-00185,,DEPT-017,2024-05-15,Customs clearance,34500,USD,Closed,Ingrid Voss,VP
+PO-01314,VEND-00035,,DEPT-019,2024-03-25,Datacenter hardware,530000,USD,Received,Julia Hwang,CEO
+PO-01315,VEND-00087,,DEPT-016,2025-01-25,Contracts review package,5700,USD,Cancelled,Claire Benoit,Dept Head
+PO-01316,VEND-00006,CTR-0006,DEPT-009,2024-12-21,Campaign retainer,5800,USD,Received,Samira Okafor,Dept Head
+PO-01317,VEND-00015,,DEPT-002,2025-03-03,Campaign retainer,3500,USD,Closed,Tomas Kellerman,Dept Head
+PO-01318,VEND-00099,,DEPT-006,2023-05-08,Cleaning services month,500,USD,Closed,Samira Okafor,Dept Head
+PO-01319,VEND-00014,,DEPT-010,2024-11-09,Monthly cloud consumption,6600,USD,Closed,Cesar Ruiz,Dept Head
+PO-01320,VEND-00152,,DEPT-008,2024-06-21,Mobile fleet lines,2800,USD,Closed,Samira Okafor,Dept Head
+PO-01321,VEND-00089,CTR-0074,DEPT-017,2024-02-02,Events travel block,16000,USD,Received,Owen Marsh,VP
+PO-01322,VEND-00012,,DEPT-018,2026-01-21,Conference travel,5000,USD,Received,Jamie Chen,Dept Head
+PO-01323,VEND-00072,,DEPT-003,2023-01-23,Landscaping,7000,USD,Cancelled,Robin Park,Dept Head
+PO-01324,VEND-00180,,DEPT-019,2023-09-05,Platform support,800,USD,Closed,Jamie Chen,Dept Head
+PO-01325,VEND-00080,,DEPT-010,2025-01-28,Warehousing month,54000,USD,Closed,Julia Hwang,CFO
+PO-01326,VEND-00013,CTR-0013,DEPT-004,2024-07-06,Annual subscription renewal,93000,USD,Closed,Julia Hwang,CFO
+PO-01327,VEND-00080,,DEPT-002,2025-05-19,Customs clearance,7200,USD,Closed,Quinn Reyes,Dept Head
+PO-01328,VEND-00144,,DEPT-002,2025-09-28,Advisory engagement,46500,USD,Closed,Claire Benoit,VP
+PO-01329,VEND-00177,CTR-0027,DEPT-004,2023-05-20,Contracts review package,16000,USD,Received,Claire Benoit,VP
+PO-01330,VEND-00132,,DEPT-004,2023-08-25,Breakroom supplies,7500,USD,Closed,Quinn Reyes,Dept Head
+PO-01331,VEND-00009,CTR-0009,DEPT-002,2026-04-19,Datacenter hardware,2500,USD,Closed,Harish Patel,Dept Head
+PO-01332,VEND-00178,,DEPT-019,2024-12-09,Litigation retainer,75000,USD,Closed,Owen Marsh,CFO
+PO-01333,VEND-00035,CTR-0043,DEPT-018,2025-06-22,Networking gear,940000,USD,Open,Quinn Reyes,CEO
+PO-01334,VEND-00059,,DEPT-008,2025-12-20,Platform support,6700,USD,Received,Julia Hwang,Dept Head
+PO-01335,VEND-00068,,DEPT-019,2023-12-14,Temp-to-hire fee,34000,USD,Closed,Owen Marsh,VP
+PO-01336,VEND-00062,CTR-0050,DEPT-005,2025-01-13,Datacenter hardware,7300,USD,Received,Hana Kobayashi,Dept Head
+PO-01337,VEND-00024,,DEPT-006,2025-03-22,Platform support,1200,USD,Closed,Ingrid Voss,Dept Head
+PO-01338,VEND-00183,,DEPT-006,2024-05-07,Print consumables,1300,USD,Received,Peter Chen,Dept Head
+PO-01339,VEND-00136,,DEPT-005,2023-07-23,Advisory engagement,9500,USD,Closed,Owen Marsh,Dept Head
+PO-01340,VEND-00052,,DEPT-004,2025-06-15,Reserved capacity,23000,USD,Closed,Julia Hwang,VP
+PO-01341,VEND-00188,,DEPT-008,2025-06-09,Advisory engagement,43000,USD,Closed,Derek Yoon,VP
+PO-01342,VEND-00175,,DEPT-019,2024-09-28,Datacenter hardware,144000,USD,Open,Jamie Chen,CFO
+PO-01343,VEND-00012,CTR-0012,DEPT-009,2026-02-21,Events travel block,35000,USD,Received,Owen Marsh,VP
+PO-01344,VEND-00018,,DEPT-017,2026-04-05,Staff augmentation month,5300,USD,Open,Sasha Mwangi,Dept Head
+PO-01345,VEND-00125,,DEPT-006,2025-03-05,Advisory engagement,2200,USD,Cancelled,Tomas Kellerman,Dept Head
+PO-01346,VEND-00084,,DEPT-008,2025-12-13,Customs clearance,2200,USD,Received,Cesar Ruiz,Dept Head
+PO-01347,VEND-00020,,DEPT-001,2025-04-27,Platform support,7900,USD,Received,Aditi Shah,Dept Head
+PO-01348,VEND-00111,,DEPT-014,2025-09-25,Process transformation SOW,260000,USD,Open,Aditi Shah,CEO
+PO-01349,VEND-00174,,DEPT-020,2023-01-03,Advisory engagement,9500,USD,Closed,Ingrid Voss,Dept Head
+PO-01350,VEND-00129,CTR-0073,DEPT-001,2025-04-26,Ergonomics,4100,USD,Closed,Owen Marsh,Dept Head
+PO-01351,VEND-00103,,DEPT-015,2024-03-16,Conference travel,13000,USD,Received,Jamie Chen,VP
+PO-01352,VEND-00129,CTR-0073,DEPT-017,2024-01-07,Ergonomics,28000,USD,Received,Harish Patel,VP
+PO-01353,VEND-00089,CTR-0074,DEPT-007,2024-05-12,Annual SKO travel,2200,USD,Closed,Sasha Mwangi,Dept Head
+PO-01354,VEND-00088,CTR-0060,DEPT-012,2025-09-15,Ergonomics,39000,USD,Closed,Claire Benoit,VP
+PO-01355,VEND-00093,,DEPT-008,2025-12-04,Cleaning services month,4600,USD,Closed,Sasha Mwangi,Dept Head
+PO-01356,VEND-00105,,DEPT-004,2023-04-25,Litigation retainer,187000,USD,Closed,Cesar Ruiz,CFO
+PO-01357,VEND-00170,,DEPT-007,2025-11-01,Print consumables,6800,USD,Received,Quinn Reyes,Dept Head
+PO-01358,VEND-00102,,DEPT-006,2024-04-11,Monitors and peripherals,5500,USD,Closed,Luis Ortega,Dept Head
+PO-01359,VEND-00063,CTR-0042,DEPT-019,2023-09-11,Print consumables,5600,USD,Closed,Marco Alvarez,Dept Head
+PO-01360,VEND-00070,,DEPT-017,2026-02-22,Network installation,2300,USD,Closed,Marco Alvarez,Dept Head
+PO-01361,VEND-00162,CTR-0062,DEPT-019,2024-02-11,Monthly cloud consumption,1500,USD,Closed,Owen Marsh,Dept Head
+PO-01362,VEND-00012,,DEPT-005,2024-07-02,Annual SKO travel,34500,USD,Closed,Lena Brooks,VP
+PO-01363,VEND-00025,CTR-0067,DEPT-016,2025-08-18,Seat expansion QQ1,47500,USD,Closed,Julia Hwang,VP
+PO-01364,VEND-00192,,DEPT-019,2025-11-04,Last-mile delivery,2200,USD,Received,Derek Yoon,Dept Head
+PO-01365,VEND-00189,,DEPT-002,2023-08-03,Specialist placement,2400,USD,Closed,Luis Ortega,Dept Head
+PO-01366,VEND-00093,,DEPT-019,2025-11-23,Cleaning services month,4900,USD,Closed,Aditi Shah,Dept Head
+PO-01367,VEND-00038,,DEPT-019,2025-09-08,Annual SKO travel,43500,USD,Cancelled,Claire Benoit,VP
+PO-01368,VEND-00139,,DEPT-003,2025-04-01,HVAC maintenance,31000,USD,Received,Harish Patel,VP
+PO-01369,VEND-00005,CTR-0005,DEPT-001,2024-07-26,Temp-to-hire fee,700,USD,Received,Luis Ortega,Dept Head
+PO-01370,VEND-00027,,DEPT-015,2023-09-17,Print consumables,26500,USD,Closed,Priya Raman,VP
+PO-01371,VEND-00005,,DEPT-010,2024-01-30,Specialist placement,35500,USD,Closed,Aditi Shah,VP
+PO-01372,VEND-00132,,DEPT-009,2025-01-25,Breakroom supplies,2500,USD,Closed,Peter Chen,Dept Head
+PO-01373,VEND-00087,,DEPT-006,2024-12-11,Compliance advisory,4200,USD,Open,Julia Hwang,Dept Head
+PO-01374,VEND-00112,,DEPT-012,2024-04-15,Process transformation SOW,45000,USD,Received,Tomas Kellerman,VP
+PO-01375,VEND-00005,CTR-0005,DEPT-010,2023-12-18,Specialist placement,9000,USD,Received,Sasha Mwangi,Dept Head
+PO-01376,VEND-00010,,DEPT-007,2024-02-10,Process transformation SOW,2500,USD,Received,Priya Raman,Dept Head
+PO-01377,VEND-00024,CTR-0017,DEPT-014,2023-04-29,Seat expansion QQ3,86000,USD,Closed,Ingrid Voss,CFO
+PO-01378,VEND-00052,,DEPT-013,2023-06-10,Monthly cloud consumption,101000,USD,Open,Hana Kobayashi,CFO
+PO-01379,VEND-00033,,DEPT-015,2025-10-03,Litigation retainer,5400,USD,Closed,Ingrid Voss,Dept Head
+PO-01380,VEND-00065,,DEPT-005,2025-09-14,Warehousing month,2600,USD,Open,Priya Raman,Dept Head
+PO-01381,VEND-00018,,DEPT-012,2025-10-16,Temp-to-hire fee,152000,USD,Closed,Julia Hwang,CFO
+PO-01382,VEND-00155,,DEPT-019,2025-12-23,Print consumables,21500,USD,Open,Julia Hwang,VP
+PO-01383,VEND-00166,,DEPT-008,2023-04-07,Security services,4500,USD,Closed,Alex Rivera,Dept Head
+PO-01384,VEND-00024,CTR-0017,DEPT-001,2023-03-17,Add-on modules,116000,USD,Cancelled,Rafael Mendez,CFO
+PO-01385,VEND-00117,,DEPT-017,2023-04-16,Seat expansion QQ1,29500,USD,Received,Tomas Kellerman,VP
+PO-01386,VEND-00173,CTR-0072,DEPT-019,2023-06-15,Ergonomics,47500,USD,Open,Quinn Reyes,VP
+PO-01387,VEND-00198,,DEPT-014,2025-08-05,Customs clearance,4100,USD,Closed,Naomi Weiss,Dept Head
+PO-01388,VEND-00075,,DEPT-016,2025-12-11,Annual SKO travel,3400,USD,Received,Quinn Reyes,Dept Head
+PO-01389,VEND-00101,,DEPT-001,2025-07-04,Egress overage,800,USD,Received,Owen Marsh,Dept Head
+PO-01390,VEND-00151,CTR-0070,DEPT-010,2023-02-13,IP counsel hours,4200,USD,Closed,Derek Yoon,Dept Head
+PO-01391,VEND-00087,,DEPT-001,2024-02-26,IP counsel hours,1100,USD,Open,Robin Park,Dept Head
+PO-01392,VEND-00010,CTR-0010,DEPT-018,2024-04-21,Implementation sprint,7900,USD,Closed,Peter Chen,Dept Head
+PO-01393,VEND-00029,,DEPT-004,2023-10-23,Implementation sprint,1800,USD,Closed,Hana Kobayashi,Dept Head
+PO-01394,VEND-00142,CTR-0044,DEPT-020,2024-01-29,Conference travel,1700,USD,Closed,Samira Okafor,Dept Head
+PO-01395,VEND-00193,,DEPT-019,2023-12-06,Landscaping,229000,USD,Open,Lena Brooks,CFO
+PO-01396,VEND-00004,,DEPT-019,2023-07-05,IP counsel hours,6200,USD,Received,Tomas Kellerman,Dept Head
+PO-01397,VEND-00157,,DEPT-018,2024-02-07,Compliance advisory,520000,USD,Open,Claire Benoit,CEO
+PO-01398,VEND-00114,,DEPT-001,2026-04-11,Corporate travel management fee,5700,USD,Closed,Robin Park,Dept Head
+PO-01399,VEND-00080,,DEPT-015,2025-02-04,Customs clearance,35000,USD,Open,Cesar Ruiz,VP
+PO-01400,VEND-00122,,DEPT-015,2024-07-07,Contracts review package,5000,USD,Closed,Tomas Kellerman,Dept Head
+PO-01401,VEND-00115,CTR-0036,DEPT-012,2025-03-15,Mobile fleet lines,163000,USD,Closed,Cesar Ruiz,CFO
+PO-01402,VEND-00032,CTR-0045,DEPT-004,2025-06-24,Staff augmentation month,3200,USD,Received,Derek Yoon,Dept Head
+PO-01403,VEND-00152,,DEPT-010,2024-10-29,Mobile fleet lines,520000,USD,Open,Claire Benoit,CEO
+PO-01404,VEND-00056,,DEPT-010,2023-11-04,Annual subscription renewal,10000,USD,Open,Julia Hwang,VP
+PO-01405,VEND-00162,,DEPT-007,2025-11-24,Egress overage,35000,USD,Received,Derek Yoon,VP
+PO-01406,VEND-00011,,DEPT-007,2023-08-21,HVAC maintenance,199000,USD,Received,Ingrid Voss,CFO
+PO-01407,VEND-00058,,DEPT-014,2024-04-28,Implementation sprint,46000,USD,Closed,Quinn Reyes,VP
+PO-01408,VEND-00107,,DEPT-016,2026-02-07,Laptop refresh batch,3300,USD,Received,Ingrid Voss,Dept Head
+PO-01409,VEND-00095,,DEPT-017,2024-04-27,Datacenter hardware,900,USD,Closed,Aditi Shah,Dept Head
+PO-01410,VEND-00053,,DEPT-008,2025-04-13,Creative production,9500,USD,Open,Luis Ortega,Dept Head
+PO-01411,VEND-00147,CTR-0030,DEPT-020,2025-01-11,Monitors and peripherals,4000,USD,Closed,Julia Hwang,Dept Head
+PO-01412,VEND-00074,CTR-0024,DEPT-002,2024-04-10,Platform support,20500,USD,Open,Hana Kobayashi,VP
+PO-01413,VEND-00071,,DEPT-003,2024-09-29,DR storage tier,208000,USD,Closed,Derek Yoon,CFO
+PO-01414,VEND-00188,,DEPT-007,2023-01-17,Advisory engagement,6200,USD,Received,Marco Alvarez,Dept Head
+PO-01415,VEND-00179,,DEPT-020,2025-06-30,Customs clearance,99000,USD,Closed,Luis Ortega,CFO
+PO-01416,VEND-00036,,DEPT-019,2026-03-29,HVAC maintenance,2500,USD,Closed,Hana Kobayashi,Dept Head
+PO-01417,VEND-00025,CTR-0067,DEPT-005,2023-05-10,Platform support,40500,USD,Received,Rafael Mendez,VP
+PO-01418,VEND-00142,,DEPT-003,2025-12-14,Corporate travel management fee,16000,USD,Open,Aditi Shah,VP
+PO-01419,VEND-00173,,DEPT-010,2023-01-14,Print consumables,3500,USD,Received,Devon Parker,Dept Head
+PO-01420,VEND-00142,,DEPT-015,2025-09-24,Events travel block,2400,USD,Received,Rafael Mendez,Dept Head
+PO-01421,VEND-00040,,DEPT-010,2024-06-28,Reserved capacity,233000,USD,Received,Samira Okafor,CFO
+PO-01422,VEND-00176,CTR-0025,DEPT-018,2024-09-17,DR storage tier,17500,USD,Closed,Owen Marsh,VP
+PO-01423,VEND-00196,,DEPT-017,2024-03-14,Freight LTL lane,15000,USD,Closed,Alex Rivera,VP
+PO-01424,VEND-00067,,DEPT-017,2023-12-05,Datacenter hardware,8500,USD,Received,Quinn Reyes,Dept Head
+PO-01425,VEND-00006,,DEPT-007,2023-03-09,Creative production,315000,USD,Received,Marco Alvarez,CEO
+PO-01426,VEND-00037,CTR-0071,DEPT-019,2023-02-02,Corporate travel management fee,5900,USD,Received,Quinn Reyes,Dept Head
+PO-01427,VEND-00200,,DEPT-004,2024-11-12,Temp-to-hire fee,45000,USD,Closed,Owen Marsh,VP
+PO-01428,VEND-00140,,DEPT-015,2026-01-05,Network installation,135000,USD,Closed,Julia Hwang,CFO
+PO-01429,VEND-00154,,DEPT-020,2024-05-02,Events travel block,6300,USD,Received,Derek Yoon,Dept Head
+PO-01430,VEND-00169,,DEPT-002,2023-09-05,DR storage tier,4900,USD,Open,Peter Chen,Dept Head
+PO-01431,VEND-00127,CTR-0055,DEPT-019,2025-06-11,Implementation sprint,16000,USD,Closed,Rafael Mendez,VP
+PO-01432,VEND-00048,,DEPT-014,2025-10-25,Assessment phase,14500,USD,Received,Tomas Kellerman,VP
+PO-01433,VEND-00086,,DEPT-010,2024-08-12,Monitors and peripherals,1600,USD,Open,Rafael Mendez,Dept Head
+PO-01434,VEND-00123,CTR-0048,DEPT-013,2024-08-05,HVAC maintenance,4500,USD,Closed,Alex Rivera,Dept Head
+PO-01435,VEND-00102,,DEPT-001,2023-07-20,Networking gear,44500,USD,Cancelled,Peter Chen,VP
+PO-01436,VEND-00094,CTR-0080,DEPT-011,2024-10-11,Cleaning services month,4700,USD,Cancelled,Harish Patel,Dept Head
+PO-01437,VEND-00179,,DEPT-005,2023-09-08,Last-mile delivery,2700,USD,Received,Alex Rivera,Dept Head
+PO-01438,VEND-00105,CTR-0022,DEPT-017,2025-11-19,Compliance advisory,1000,USD,Closed,Alex Rivera,Dept Head
+PO-01439,VEND-00008,CTR-0008,DEPT-007,2024-03-13,Ergonomics,1600,USD,Received,Claire Benoit,Dept Head
+PO-01440,VEND-00138,,DEPT-012,2025-11-28,Events travel block,26500,USD,Closed,Naomi Weiss,VP
+PO-01441,VEND-00080,,DEPT-018,2025-03-18,Last-mile delivery,26500,USD,Closed,Samira Okafor,VP
+PO-01442,VEND-00152,,DEPT-002,2025-03-07,MPLS circuits month,13000,USD,Received,Robin Park,VP
+PO-01443,VEND-00021,,DEPT-020,2026-04-15,Media buy,7200,USD,Open,Robin Park,Dept Head
+PO-01444,VEND-00193,,DEPT-018,2024-12-27,Security services,600,USD,Open,Jamie Chen,Dept Head
+PO-01445,VEND-00100,,DEPT-019,2023-05-23,IP counsel hours,21500,USD,Closed,Derek Yoon,VP
+PO-01446,VEND-00107,,DEPT-020,2023-09-25,Datacenter hardware,5400,USD,Closed,Derek Yoon,Dept Head
+PO-01447,VEND-00022,,DEPT-016,2025-04-26,IP counsel hours,25000,USD,Closed,Luis Ortega,VP
+PO-01448,VEND-00121,,DEPT-001,2026-03-16,Seat expansion QQ2,18000,USD,Open,Claire Benoit,VP
+PO-01449,VEND-00199,,DEPT-015,2024-03-06,MPLS circuits month,3900,USD,Received,Peter Chen,Dept Head
+PO-01450,VEND-00172,,DEPT-018,2026-01-26,Networking gear,16500,USD,Received,Harish Patel,VP
+PO-01451,VEND-00061,,DEPT-014,2025-05-03,Network installation,32500,USD,Closed,Peter Chen,VP
+PO-01452,VEND-00122,,DEPT-009,2024-07-01,Litigation retainer,1000,USD,Received,Hana Kobayashi,Dept Head
+PO-01453,VEND-00119,,DEPT-009,2025-03-15,Annual SKO travel,11000,USD,Open,Naomi Weiss,VP
+PO-01454,VEND-00137,,DEPT-007,2025-06-13,Print consumables,7000,USD,Closed,Jamie Chen,Dept Head
+PO-01455,VEND-00025,,DEPT-012,2023-10-23,Platform support,85000,USD,Received,Peter Chen,CFO
+PO-01456,VEND-00124,,DEPT-010,2024-08-05,Events travel block,250000,USD,Closed,Ingrid Voss,CEO
+PO-01457,VEND-00011,,DEPT-004,2024-02-21,Security services,5600,USD,Received,Priya Raman,Dept Head
+PO-01458,VEND-00008,,DEPT-007,2024-05-05,Breakroom supplies,33000,USD,Closed,Rafael Mendez,VP
+PO-01459,VEND-00062,CTR-0050,DEPT-014,2023-07-26,Datacenter hardware,7000,USD,Closed,Tomas Kellerman,Dept Head
+PO-01460,VEND-00158,,DEPT-016,2025-09-09,Warehousing month,12000,USD,Closed,Ingrid Voss,VP
+PO-01461,VEND-00010,CTR-0010,DEPT-019,2026-03-03,Implementation sprint,39000,USD,Closed,Priya Raman,VP
+PO-01462,VEND-00100,,DEPT-004,2024-04-05,Litigation retainer,6900,USD,Closed,Ingrid Voss,Dept Head
+PO-01463,VEND-00116,CTR-0052,DEPT-018,2024-09-20,Cleaning services month,4400,USD,Closed,Naomi Weiss,Dept Head
+PO-01464,VEND-00140,,DEPT-012,2023-06-24,MPLS circuits month,28000,USD,Closed,Hana Kobayashi,VP
+PO-01465,VEND-00146,,DEPT-015,2023-11-04,IP counsel hours,41500,USD,Received,Sasha Mwangi,VP
+PO-01466,VEND-00131,,DEPT-004,2024-05-13,Annual SKO travel,620000,USD,Open,Marco Alvarez,CEO
+PO-01467,VEND-00102,,DEPT-016,2023-06-27,Datacenter hardware,5200,USD,Received,Hana Kobayashi,Dept Head
+PO-01468,VEND-00039,,DEPT-005,2023-09-21,MPLS circuits month,5400,USD,Closed,Jamie Chen,Dept Head
+PO-01469,VEND-00056,,DEPT-002,2025-09-18,Platform support,26500,USD,Open,Jamie Chen,VP
+PO-01470,VEND-00173,CTR-0072,DEPT-015,2024-04-07,Print consumables,3800,USD,Closed,Aditi Shah,Dept Head
+PO-01471,VEND-00034,CTR-0032,DEPT-010,2023-02-05,Process transformation SOW,4300,USD,Received,Harish Patel,Dept Head
+PO-01472,VEND-00024,CTR-0017,DEPT-019,2024-12-14,Platform support,6300,USD,Received,Owen Marsh,Dept Head
+PO-01473,VEND-00037,CTR-0071,DEPT-008,2026-02-19,Events travel block,2400,USD,Closed,Tomas Kellerman,Dept Head
+PO-01474,VEND-00127,CTR-0055,DEPT-013,2024-06-08,Assessment phase,2900,USD,Open,Sasha Mwangi,Dept Head
+PO-01475,VEND-00013,CTR-0013,DEPT-019,2024-10-26,Annual subscription renewal,78000,USD,Closed,Priya Raman,CFO
+PO-01476,VEND-00028,,DEPT-006,2024-10-29,Specialist placement,635000,USD,Closed,Alex Rivera,CEO
+PO-01477,VEND-00015,CTR-0015,DEPT-007,2025-11-29,Brand refresh SOW,1300,USD,Closed,Quinn Reyes,Dept Head
+PO-01478,VEND-00019,,DEPT-020,2024-07-22,Security services,11000,USD,Received,Peter Chen,VP
+PO-01479,VEND-00178,,DEPT-003,2023-03-15,Compliance advisory,6900,USD,Received,Quinn Reyes,Dept Head
+PO-01480,VEND-00029,,DEPT-010,2023-09-13,Advisory engagement,1600,USD,Closed,Quinn Reyes,Dept Head
+PO-01481,VEND-00137,,DEPT-012,2025-01-07,Ergonomics,7800,USD,Received,Derek Yoon,Dept Head
+PO-01482,VEND-00039,,DEPT-006,2024-08-30,MPLS circuits month,6200,USD,Closed,Robin Park,Dept Head
+PO-01483,VEND-00024,CTR-0017,DEPT-002,2024-06-28,Platform support,8000,USD,Closed,Cesar Ruiz,Dept Head
+PO-01484,VEND-00024,CTR-0017,DEPT-001,2026-01-07,Seat expansion QQ3,1200,USD,Cancelled,Claire Benoit,Dept Head
+PO-01485,VEND-00135,,DEPT-002,2025-11-30,Mobile fleet lines,4800,USD,Closed,Samira Okafor,Dept Head
+PO-01486,VEND-00146,,DEPT-005,2024-05-18,Contracts review package,195000,USD,Received,Harish Patel,CFO
+PO-01487,VEND-00045,CTR-0039,DEPT-002,2023-09-15,Media buy,6700,USD,Received,Samira Okafor,Dept Head
+PO-01488,VEND-00026,,DEPT-019,2025-05-21,Implementation sprint,7600,USD,Cancelled,Tomas Kellerman,Dept Head
+PO-01489,VEND-00178,,DEPT-004,2023-07-31,Contracts review package,24500,USD,Received,Claire Benoit,VP
+PO-01490,VEND-00155,,DEPT-001,2025-08-31,Breakroom supplies,7100,USD,Closed,Julia Hwang,Dept Head
+PO-01491,VEND-00014,CTR-0014,DEPT-003,2023-08-12,DR storage tier,4300,USD,Received,Naomi Weiss,Dept Head
+PO-01492,VEND-00070,,DEPT-008,2024-09-27,Toll-free services,33000,USD,Closed,Derek Yoon,VP
+PO-01493,VEND-00140,,DEPT-002,2024-01-03,MPLS circuits month,7600,USD,Closed,Rafael Mendez,Dept Head
+PO-01494,VEND-00016,,DEPT-003,2024-05-09,Laptop refresh batch,175000,USD,Closed,Devon Parker,CFO
+PO-01495,VEND-00105,CTR-0022,DEPT-010,2024-12-01,IP counsel hours,600,USD,Closed,Alex Rivera,Dept Head
+PO-01496,VEND-00120,,DEPT-012,2025-07-07,Breakroom supplies,182000,USD,Closed,Samira Okafor,CFO
+PO-01497,VEND-00069,,DEPT-008,2025-11-17,Customs clearance,900,USD,Closed,Derek Yoon,Dept Head
+PO-01498,VEND-00151,CTR-0070,DEPT-001,2025-06-05,Contracts review package,21000,USD,Closed,Quinn Reyes,VP
+PO-01499,VEND-00102,,DEPT-020,2023-11-10,Monitors and peripherals,25000,USD,Open,Peter Chen,VP
+PO-01500,VEND-00083,,DEPT-016,2024-05-22,Reserved capacity,47000,USD,Closed,Naomi Weiss,VP
+PO-01501,VEND-00028,,DEPT-001,2025-04-08,Specialist placement,47000,USD,Closed,Julia Hwang,VP
+PO-01502,VEND-00159,,DEPT-018,2024-05-28,Freight LTL lane,6800,USD,Received,Devon Parker,Dept Head
+PO-01503,VEND-00028,,DEPT-010,2023-12-19,Temp-to-hire fee,59000,USD,Closed,Aditi Shah,CFO
+PO-01504,VEND-00191,,DEPT-009,2025-11-05,Events travel block,3300,USD,Received,Harish Patel,Dept Head
+PO-01505,VEND-00189,,DEPT-013,2025-09-03,Staff augmentation month,1200,USD,Closed,Sasha Mwangi,Dept Head
+PO-01506,VEND-00038,,DEPT-008,2025-08-21,Events travel block,590000,USD,Open,Luis Ortega,CEO
+PO-01507,VEND-00035,CTR-0043,DEPT-002,2024-09-28,Monitors and peripherals,4200,USD,Received,Sasha Mwangi,Dept Head
+PO-01508,VEND-00177,CTR-0027,DEPT-002,2024-03-03,Compliance advisory,3900,USD,Closed,Derek Yoon,Dept Head
+PO-01509,VEND-00074,CTR-0024,DEPT-015,2025-02-24,Annual subscription renewal,7900,USD,Closed,Priya Raman,Dept Head
+PO-01510,VEND-00089,CTR-0074,DEPT-010,2023-02-09,Corporate travel management fee,1300,USD,Received,Aditi Shah,Dept Head
+PO-01511,VEND-00174,,DEPT-015,2025-03-24,Process transformation SOW,4100,USD,Closed,Tomas Kellerman,Dept Head
+PO-01512,VEND-00056,,DEPT-010,2026-02-05,Seat expansion QQ4,7500,USD,Closed,Luis Ortega,Dept Head
+PO-01513,VEND-00017,,DEPT-003,2024-04-03,Staff augmentation month,2900,USD,Received,Jamie Chen,Dept Head
+PO-01514,VEND-00120,,DEPT-012,2025-07-31,Ergonomics,600,USD,Received,Sasha Mwangi,Dept Head
+PO-01515,VEND-00184,,DEPT-002,2024-11-07,Litigation retainer,895000,USD,Open,Derek Yoon,CEO
+PO-01516,VEND-00038,,DEPT-001,2025-10-16,Annual SKO travel,4800,USD,Cancelled,Sasha Mwangi,Dept Head
+PO-01517,VEND-00119,,DEPT-009,2026-02-19,Conference travel,3900,USD,Cancelled,Claire Benoit,Dept Head
+PO-01518,VEND-00122,,DEPT-009,2023-02-02,Litigation retainer,1500,USD,Cancelled,Alex Rivera,Dept Head
+PO-01519,VEND-00032,CTR-0045,DEPT-019,2023-12-12,Contract engineer placement,10500,USD,Cancelled,Jamie Chen,VP
+PO-01520,VEND-00065,,DEPT-014,2024-11-05,Customs clearance,28000,USD,Open,Tomas Kellerman,VP
+PO-01521,VEND-00179,,DEPT-019,2024-03-17,Warehousing month,1200,USD,Closed,Tomas Kellerman,Dept Head
+PO-01522,VEND-00061,,DEPT-005,2023-06-28,Network installation,4200,USD,Closed,Devon Parker,Dept Head
+PO-01523,VEND-00109,,DEPT-014,2026-01-31,Process transformation SOW,2700,USD,Open,Naomi Weiss,Dept Head
+PO-01524,VEND-00039,,DEPT-019,2025-04-18,MPLS circuits month,5800,USD,Received,Claire Benoit,Dept Head
+PO-01525,VEND-00049,,DEPT-004,2023-06-14,Litigation retainer,189000,USD,Cancelled,Ingrid Voss,CFO
+PO-01526,VEND-00035,CTR-0043,DEPT-005,2024-11-18,Networking gear,7200,USD,Closed,Lena Brooks,Dept Head
+PO-01527,VEND-00090,,DEPT-017,2025-10-12,Cleaning services month,10000,USD,Cancelled,Derek Yoon,VP
+PO-01528,VEND-00062,,DEPT-009,2024-04-16,Networking gear,18500,USD,Received,Harish Patel,VP
+PO-01529,VEND-00042,,DEPT-015,2024-05-28,Campaign retainer,44500,USD,Received,Priya Raman,VP
+PO-01530,VEND-00092,CTR-0029,DEPT-019,2024-01-20,Add-on modules,14000,USD,Open,Aditi Shah,VP
+PO-01531,VEND-00046,CTR-0034,DEPT-011,2023-11-22,Landscaping,13500,USD,Closed,Cesar Ruiz,VP
+PO-01532,VEND-00138,CTR-0053,DEPT-016,2025-10-19,Corporate travel management fee,28500,USD,Closed,Luis Ortega,VP
+PO-01533,VEND-00168,,DEPT-019,2025-09-20,Contract engineer placement,28000,USD,Received,Robin Park,VP
+PO-01534,VEND-00170,,DEPT-017,2024-05-19,Breakroom supplies,5200,USD,Received,Claire Benoit,Dept Head
+PO-01535,VEND-00172,,DEPT-007,2024-09-12,Networking gear,38000,USD,Cancelled,Cesar Ruiz,VP
+PO-01536,VEND-00091,,DEPT-007,2024-04-28,Process transformation SOW,4800,USD,Closed,Tomas Kellerman,Dept Head
+PO-01537,VEND-00123,CTR-0048,DEPT-016,2024-04-17,Cleaning services month,4800,USD,Received,Luis Ortega,Dept Head
+PO-01538,VEND-00151,,DEPT-002,2024-10-15,IP counsel hours,7500,USD,Open,Marco Alvarez,Dept Head
+PO-01539,VEND-00008,CTR-0008,DEPT-007,2025-01-06,Ergonomics,4400,USD,Received,Quinn Reyes,Dept Head
+PO-01540,VEND-00133,,DEPT-010,2024-07-18,Warehousing month,6600,USD,Closed,Aditi Shah,Dept Head
+PO-01541,VEND-00123,CTR-0048,DEPT-008,2023-02-26,Security services,2000,USD,Received,Jamie Chen,Dept Head
+PO-01542,VEND-00012,,DEPT-003,2025-06-11,Corporate travel management fee,4900,USD,Closed,Luis Ortega,Dept Head
+PO-01543,VEND-00061,,DEPT-019,2023-05-28,Toll-free services,32000,USD,Closed,Peter Chen,VP
+PO-01544,VEND-00176,,DEPT-018,2023-09-06,Reserved capacity,1800,USD,Open,Luis Ortega,Dept Head
+PO-01545,VEND-00031,,DEPT-005,2024-12-16,Corporate travel management fee,26000,USD,Received,Harish Patel,VP
+PO-01546,VEND-00194,CTR-0038,DEPT-005,2024-06-15,Annual SKO travel,44000,USD,Closed,Hana Kobayashi,VP
+PO-01547,VEND-00165,CTR-0037,DEPT-011,2024-09-02,Annual subscription renewal,43500,USD,Open,Tomas Kellerman,VP
+PO-01548,VEND-00139,,DEPT-020,2025-10-10,Security services,26000,USD,Received,Marco Alvarez,VP
+PO-01549,VEND-00134,,DEPT-016,2026-02-04,Add-on modules,45500,USD,Closed,Devon Parker,VP
+PO-01550,VEND-00063,CTR-0042,DEPT-018,2023-10-24,Print consumables,19000,USD,Open,Robin Park,VP
+PO-01551,VEND-00111,,DEPT-014,2025-04-16,Advisory engagement,1900,USD,Received,Owen Marsh,Dept Head
+PO-01552,VEND-00144,,DEPT-017,2026-03-04,Advisory engagement,34000,USD,Received,Lena Brooks,VP
+PO-01553,VEND-00020,,DEPT-013,2024-08-22,Platform support,2400,USD,Closed,Quinn Reyes,Dept Head
+PO-01554,VEND-00051,CTR-0076,DEPT-013,2024-09-10,DR storage tier,3700,USD,Closed,Robin Park,Dept Head
+PO-01555,VEND-00060,,DEPT-012,2026-03-06,Laptop refresh batch,4000,USD,Closed,Priya Raman,Dept Head
+PO-01556,VEND-00037,CTR-0071,DEPT-016,2026-03-21,Events travel block,4500,USD,Closed,Rafael Mendez,Dept Head
+PO-01557,VEND-00008,CTR-0008,DEPT-019,2023-03-03,Breakroom supplies,5700,USD,Received,Marco Alvarez,Dept Head
+PO-01558,VEND-00137,,DEPT-008,2024-08-09,Print consumables,4000,USD,Open,Ingrid Voss,Dept Head
+PO-01559,VEND-00141,,DEPT-017,2023-01-22,Landscaping,6300,USD,Closed,Marco Alvarez,Dept Head
+PO-01560,VEND-00130,CTR-0018,DEPT-010,2026-03-14,Implementation sprint,5800,USD,Open,Sasha Mwangi,Dept Head
+PO-01561,VEND-00075,CTR-0075,DEPT-011,2025-05-25,Conference travel,5400,USD,Closed,Robin Park,Dept Head
+PO-01562,VEND-00199,,DEPT-014,2025-11-15,Network installation,201000,USD,Closed,Devon Parker,CFO
+PO-01563,VEND-00002,CTR-0002,DEPT-012,2024-10-08,Seat expansion QQ4,10000,USD,Open,Rafael Mendez,VP
+PO-01564,VEND-00074,CTR-0024,DEPT-008,2025-07-22,Add-on modules,780000,USD,Received,Robin Park,CEO
+PO-01565,VEND-00076,,DEPT-015,2023-09-06,Litigation retainer,4800,USD,Closed,Luis Ortega,Dept Head
+PO-01566,VEND-00139,,DEPT-007,2025-09-18,Security services,48000,USD,Closed,Aditi Shah,VP
+PO-01567,VEND-00065,,DEPT-012,2023-01-14,Customs clearance,112000,USD,Open,Sasha Mwangi,CFO
+PO-01568,VEND-00049,,DEPT-011,2023-12-13,IP counsel hours,4400,USD,Closed,Hana Kobayashi,Dept Head
+PO-01569,VEND-00195,,DEPT-020,2023-02-06,Mobile fleet lines,5400,USD,Closed,Lena Brooks,Dept Head
+PO-01570,VEND-00047,CTR-0078,DEPT-012,2024-03-30,Implementation sprint,6500,USD,Closed,Harish Patel,Dept Head
+PO-01571,VEND-00153,,DEPT-001,2024-09-17,Contract engineer placement,6400,USD,Closed,Luis Ortega,Dept Head
+PO-01572,VEND-00059,CTR-0019,DEPT-008,2023-05-05,Add-on modules,995000,USD,Received,Priya Raman,CEO
+PO-01573,VEND-00029,,DEPT-011,2024-10-24,Implementation sprint,7700,USD,Received,Peter Chen,Dept Head
+PO-01574,VEND-00074,CTR-0024,DEPT-006,2023-05-11,Platform support,4100,USD,Received,Naomi Weiss,Dept Head
+PO-01575,VEND-00080,,DEPT-017,2026-03-25,Customs clearance,44500,USD,Closed,Samira Okafor,VP
+PO-01576,VEND-00005,CTR-0005,DEPT-017,2025-03-17,Temp-to-hire fee,5800,USD,Closed,Ingrid Voss,Dept Head
+PO-01577,VEND-00174,,DEPT-020,2024-07-14,Advisory engagement,3600,USD,Closed,Tomas Kellerman,Dept Head
+PO-01578,VEND-00002,,DEPT-001,2025-04-05,Annual subscription renewal,7700,USD,Open,Jamie Chen,Dept Head
+PO-01579,VEND-00145,,DEPT-013,2023-08-23,Warehousing month,42500,USD,Received,Quinn Reyes,VP
+PO-01580,VEND-00159,,DEPT-008,2024-12-05,Customs clearance,4600,USD,Received,Jamie Chen,Dept Head
+PO-01581,VEND-00183,,DEPT-017,2025-08-17,Quarterly office supplies replen,7700,USD,Received,Jamie Chen,Dept Head
+PO-01582,VEND-00091,,DEPT-009,2025-08-13,Advisory engagement,5700,USD,Closed,Marco Alvarez,Dept Head
+PO-01583,VEND-00065,,DEPT-011,2023-04-15,Freight LTL lane,23000,USD,Open,Ingrid Voss,VP
+PO-01584,VEND-00129,CTR-0073,DEPT-002,2026-03-19,Breakroom supplies,6300,USD,Closed,Priya Raman,Dept Head
+PO-01585,VEND-00129,CTR-0073,DEPT-003,2024-04-04,Quarterly office supplies replen,1200,USD,Closed,Ingrid Voss,Dept Head
+PO-01586,VEND-00073,,DEPT-012,2025-01-06,Monthly cloud consumption,21000,USD,Received,Cesar Ruiz,VP
+PO-01587,VEND-00033,,DEPT-009,2025-11-11,Compliance advisory,2900,USD,Closed,Samira Okafor,Dept Head
+PO-01588,VEND-00040,,DEPT-002,2024-08-18,DR storage tier,195000,USD,Closed,Priya Raman,CFO
+PO-01589,VEND-00035,CTR-0043,DEPT-010,2023-11-11,Laptop refresh batch,27000,USD,Received,Robin Park,VP
+PO-01590,VEND-00153,,DEPT-016,2023-03-22,Staff augmentation month,2500,USD,Received,Tomas Kellerman,Dept Head
+PO-01591,VEND-00120,,DEPT-016,2023-06-30,Quarterly office supplies replen,3500,USD,Received,Ingrid Voss,Dept Head
+PO-01592,VEND-00158,,DEPT-014,2025-04-19,Customs clearance,5400,USD,Closed,Owen Marsh,Dept Head
+PO-01593,VEND-00198,,DEPT-014,2024-09-02,Customs clearance,48500,USD,Open,Jamie Chen,VP
+PO-01594,VEND-00199,,DEPT-017,2023-02-14,Network installation,28500,USD,Received,Alex Rivera,VP
+PO-01595,VEND-00111,,DEPT-002,2026-01-06,Assessment phase,50000,USD,Closed,Julia Hwang,CFO
+PO-01596,VEND-00076,,DEPT-019,2024-08-26,Litigation retainer,32500,USD,Received,Samira Okafor,VP
+PO-01597,VEND-00143,,DEPT-008,2023-11-27,Media buy,76000,USD,Closed,Peter Chen,CFO
+PO-01598,VEND-00017,,DEPT-013,2023-07-15,Temp-to-hire fee,5500,USD,Closed,Luis Ortega,Dept Head
+PO-01599,VEND-00024,CTR-0017,DEPT-013,2026-02-09,Seat expansion QQ3,7000,USD,Closed,Luis Ortega,Dept Head
+PO-01600,VEND-00155,,DEPT-007,2025-05-04,Print consumables,1500,USD,Open,Peter Chen,Dept Head
+PO-01601,VEND-00158,,DEPT-014,2024-03-18,Last-mile delivery,3700,USD,Cancelled,Naomi Weiss,Dept Head
+PO-01602,VEND-00036,,DEPT-010,2024-05-08,Landscaping,800,USD,Received,Sasha Mwangi,Dept Head
+PO-01603,VEND-00137,,DEPT-012,2024-02-12,Print consumables,221000,USD,Received,Luis Ortega,CFO
+PO-01604,VEND-00101,,DEPT-020,2023-01-28,Egress overage,134000,USD,Cancelled,Priya Raman,CFO
+PO-01605,VEND-00192,,DEPT-013,2024-10-27,Freight LTL lane,33000,USD,Closed,Tomas Kellerman,VP
+PO-01606,VEND-00026,,DEPT-015,2024-08-19,Implementation sprint,13500,USD,Cancelled,Samira Okafor,VP
+PO-01607,VEND-00022,CTR-0020,DEPT-020,2025-05-13,IP counsel hours,15000,USD,Received,Luis Ortega,VP
+PO-01608,VEND-00037,CTR-0071,DEPT-012,2024-11-10,Events travel block,6300,USD,Open,Alex Rivera,Dept Head
+PO-01609,VEND-00034,CTR-0032,DEPT-015,2023-04-08,Assessment phase,24500,USD,Open,Rafael Mendez,VP
+PO-01610,VEND-00083,,DEPT-013,2024-04-14,Reserved capacity,495000,USD,Received,Jamie Chen,CEO
+PO-01611,VEND-00157,,DEPT-016,2023-03-06,Contracts review package,5800,USD,Received,Luis Ortega,Dept Head
+PO-01612,VEND-00066,,DEPT-018,2023-11-26,Contract engineer placement,16500,USD,Open,Samira Okafor,VP
+PO-01613,VEND-00166,,DEPT-012,2023-11-13,HVAC maintenance,4100,USD,Open,Priya Raman,Dept Head
+PO-01614,VEND-00131,,DEPT-003,2026-03-03,Events travel block,48000,USD,Closed,Claire Benoit,VP
+PO-01615,VEND-00043,,DEPT-003,2024-08-16,MPLS circuits month,3000,USD,Open,Lena Brooks,Dept Head
+PO-01616,VEND-00175,,DEPT-012,2023-10-31,Networking gear,35000,USD,Closed,Samira Okafor,VP
+PO-01617,VEND-00033,,DEPT-019,2023-01-19,Contracts review package,110000,USD,Closed,Harish Patel,CFO
+PO-01618,VEND-00047,CTR-0078,DEPT-016,2025-10-26,Implementation sprint,5300,USD,Received,Ingrid Voss,Dept Head
+PO-01619,VEND-00098,,DEPT-016,2025-03-28,Compliance advisory,7200,USD,Received,Rafael Mendez,Dept Head
+PO-01620,VEND-00065,,DEPT-012,2026-01-29,Customs clearance,4800,USD,Received,Hana Kobayashi,Dept Head
+PO-01621,VEND-00066,,DEPT-014,2023-06-18,Temp-to-hire fee,650000,USD,Received,Owen Marsh,CEO
+PO-01622,VEND-00078,,DEPT-004,2025-09-16,Conference travel,6100,USD,Closed,Robin Park,Dept Head
+PO-01623,VEND-00135,,DEPT-009,2026-02-09,MPLS circuits month,19500,USD,Closed,Alex Rivera,VP
+PO-01624,VEND-00167,,DEPT-004,2024-03-31,Mobile fleet lines,11000,USD,Closed,Derek Yoon,VP
+PO-01625,VEND-00046,,DEPT-008,2025-02-28,Landscaping,174000,USD,Received,Jamie Chen,CFO
+PO-01626,VEND-00153,,DEPT-001,2026-04-16,Staff augmentation month,47500,USD,Received,Claire Benoit,VP
+PO-01627,VEND-00016,,DEPT-002,2025-06-29,Laptop refresh batch,10000,USD,Closed,Alex Rivera,VP
+PO-01628,VEND-00169,,DEPT-017,2023-03-30,Monthly cloud consumption,4700,USD,Closed,Jamie Chen,Dept Head
+PO-01629,VEND-00009,,DEPT-018,2024-06-22,Monitors and peripherals,44000,USD,Cancelled,Tomas Kellerman,VP
+PO-01630,VEND-00098,,DEPT-008,2023-05-01,Compliance advisory,5000,USD,Received,Quinn Reyes,Dept Head
+PO-01631,VEND-00153,,DEPT-006,2023-05-15,Specialist placement,50000,USD,Closed,Robin Park,CFO
+PO-01632,VEND-00116,CTR-0052,DEPT-020,2025-08-26,Cleaning services month,6100,USD,Received,Jamie Chen,Dept Head
+PO-01633,VEND-00119,CTR-0049,DEPT-015,2026-01-09,Corporate travel management fee,9500,USD,Closed,Naomi Weiss,Dept Head
+PO-01634,VEND-00075,,DEPT-010,2025-11-05,Conference travel,7100,USD,Closed,Derek Yoon,Dept Head
+PO-01635,VEND-00036,,DEPT-002,2025-04-24,HVAC maintenance,4200,USD,Received,Aditi Shah,Dept Head
+PO-01636,VEND-00026,,DEPT-010,2024-06-08,Process transformation SOW,6100,USD,Received,Samira Okafor,Dept Head
+PO-01637,VEND-00101,,DEPT-003,2025-02-10,Monthly cloud consumption,17000,USD,Closed,Devon Parker,VP
+PO-01638,VEND-00199,,DEPT-018,2024-05-08,Mobile fleet lines,5500,USD,Received,Sasha Mwangi,Dept Head
+PO-01639,VEND-00186,,DEPT-004,2026-02-06,Reserved capacity,22500,USD,Closed,Julia Hwang,VP
+PO-01640,VEND-00100,,DEPT-003,2025-05-01,IP counsel hours,3800,USD,Closed,Aditi Shah,Dept Head
+PO-01641,VEND-00014,CTR-0014,DEPT-014,2026-01-06,Monthly cloud consumption,330000,USD,Closed,Priya Raman,CEO
+PO-01642,VEND-00192,,DEPT-005,2026-04-02,Freight LTL lane,30000,USD,Closed,Derek Yoon,VP
+PO-01643,VEND-00101,,DEPT-008,2025-05-28,Reserved capacity,4000,USD,Received,Julia Hwang,Dept Head
+PO-01644,VEND-00168,,DEPT-001,2024-07-11,Specialist placement,40500,USD,Received,Harish Patel,VP
+PO-01645,VEND-00065,,DEPT-018,2025-09-13,Last-mile delivery,249000,USD,Open,Marco Alvarez,CFO
+PO-01646,VEND-00193,,DEPT-006,2024-01-13,Landscaping,5800,USD,Received,Luis Ortega,Dept Head
+PO-01647,VEND-00096,,DEPT-003,2024-01-12,Monitors and peripherals,1200,USD,Closed,Rafael Mendez,Dept Head
+PO-01648,VEND-00089,,DEPT-012,2023-01-02,Events travel block,19000,USD,Received,Aditi Shah,VP
+PO-01649,VEND-00034,CTR-0032,DEPT-016,2024-10-19,Advisory engagement,6200,USD,Received,Aditi Shah,Dept Head
+PO-01650,VEND-00032,,DEPT-008,2025-02-15,Contract engineer placement,1000,USD,Open,Claire Benoit,Dept Head
+PO-01651,VEND-00070,,DEPT-007,2024-08-16,Mobile fleet lines,6000,USD,Closed,Peter Chen,Dept Head
+PO-01652,VEND-00063,,DEPT-013,2025-07-17,Print consumables,15000,USD,Received,Marco Alvarez,VP
+PO-01653,VEND-00175,,DEPT-010,2025-08-23,Datacenter hardware,7100,USD,Received,Samira Okafor,Dept Head
+PO-01654,VEND-00199,,DEPT-017,2025-02-20,MPLS circuits month,86000,USD,Received,Aditi Shah,CFO
+PO-01655,VEND-00083,,DEPT-004,2025-05-19,DR storage tier,42000,USD,Received,Aditi Shah,VP
+PO-01656,VEND-00071,,DEPT-007,2023-08-27,Monthly cloud consumption,48500,USD,Closed,Luis Ortega,VP
+PO-01657,VEND-00170,,DEPT-014,2025-12-24,Ergonomics,2400,USD,Closed,Devon Parker,Dept Head
+PO-01658,VEND-00100,,DEPT-020,2025-01-08,Contracts review package,5300,USD,Open,Marco Alvarez,Dept Head
+PO-01659,VEND-00060,,DEPT-018,2023-10-03,Datacenter hardware,4000,USD,Closed,Luis Ortega,Dept Head
+PO-01660,VEND-00084,CTR-0041,DEPT-019,2023-01-31,Warehousing month,33500,USD,Received,Harish Patel,VP
+PO-01661,VEND-00006,CTR-0006,DEPT-001,2025-12-05,Campaign retainer,6500,USD,Closed,Luis Ortega,Dept Head
+PO-01662,VEND-00153,,DEPT-017,2025-12-10,Contract engineer placement,2100,USD,Closed,Tomas Kellerman,Dept Head
+PO-01663,VEND-00084,CTR-0041,DEPT-010,2023-01-21,Customs clearance,44000,USD,Open,Cesar Ruiz,VP
+PO-01664,VEND-00025,CTR-0067,DEPT-003,2023-03-16,Add-on modules,51000,USD,Closed,Naomi Weiss,CFO
+PO-01665,VEND-00152,,DEPT-016,2026-01-02,MPLS circuits month,47000,USD,Received,Marco Alvarez,VP
+PO-01666,VEND-00024,CTR-0017,DEPT-001,2025-12-29,Platform support,39000,USD,Closed,Owen Marsh,VP
+PO-01667,VEND-00158,,DEPT-009,2024-02-24,Warehousing month,500,USD,Closed,Priya Raman,Dept Head
+PO-01668,VEND-00123,,DEPT-006,2023-10-05,Security services,49000,USD,Received,Sasha Mwangi,VP
+PO-01669,VEND-00092,CTR-0029,DEPT-019,2023-05-08,Annual subscription renewal,1700,USD,Open,Samira Okafor,Dept Head
+PO-01670,VEND-00109,,DEPT-014,2024-12-25,Implementation sprint,35000,USD,Closed,Cesar Ruiz,VP
+PO-01671,VEND-00014,,DEPT-004,2023-05-13,DR storage tier,1100,USD,Received,Jamie Chen,Dept Head
+PO-01672,VEND-00096,,DEPT-015,2025-03-16,Monitors and peripherals,14000,USD,Received,Devon Parker,VP
+PO-01673,VEND-00123,CTR-0048,DEPT-012,2024-10-26,Landscaping,3500,USD,Received,Marco Alvarez,Dept Head
+PO-01674,VEND-00159,,DEPT-012,2023-09-13,Customs clearance,6900,USD,Open,Robin Park,Dept Head
+PO-01675,VEND-00002,,DEPT-013,2023-08-02,Add-on modules,48000,USD,Closed,Hana Kobayashi,VP
+PO-01676,VEND-00119,CTR-0049,DEPT-014,2023-01-24,Events travel block,4800,USD,Closed,Rafael Mendez,Dept Head
+PO-01677,VEND-00036,,DEPT-016,2025-06-25,Security services,239000,USD,Received,Devon Parker,CFO
+PO-01678,VEND-00063,CTR-0042,DEPT-006,2024-07-20,Breakroom supplies,27000,USD,Open,Aditi Shah,VP
+PO-01679,VEND-00109,CTR-0033,DEPT-014,2023-05-22,Process transformation SOW,20500,USD,Closed,Sasha Mwangi,VP
+PO-01680,VEND-00100,,DEPT-020,2024-12-23,Compliance advisory,6200,USD,Closed,Rafael Mendez,Dept Head
+PO-01681,VEND-00176,,DEPT-017,2024-07-03,Monthly cloud consumption,36000,USD,Open,Harish Patel,VP
+PO-01682,VEND-00070,,DEPT-020,2025-09-06,MPLS circuits month,3500,USD,Received,Marco Alvarez,Dept Head
+PO-01683,VEND-00197,,DEPT-001,2025-02-06,Mobile fleet lines,38500,USD,Open,Naomi Weiss,VP
+PO-01684,VEND-00171,,DEPT-017,2026-02-17,Cleaning services month,1400,USD,Closed,Devon Parker,Dept Head
+PO-01685,VEND-00056,,DEPT-001,2023-09-03,Seat expansion QQ3,41500,USD,Closed,Peter Chen,VP
+PO-01686,VEND-00199,,DEPT-002,2025-08-04,MPLS circuits month,4100,USD,Received,Aditi Shah,Dept Head
+PO-01687,VEND-00114,,DEPT-007,2025-01-14,Conference travel,9000,USD,Closed,Ingrid Voss,Dept Head
+PO-01688,VEND-00135,,DEPT-007,2025-09-18,Toll-free services,183000,USD,Received,Hana Kobayashi,CFO
+PO-01689,VEND-00176,,DEPT-009,2025-02-04,Reserved capacity,5900,USD,Closed,Aditi Shah,Dept Head
+PO-01690,VEND-00120,,DEPT-001,2025-02-25,Ergonomics,5300,USD,Closed,Quinn Reyes,Dept Head
+PO-01691,VEND-00190,CTR-0051,DEPT-018,2024-11-19,IP counsel hours,22000,USD,Received,Harish Patel,VP
+PO-01692,VEND-00045,CTR-0039,DEPT-008,2024-07-10,Campaign retainer,1000,USD,Received,Priya Raman,Dept Head
+PO-01693,VEND-00072,CTR-0069,DEPT-017,2024-03-24,Cleaning services month,6300,USD,Received,Naomi Weiss,Dept Head
+PO-01694,VEND-00172,,DEPT-017,2023-04-03,Networking gear,22000,USD,Closed,Robin Park,VP
+PO-01695,VEND-00008,,DEPT-010,2023-09-17,Print consumables,1800,USD,Closed,Tomas Kellerman,Dept Head
+PO-01696,VEND-00133,,DEPT-003,2024-03-29,Customs clearance,4400,USD,Closed,Priya Raman,Dept Head
+PO-01697,VEND-00109,,DEPT-019,2023-10-17,Advisory engagement,1100,USD,Closed,Marco Alvarez,Dept Head
+PO-01698,VEND-00156,CTR-0054,DEPT-003,2024-11-03,Contracts review package,2500,USD,Received,Jamie Chen,Dept Head
+PO-01699,VEND-00190,,DEPT-010,2025-05-06,IP counsel hours,8000,USD,Received,Lena Brooks,Dept Head
+PO-01700,VEND-00155,,DEPT-007,2023-02-01,Breakroom supplies,7000,USD,Received,Ingrid Voss,Dept Head
+PO-01701,VEND-00102,,DEPT-020,2025-04-28,Networking gear,106000,USD,Closed,Harish Patel,CFO
+PO-01702,VEND-00024,,DEPT-011,2024-01-30,Platform support,119000,USD,Cancelled,Claire Benoit,CFO
+PO-01703,VEND-00190,,DEPT-020,2026-03-07,Contracts review package,7100,USD,Closed,Owen Marsh,Dept Head
+PO-01704,VEND-00174,,DEPT-002,2023-12-02,Advisory engagement,35000,USD,Open,Jamie Chen,VP
+PO-01705,VEND-00109,,DEPT-002,2024-09-14,Advisory engagement,4300,USD,Open,Ingrid Voss,Dept Head
+PO-01706,VEND-00078,,DEPT-017,2024-08-01,Annual SKO travel,48500,USD,Cancelled,Alex Rivera,VP
+PO-01707,VEND-00006,,DEPT-018,2024-08-05,Campaign retainer,143000,USD,Received,Devon Parker,CFO
+PO-01708,VEND-00177,CTR-0027,DEPT-020,2023-04-23,Litigation retainer,39000,USD,Closed,Julia Hwang,VP
+PO-01709,VEND-00013,CTR-0013,DEPT-010,2025-12-28,Annual subscription renewal,3100,USD,Cancelled,Sasha Mwangi,Dept Head
+PO-01710,VEND-00093,,DEPT-008,2025-04-12,Landscaping,1000,USD,Closed,Rafael Mendez,Dept Head
+PO-01711,VEND-00004,CTR-0004,DEPT-007,2024-05-09,IP counsel hours,2800,USD,Closed,Hana Kobayashi,Dept Head
+PO-01712,VEND-00061,,DEPT-016,2024-09-20,Toll-free services,3200,USD,Closed,Priya Raman,Dept Head
+PO-01713,VEND-00154,,DEPT-003,2025-09-23,Corporate travel management fee,3000,USD,Closed,Owen Marsh,Dept Head
+PO-01714,VEND-00142,,DEPT-002,2024-11-23,Corporate travel management fee,3900,USD,Received,Devon Parker,Dept Head
+PO-01715,VEND-00024,,DEPT-011,2025-08-21,Add-on modules,4300,USD,Open,Devon Parker,Dept Head
+PO-01716,VEND-00141,CTR-0028,DEPT-013,2024-04-11,Landscaping,116000,USD,Closed,Derek Yoon,CFO
+PO-01717,VEND-00115,CTR-0036,DEPT-011,2023-12-06,Mobile fleet lines,4400,USD,Open,Tomas Kellerman,Dept Head
+PO-01718,VEND-00116,CTR-0052,DEPT-014,2023-04-30,Landscaping,9500,USD,Received,Alex Rivera,Dept Head
+PO-01719,VEND-00183,,DEPT-007,2024-06-23,Ergonomics,8000,USD,Closed,Peter Chen,Dept Head
+PO-01720,VEND-00012,CTR-0012,DEPT-009,2023-12-16,Corporate travel management fee,5700,USD,Closed,Jamie Chen,Dept Head
+PO-01721,VEND-00005,CTR-0005,DEPT-012,2024-05-26,Contract engineer placement,4700,USD,Closed,Samira Okafor,Dept Head
+PO-01722,VEND-00008,CTR-0008,DEPT-015,2023-06-18,Ergonomics,19000,USD,Cancelled,Lena Brooks,VP
+PO-01723,VEND-00109,CTR-0033,DEPT-014,2026-03-23,Process transformation SOW,243000,USD,Received,Ingrid Voss,CFO
+PO-01724,VEND-00043,,DEPT-006,2023-04-17,MPLS circuits month,5800,USD,Closed,Julia Hwang,Dept Head
+PO-01725,VEND-00101,,DEPT-002,2023-06-07,Monthly cloud consumption,16000,USD,Closed,Priya Raman,VP
+PO-01726,VEND-00001,CTR-0001,DEPT-002,2024-05-03,DR storage tier,1400,USD,Closed,Julia Hwang,Dept Head
+PO-01727,VEND-00104,,DEPT-020,2026-04-19,Monthly cloud consumption,2200,USD,Closed,Luis Ortega,Dept Head
+PO-01728,VEND-00164,CTR-0047,DEPT-019,2023-07-18,Assessment phase,7700,USD,Closed,Aditi Shah,Dept Head
+PO-01729,VEND-00005,CTR-0005,DEPT-011,2025-01-17,Specialist placement,33500,USD,Open,Claire Benoit,VP
+PO-01730,VEND-00185,,DEPT-009,2023-01-06,Freight LTL lane,85000,USD,Received,Quinn Reyes,CFO
+PO-01731,VEND-00046,CTR-0034,DEPT-018,2024-06-23,Landscaping,6500,USD,Closed,Hana Kobayashi,Dept Head
+PO-01732,VEND-00086,,DEPT-007,2024-01-08,Monitors and peripherals,4100,USD,Open,Robin Park,Dept Head
+PO-01733,VEND-00190,CTR-0051,DEPT-019,2025-11-18,Litigation retainer,6000,USD,Closed,Ingrid Voss,Dept Head
+PO-01734,VEND-00154,,DEPT-012,2025-12-06,Corporate travel management fee,22000,USD,Closed,Aditi Shah,VP
+PO-01735,VEND-00091,,DEPT-017,2024-11-09,Implementation sprint,1000,USD,Closed,Marco Alvarez,Dept Head
+PO-01736,VEND-00075,,DEPT-005,2023-11-30,Corporate travel management fee,5400,USD,Closed,Aditi Shah,Dept Head
+PO-01737,VEND-00048,,DEPT-010,2024-05-30,Advisory engagement,3300,USD,Received,Naomi Weiss,Dept Head
+PO-01738,VEND-00140,,DEPT-011,2025-02-19,Mobile fleet lines,27000,USD,Open,Jamie Chen,VP
+PO-01739,VEND-00163,,DEPT-003,2025-12-16,Corporate travel management fee,5600,USD,Received,Sasha Mwangi,Dept Head
+PO-01740,VEND-00047,,DEPT-007,2024-01-16,Implementation sprint,460000,USD,Received,Robin Park,CEO
+PO-01741,VEND-00111,,DEPT-015,2024-05-23,Implementation sprint,6200,USD,Closed,Jamie Chen,Dept Head
+PO-01742,VEND-00199,,DEPT-018,2024-04-11,MPLS circuits month,1400,USD,Received,Ingrid Voss,Dept Head
+PO-01743,VEND-00171,,DEPT-020,2023-04-01,HVAC maintenance,7500,USD,Closed,Robin Park,Dept Head
+PO-01744,VEND-00166,,DEPT-012,2023-07-04,HVAC maintenance,750000,USD,Closed,Cesar Ruiz,CEO
+PO-01745,VEND-00129,CTR-0073,DEPT-015,2024-07-30,Print consumables,3900,USD,Closed,Hana Kobayashi,Dept Head
+PO-01746,VEND-00087,,DEPT-006,2023-10-30,Contracts review package,6700,USD,Closed,Julia Hwang,Dept Head
+PO-01747,VEND-00120,,DEPT-005,2023-12-31,Quarterly office supplies replen,6200,USD,Closed,Cesar Ruiz,Dept Head
+PO-01748,VEND-00069,,DEPT-012,2025-03-23,Warehousing month,26000,USD,Received,Rafael Mendez,VP
+PO-01749,VEND-00012,,DEPT-003,2023-11-13,Corporate travel management fee,1300,USD,Closed,Luis Ortega,Dept Head
+PO-01750,VEND-00144,,DEPT-011,2024-01-05,Advisory engagement,6700,USD,Closed,Samira Okafor,Dept Head
+PO-01751,VEND-00088,CTR-0060,DEPT-012,2025-08-03,Breakroom supplies,16000,USD,Received,Luis Ortega,VP
+PO-01752,VEND-00132,,DEPT-010,2023-12-20,Ergonomics,1200,USD,Closed,Jamie Chen,Dept Head
+PO-01753,VEND-00168,,DEPT-015,2025-06-04,Contract engineer placement,3500,USD,Closed,Cesar Ruiz,Dept Head
+PO-01754,VEND-00124,,DEPT-008,2024-04-13,Annual SKO travel,5500,USD,Closed,Sasha Mwangi,Dept Head
+PO-01755,VEND-00070,,DEPT-003,2024-04-19,Toll-free services,49500,USD,Closed,Claire Benoit,VP
+PO-01756,VEND-00107,,DEPT-017,2025-08-28,Laptop refresh batch,21000,USD,Cancelled,Sasha Mwangi,VP
+PO-01757,VEND-00094,,DEPT-020,2024-06-02,Security services,41500,USD,Closed,Naomi Weiss,VP
+PO-01758,VEND-00075,CTR-0075,DEPT-018,2025-06-16,Annual SKO travel,57000,USD,Closed,Samira Okafor,CFO
+PO-01759,VEND-00062,,DEPT-008,2025-02-13,Monitors and peripherals,47000,USD,Received,Devon Parker,VP
+PO-01760,VEND-00034,CTR-0032,DEPT-018,2024-07-26,Process transformation SOW,5000,USD,Received,Samira Okafor,Dept Head
+PO-01761,VEND-00146,,DEPT-014,2025-04-02,IP counsel hours,210000,USD,Received,Derek Yoon,CFO
+PO-01762,VEND-00185,,DEPT-013,2026-03-18,Customs clearance,2400,USD,Closed,Robin Park,Dept Head
+PO-01763,VEND-00004,CTR-0004,DEPT-007,2023-10-09,Contracts review package,3700,USD,Received,Ingrid Voss,Dept Head
+PO-01764,VEND-00062,,DEPT-013,2025-04-21,Datacenter hardware,27000,USD,Open,Quinn Reyes,VP
+PO-01765,VEND-00093,,DEPT-003,2024-12-16,Cleaning services month,5500,USD,Received,Devon Parker,Dept Head
+PO-01766,VEND-00058,,DEPT-013,2025-08-08,Process transformation SOW,10000,USD,Received,Alex Rivera,VP
+PO-01767,VEND-00003,,DEPT-004,2024-07-13,Warehousing month,22000,USD,Closed,Peter Chen,VP
+PO-01768,VEND-00126,,DEPT-007,2024-08-13,Ergonomics,20500,USD,Closed,Samira Okafor,VP
+PO-01769,VEND-00030,,DEPT-009,2024-07-26,Landscaping,22000,USD,Closed,Samira Okafor,VP
+PO-01770,VEND-00142,,DEPT-005,2026-04-07,Corporate travel management fee,900,USD,Closed,Sasha Mwangi,Dept Head
+PO-01771,VEND-00098,,DEPT-004,2023-04-27,IP counsel hours,2000,USD,Closed,Tomas Kellerman,Dept Head
+PO-01772,VEND-00200,,DEPT-012,2025-09-23,Specialist placement,7600,USD,Closed,Jamie Chen,Dept Head
+PO-01773,VEND-00108,,DEPT-007,2025-07-24,Print consumables,13000,USD,Closed,Alex Rivera,VP
+PO-01774,VEND-00163,,DEPT-008,2025-10-24,Annual SKO travel,1100,USD,Open,Aditi Shah,Dept Head
+PO-01775,VEND-00163,,DEPT-009,2025-06-07,Conference travel,6000,USD,Received,Sasha Mwangi,Dept Head
+PO-01776,VEND-00120,,DEPT-017,2026-01-31,Print consumables,4900,USD,Open,Naomi Weiss,Dept Head
+PO-01777,VEND-00032,CTR-0045,DEPT-009,2025-03-13,Contract engineer placement,19500,USD,Closed,Peter Chen,VP
+PO-01778,VEND-00157,,DEPT-016,2024-07-05,Compliance advisory,19500,USD,Open,Quinn Reyes,VP
+PO-01779,VEND-00162,CTR-0062,DEPT-001,2025-08-15,Reserved capacity,7400,USD,Closed,Robin Park,Dept Head
+PO-01780,VEND-00193,,DEPT-003,2024-07-11,Security services,2000,USD,Closed,Peter Chen,Dept Head
+PO-01781,VEND-00028,,DEPT-020,2025-03-26,Specialist placement,26500,USD,Closed,Priya Raman,VP
+PO-01782,VEND-00128,,DEPT-006,2026-03-31,Platform support,212000,USD,Received,Jamie Chen,CFO
+PO-01783,VEND-00003,,DEPT-003,2024-03-29,Customs clearance,46000,USD,Closed,Robin Park,VP
+PO-01784,VEND-00085,,DEPT-011,2024-01-20,Conference travel,21000,USD,Received,Devon Parker,VP
+PO-01785,VEND-00031,,DEPT-006,2024-06-30,Conference travel,15000,USD,Cancelled,Claire Benoit,VP
+PO-01786,VEND-00058,,DEPT-003,2026-02-09,Advisory engagement,5200,USD,Received,Tomas Kellerman,Dept Head
+PO-01787,VEND-00109,CTR-0033,DEPT-020,2026-01-08,Implementation sprint,248000,USD,Cancelled,Priya Raman,CFO
+PO-01788,VEND-00001,,DEPT-003,2024-01-31,DR storage tier,5500,USD,Received,Marco Alvarez,Dept Head
+PO-01789,VEND-00083,,DEPT-019,2026-01-25,DR storage tier,16000,USD,Closed,Owen Marsh,VP
+PO-01790,VEND-00068,,DEPT-008,2025-07-20,Temp-to-hire fee,129000,USD,Closed,Robin Park,CFO
+PO-01791,VEND-00091,,DEPT-003,2023-09-13,Implementation sprint,24500,USD,Closed,Quinn Reyes,VP
+PO-01792,VEND-00166,,DEPT-020,2026-02-19,HVAC maintenance,6700,USD,Closed,Sasha Mwangi,Dept Head
+PO-01793,VEND-00200,,DEPT-009,2025-01-09,Staff augmentation month,66000,USD,Closed,Marco Alvarez,CFO
+PO-01794,VEND-00143,,DEPT-017,2023-05-05,Campaign retainer,5000,USD,Received,Priya Raman,Dept Head
+PO-01795,VEND-00146,,DEPT-004,2025-08-29,Compliance advisory,47500,USD,Open,Tomas Kellerman,VP
+PO-01796,VEND-00003,CTR-0003,DEPT-008,2025-01-02,Freight LTL lane,47500,USD,Cancelled,Quinn Reyes,VP
+PO-01797,VEND-00087,,DEPT-018,2025-05-26,Litigation retainer,19500,USD,Closed,Derek Yoon,VP
+PO-01798,VEND-00198,CTR-0026,DEPT-018,2024-09-06,Freight LTL lane,228000,USD,Cancelled,Devon Parker,CFO
+PO-01799,VEND-00178,,DEPT-005,2024-11-28,Compliance advisory,126000,USD,Received,Robin Park,CFO
+PO-01800,VEND-00034,,DEPT-007,2024-05-29,Process transformation SOW,39500,USD,Received,Samira Okafor,VP
+PO-01801,VEND-00121,,DEPT-014,2025-03-29,Platform support,7700,USD,Closed,Naomi Weiss,Dept Head
+PO-01802,VEND-00147,CTR-0030,DEPT-019,2025-02-09,Networking gear,2400,USD,Open,Derek Yoon,Dept Head
+PO-01803,VEND-00058,,DEPT-011,2023-03-06,Process transformation SOW,39500,USD,Received,Tomas Kellerman,VP
+PO-01804,VEND-00180,CTR-0065,DEPT-018,2025-08-24,Seat expansion QQ3,32500,USD,Closed,Sasha Mwangi,VP
+PO-01805,VEND-00198,CTR-0026,DEPT-007,2024-07-26,Customs clearance,37000,USD,Closed,Julia Hwang,VP
+PO-01806,VEND-00137,,DEPT-007,2023-08-30,Ergonomics,47500,USD,Closed,Tomas Kellerman,VP
+PO-01807,VEND-00136,,DEPT-004,2025-12-05,Assessment phase,2500,USD,Closed,Sasha Mwangi,Dept Head
+PO-01808,VEND-00059,CTR-0019,DEPT-007,2024-04-10,Annual subscription renewal,2800,USD,Received,Alex Rivera,Dept Head
+PO-01809,VEND-00113,,DEPT-018,2023-10-22,Litigation retainer,5000,USD,Closed,Cesar Ruiz,Dept Head
+PO-01810,VEND-00200,,DEPT-012,2025-08-21,Temp-to-hire fee,930000,USD,Cancelled,Samira Okafor,CEO
+PO-01811,VEND-00199,,DEPT-016,2024-09-28,MPLS circuits month,5500,USD,Closed,Marco Alvarez,Dept Head
+PO-01812,VEND-00145,,DEPT-010,2026-03-30,Customs clearance,188000,USD,Open,Marco Alvarez,CFO
+PO-01813,VEND-00036,,DEPT-020,2025-02-17,Security services,25500,USD,Received,Lena Brooks,VP
+PO-01814,VEND-00021,,DEPT-016,2024-07-18,Media buy,13000,USD,Closed,Sasha Mwangi,VP
+PO-01815,VEND-00010,CTR-0010,DEPT-006,2025-03-15,Process transformation SOW,21500,USD,Open,Claire Benoit,VP
+PO-01816,VEND-00082,,DEPT-005,2024-12-30,Contract engineer placement,4700,USD,Closed,Lena Brooks,Dept Head
+PO-01817,VEND-00009,CTR-0009,DEPT-009,2023-12-14,Datacenter hardware,40000,USD,Open,Lena Brooks,VP
+PO-01818,VEND-00179,,DEPT-019,2026-02-28,Warehousing month,725000,USD,Received,Aditi Shah,CEO
+PO-01819,VEND-00104,,DEPT-013,2023-11-10,DR storage tier,2900,USD,Closed,Tomas Kellerman,Dept Head
+PO-01820,VEND-00042,CTR-0057,DEPT-003,2023-04-16,Media buy,146000,USD,Closed,Samira Okafor,CFO
+PO-01821,VEND-00020,,DEPT-015,2025-07-07,Annual subscription renewal,28000,USD,Open,Peter Chen,VP
+PO-01822,VEND-00079,CTR-0077,DEPT-017,2025-10-15,Ergonomics,2800,USD,Closed,Peter Chen,Dept Head
+PO-01823,VEND-00152,,DEPT-017,2025-03-23,MPLS circuits month,194000,USD,Closed,Quinn Reyes,CFO
+PO-01824,VEND-00104,,DEPT-011,2024-07-21,DR storage tier,12000,USD,Closed,Naomi Weiss,VP
+PO-01825,VEND-00151,CTR-0070,DEPT-019,2025-09-26,Litigation retainer,2100,USD,Closed,Jamie Chen,Dept Head
+PO-01826,VEND-00114,,DEPT-003,2024-11-16,Events travel block,10000,USD,Closed,Tomas Kellerman,VP
+PO-01827,VEND-00031,,DEPT-016,2025-03-16,Corporate travel management fee,5700,USD,Open,Marco Alvarez,Dept Head
+PO-01828,VEND-00044,,DEPT-009,2025-11-26,Litigation retainer,16000,USD,Received,Julia Hwang,VP
+PO-01829,VEND-00199,,DEPT-016,2023-09-08,Toll-free services,2300,USD,Closed,Peter Chen,Dept Head
+PO-01830,VEND-00031,,DEPT-011,2023-03-17,Corporate travel management fee,800,USD,Received,Cesar Ruiz,Dept Head
+PO-01831,VEND-00148,,DEPT-004,2025-10-25,Cleaning services month,36000,USD,Closed,Aditi Shah,VP
+PO-01832,VEND-00183,,DEPT-015,2025-06-23,Print consumables,1500,USD,Received,Devon Parker,Dept Head
+PO-01833,VEND-00177,CTR-0027,DEPT-012,2026-02-06,IP counsel hours,3500,USD,Open,Samira Okafor,Dept Head
+PO-01834,VEND-00142,CTR-0044,DEPT-020,2025-01-30,Annual SKO travel,17000,USD,Closed,Quinn Reyes,VP
+PO-01835,VEND-00178,,DEPT-007,2024-09-19,Contracts review package,4400,USD,Open,Rafael Mendez,Dept Head
+PO-01836,VEND-00034,,DEPT-018,2025-06-21,Implementation sprint,47000,USD,Closed,Robin Park,VP
+PO-01837,VEND-00039,,DEPT-015,2023-06-05,Toll-free services,4400,USD,Open,Lena Brooks,Dept Head
+PO-01838,VEND-00185,,DEPT-008,2023-05-07,Customs clearance,45000,USD,Received,Rafael Mendez,VP
+PO-01839,VEND-00091,,DEPT-007,2025-08-23,Process transformation SOW,4400,USD,Closed,Jamie Chen,Dept Head
+PO-01840,VEND-00138,CTR-0053,DEPT-012,2025-05-31,Annual SKO travel,49500,USD,Closed,Luis Ortega,VP
+PO-01841,VEND-00012,,DEPT-014,2024-05-23,Conference travel,50000,USD,Closed,Luis Ortega,CFO
+PO-01842,VEND-00128,,DEPT-019,2025-02-27,Add-on modules,226000,USD,Closed,Priya Raman,CFO
+PO-01843,VEND-00001,,DEPT-007,2024-07-23,DR storage tier,5900,USD,Received,Quinn Reyes,Dept Head
+PO-01844,VEND-00130,CTR-0018,DEPT-003,2025-11-04,Assessment phase,1500,USD,Closed,Rafael Mendez,Dept Head
+PO-01845,VEND-00043,,DEPT-001,2023-10-29,Mobile fleet lines,2400,USD,Received,Alex Rivera,Dept Head
+PO-01846,VEND-00029,,DEPT-016,2024-06-06,Advisory engagement,230000,USD,Closed,Hana Kobayashi,CFO
+PO-01847,VEND-00005,,DEPT-016,2025-09-18,Temp-to-hire fee,6200,USD,Closed,Peter Chen,Dept Head
+PO-01848,VEND-00073,,DEPT-018,2023-09-29,DR storage tier,3600,USD,Received,Samira Okafor,Dept Head
+PO-01849,VEND-00038,,DEPT-006,2023-07-30,Annual SKO travel,2900,USD,Closed,Julia Hwang,Dept Head
+PO-01850,VEND-00198,CTR-0026,DEPT-013,2025-09-26,Warehousing month,1300,USD,Received,Harish Patel,Dept Head
+PO-01851,VEND-00031,,DEPT-013,2025-08-29,Corporate travel management fee,6500,USD,Closed,Aditi Shah,Dept Head
+PO-01852,VEND-00167,CTR-0063,DEPT-013,2024-08-06,Toll-free services,37500,USD,Closed,Julia Hwang,VP
+PO-01853,VEND-00128,,DEPT-015,2025-01-21,Seat expansion QQ1,45000,USD,Closed,Samira Okafor,VP
+PO-01854,VEND-00038,,DEPT-004,2024-12-30,Conference travel,9000,USD,Closed,Julia Hwang,Dept Head
+PO-01855,VEND-00132,,DEPT-004,2024-07-13,Breakroom supplies,5500,USD,Received,Rafael Mendez,Dept Head
+PO-01856,VEND-00065,,DEPT-014,2024-09-20,Last-mile delivery,199000,USD,Cancelled,Derek Yoon,CFO
+PO-01857,VEND-00082,,DEPT-001,2024-04-09,Specialist placement,189000,USD,Open,Luis Ortega,CFO
+PO-01858,VEND-00009,,DEPT-003,2025-09-24,Datacenter hardware,3300,USD,Closed,Claire Benoit,Dept Head
+PO-01859,VEND-00086,,DEPT-006,2025-09-25,Monitors and peripherals,48000,USD,Closed,Sasha Mwangi,VP
+PO-01860,VEND-00039,,DEPT-017,2026-03-29,Network installation,6500,USD,Closed,Sasha Mwangi,Dept Head
+PO-01861,VEND-00042,,DEPT-019,2024-02-01,Campaign retainer,1400,USD,Open,Claire Benoit,Dept Head
+PO-01862,VEND-00061,,DEPT-012,2023-01-05,MPLS circuits month,7000,USD,Closed,Tomas Kellerman,Dept Head
+PO-01863,VEND-00003,CTR-0003,DEPT-018,2025-01-12,Freight LTL lane,7200,USD,Received,Julia Hwang,Dept Head
+PO-01864,VEND-00138,CTR-0053,DEPT-018,2025-09-01,Corporate travel management fee,49500,USD,Open,Ingrid Voss,VP
+PO-01865,VEND-00083,,DEPT-005,2025-09-22,DR storage tier,4300,USD,Received,Naomi Weiss,Dept Head
+PO-01866,VEND-00050,,DEPT-006,2026-04-05,Mobile fleet lines,46000,USD,Closed,Harish Patel,VP
+PO-01867,VEND-00172,,DEPT-011,2026-02-02,Networking gear,36500,USD,Received,Samira Okafor,VP
+PO-01868,VEND-00036,,DEPT-018,2024-02-26,Security services,670000,USD,Closed,Cesar Ruiz,CEO
+PO-01869,VEND-00075,,DEPT-016,2023-01-27,Corporate travel management fee,560000,USD,Received,Tomas Kellerman,CEO
+PO-01870,VEND-00122,,DEPT-018,2023-03-21,Litigation retainer,1400,USD,Open,Priya Raman,Dept Head
+PO-01871,VEND-00155,,DEPT-006,2025-05-28,Quarterly office supplies replen,3200,USD,Received,Derek Yoon,Dept Head
+PO-01872,VEND-00174,,DEPT-019,2023-05-03,Implementation sprint,248000,USD,Received,Lena Brooks,CFO
+PO-01873,VEND-00190,,DEPT-007,2023-08-10,Litigation retainer,5700,USD,Received,Owen Marsh,Dept Head
+PO-01874,VEND-00082,,DEPT-015,2024-12-12,Contract engineer placement,4700,USD,Open,Quinn Reyes,Dept Head
+PO-01875,VEND-00126,,DEPT-019,2023-11-01,Print consumables,25500,USD,Closed,Robin Park,VP
+PO-01876,VEND-00010,CTR-0010,DEPT-017,2024-10-09,Advisory engagement,183000,USD,Closed,Priya Raman,CFO
+PO-01877,VEND-00152,,DEPT-018,2025-10-07,Network installation,35000,USD,Cancelled,Robin Park,VP
+PO-01878,VEND-00053,,DEPT-009,2026-02-10,Media buy,5100,USD,Closed,Claire Benoit,Dept Head
+PO-01879,VEND-00171,CTR-0040,DEPT-004,2025-01-28,Landscaping,5600,USD,Closed,Robin Park,Dept Head
+PO-01880,VEND-00126,,DEPT-009,2025-01-13,Print consumables,6600,USD,Closed,Peter Chen,Dept Head
+PO-01881,VEND-00163,,DEPT-020,2024-01-23,Corporate travel management fee,3400,USD,Closed,Peter Chen,Dept Head
+PO-01882,VEND-00046,CTR-0034,DEPT-004,2024-06-19,Cleaning services month,500,USD,Received,Luis Ortega,Dept Head
+PO-01883,VEND-00136,,DEPT-007,2025-09-05,Advisory engagement,37500,USD,Closed,Tomas Kellerman,VP
+PO-01884,VEND-00061,,DEPT-011,2023-07-31,Mobile fleet lines,47500,USD,Closed,Julia Hwang,VP
+PO-01885,VEND-00092,CTR-0029,DEPT-018,2024-07-22,Annual subscription renewal,154000,USD,Cancelled,Ingrid Voss,CFO
+PO-01886,VEND-00167,CTR-0063,DEPT-019,2025-03-30,Network installation,4100,USD,Open,Luis Ortega,Dept Head
+PO-01887,VEND-00033,,DEPT-017,2023-12-24,Compliance advisory,57000,USD,Received,Aditi Shah,CFO
+PO-01888,VEND-00103,CTR-0059,DEPT-010,2024-06-11,Events travel block,24500,USD,Open,Quinn Reyes,VP
+PO-01889,VEND-00092,,DEPT-010,2023-09-24,Annual subscription renewal,6500,USD,Received,Owen Marsh,Dept Head
+PO-01890,VEND-00088,,DEPT-016,2023-09-08,Print consumables,2500,USD,Closed,Ingrid Voss,Dept Head
+PO-01891,VEND-00112,,DEPT-008,2026-02-20,Advisory engagement,5600,USD,Received,Peter Chen,Dept Head
+PO-01892,VEND-00092,,DEPT-006,2023-03-18,Add-on modules,14500,USD,Received,Julia Hwang,VP
+PO-01893,VEND-00059,,DEPT-007,2023-03-18,Annual subscription renewal,204000,USD,Received,Jamie Chen,CFO
+PO-01894,VEND-00138,CTR-0053,DEPT-011,2024-11-14,Conference travel,6400,USD,Closed,Owen Marsh,Dept Head
+PO-01895,VEND-00172,,DEPT-017,2025-01-30,Laptop refresh batch,7400,USD,Open,Peter Chen,Dept Head
+PO-01896,VEND-00002,CTR-0002,DEPT-003,2023-12-15,Platform support,6900,USD,Received,Sasha Mwangi,Dept Head
+PO-01897,VEND-00160,,DEPT-015,2023-02-11,Compliance advisory,7800,USD,Closed,Marco Alvarez,Dept Head
+PO-01898,VEND-00010,,DEPT-008,2023-02-28,Process transformation SOW,9500,USD,Cancelled,Peter Chen,Dept Head
+PO-01899,VEND-00081,,DEPT-001,2025-11-29,Temp-to-hire fee,1300,USD,Closed,Luis Ortega,Dept Head
+PO-01900,VEND-00088,,DEPT-020,2024-12-15,Print consumables,3000,USD,Closed,Priya Raman,Dept Head
+PO-01901,VEND-00017,,DEPT-012,2023-03-06,Contract engineer placement,8000,USD,Closed,Marco Alvarez,Dept Head
+PO-01902,VEND-00167,CTR-0063,DEPT-009,2026-03-04,Mobile fleet lines,6400,USD,Received,Robin Park,Dept Head
+PO-01903,VEND-00048,,DEPT-015,2024-10-06,Advisory engagement,6000,USD,Closed,Cesar Ruiz,Dept Head
+PO-01904,VEND-00031,,DEPT-018,2024-10-19,Corporate travel management fee,137000,USD,Closed,Julia Hwang,CFO
+PO-01905,VEND-00038,,DEPT-012,2024-12-26,Corporate travel management fee,38000,USD,Received,Sasha Mwangi,VP
+PO-01906,VEND-00080,,DEPT-007,2025-03-02,Last-mile delivery,51000,USD,Closed,Tomas Kellerman,CFO
+PO-01907,VEND-00067,,DEPT-009,2026-02-21,Networking gear,2100,USD,Closed,Julia Hwang,Dept Head
+PO-01908,VEND-00002,CTR-0002,DEPT-003,2023-08-01,Annual subscription renewal,2000,USD,Cancelled,Lena Brooks,Dept Head
+PO-01909,VEND-00113,,DEPT-005,2023-02-05,IP counsel hours,7300,USD,Open,Naomi Weiss,Dept Head
+PO-01910,VEND-00101,,DEPT-020,2025-03-21,DR storage tier,600,USD,Closed,Marco Alvarez,Dept Head
+PO-01911,VEND-00082,,DEPT-018,2024-03-24,Staff augmentation month,17000,USD,Open,Hana Kobayashi,VP
+PO-01912,VEND-00036,,DEPT-014,2024-02-11,HVAC maintenance,135000,USD,Closed,Priya Raman,CFO
+PO-01913,VEND-00020,,DEPT-007,2025-07-27,Annual subscription renewal,11000,USD,Open,Naomi Weiss,VP
+PO-01914,VEND-00107,,DEPT-009,2023-06-23,Datacenter hardware,500,USD,Closed,Naomi Weiss,Dept Head
+PO-01915,VEND-00065,,DEPT-012,2023-06-18,Freight LTL lane,3000,USD,Closed,Priya Raman,Dept Head
+PO-01916,VEND-00047,,DEPT-020,2024-12-17,Implementation sprint,7500,USD,Closed,Samira Okafor,Dept Head
+PO-01917,VEND-00028,,DEPT-007,2023-08-04,Specialist placement,92000,USD,Received,Samira Okafor,CFO
+PO-01918,VEND-00078,,DEPT-010,2025-10-09,Annual SKO travel,7100,USD,Closed,Rafael Mendez,Dept Head
+PO-01919,VEND-00030,,DEPT-001,2026-01-27,Cleaning services month,7800,USD,Closed,Luis Ortega,Dept Head
+PO-01920,VEND-00136,,DEPT-017,2025-04-17,Advisory engagement,75000,USD,Received,Naomi Weiss,CFO
+PO-01921,VEND-00200,,DEPT-004,2023-01-08,Contract engineer placement,8000,USD,Closed,Tomas Kellerman,Dept Head
+PO-01922,VEND-00146,,DEPT-017,2025-03-22,Compliance advisory,4000,USD,Open,Hana Kobayashi,Dept Head
+PO-01923,VEND-00005,CTR-0005,DEPT-017,2026-02-08,Contract engineer placement,6700,USD,Open,Hana Kobayashi,Dept Head
+PO-01924,VEND-00069,,DEPT-012,2026-02-06,Freight LTL lane,2300,USD,Closed,Marco Alvarez,Dept Head
+PO-01925,VEND-00028,,DEPT-009,2025-11-24,Staff augmentation month,560000,USD,Received,Quinn Reyes,CEO
+PO-01926,VEND-00144,,DEPT-013,2024-11-07,Implementation sprint,6500,USD,Cancelled,Alex Rivera,Dept Head
+PO-01927,VEND-00153,,DEPT-003,2025-06-24,Staff augmentation month,40000,USD,Closed,Sasha Mwangi,VP
+PO-01928,VEND-00172,,DEPT-006,2025-10-13,Networking gear,1300,USD,Closed,Aditi Shah,Dept Head
+PO-01929,VEND-00035,CTR-0043,DEPT-015,2026-02-23,Laptop refresh batch,5100,USD,Received,Derek Yoon,Dept Head
+PO-01930,VEND-00012,,DEPT-006,2024-09-16,Events travel block,43500,USD,Open,Ingrid Voss,VP
+PO-01931,VEND-00030,,DEPT-018,2023-09-11,HVAC maintenance,43500,USD,Closed,Robin Park,VP
+PO-01932,VEND-00099,,DEPT-010,2024-06-09,HVAC maintenance,25500,USD,Cancelled,Priya Raman,VP
+PO-01933,VEND-00178,,DEPT-004,2024-03-14,IP counsel hours,2400,USD,Received,Harish Patel,Dept Head
+PO-01934,VEND-00004,CTR-0004,DEPT-018,2026-01-16,IP counsel hours,12500,USD,Closed,Sasha Mwangi,VP
+PO-01935,VEND-00200,,DEPT-012,2024-10-05,Staff augmentation month,32500,USD,Open,Alex Rivera,VP
+PO-01936,VEND-00166,,DEPT-010,2025-04-03,Landscaping,5500,USD,Closed,Robin Park,Dept Head
+PO-01937,VEND-00046,CTR-0034,DEPT-014,2024-03-13,HVAC maintenance,7000,USD,Closed,Marco Alvarez,Dept Head
+PO-01938,VEND-00014,,DEPT-002,2023-04-24,Reserved capacity,5600,USD,Closed,Robin Park,Dept Head
+PO-01939,VEND-00017,,DEPT-017,2023-07-03,Temp-to-hire fee,67000,USD,Received,Owen Marsh,CFO
+PO-01940,VEND-00177,,DEPT-015,2023-10-11,Compliance advisory,5800,USD,Received,Derek Yoon,Dept Head
+PO-01941,VEND-00008,,DEPT-018,2026-02-03,Breakroom supplies (split),9800,USD,Received,Quinn Reyes,Dept Head
+PO-01942,VEND-00008,,DEPT-018,2026-02-03,Breakroom supplies (split),9500,USD,Received,Lena Brooks,Dept Head
+PO-01943,VEND-00008,,DEPT-016,2026-03-11,Ergonomics (split),9900,USD,Received,Ingrid Voss,Dept Head
+PO-01944,VEND-00008,,DEPT-016,2026-03-11,Print consumables (split),9700,USD,Received,Aditi Shah,Dept Head
+PO-01945,VEND-00050,,DEPT-018,2025-11-18,Mobile fleet lines (split),9600,USD,Received,Claire Benoit,Dept Head
+PO-01946,VEND-00050,,DEPT-018,2025-11-18,Toll-free services (split),9750,USD,Received,Alex Rivera,Dept Head
+PO-01947,VEND-00011,,DEPT-018,2026-01-22,Cleaning services month (split),9950,USD,Received,Owen Marsh,Dept Head
+PO-01948,VEND-00011,,DEPT-018,2026-01-22,Cleaning services month (split),9850,USD,Received,Claire Benoit,Dept Head
+PO-01949,VEND-00011,,DEPT-018,2026-01-22,Landscaping (split),9700,USD,Received,Naomi Weiss,Dept Head
+PO-01950,VEND-00008,,DEPT-007,2025-09-04,Quarterly office supplies replen (split),9800,USD,Received,Tomas Kellerman,Dept Head
+PO-01951,VEND-00008,,DEPT-007,2025-09-04,Breakroom supplies (split),9800,USD,Received,Owen Marsh,Dept Head
+PO-01952,VEND-00020,,DEPT-007,2026-04-11,Platform support (no contract),63500,USD,Received,Samira Okafor,CFO
+PO-01953,VEND-00020,,DEPT-005,2025-08-19,Annual subscription renewal (no contract),50500,USD,Received,Luis Ortega,CFO
+PO-01954,VEND-00020,,DEPT-020,2025-12-20,Platform support (no contract),67000,USD,Received,Rafael Mendez,CFO
+PO-01955,VEND-00020,,DEPT-005,2026-01-16,Annual subscription renewal (no contract),82500,USD,Received,Owen Marsh,CFO
+PO-01956,VEND-00020,,DEPT-009,2025-07-12,Annual subscription renewal (no contract),31000,USD,Received,Quinn Reyes,VP
+PO-01957,VEND-00021,,DEPT-017,2026-01-03,Creative production (no contract),41500,USD,Received,Julia Hwang,VP
+PO-01958,VEND-00021,,DEPT-016,2025-07-24,Campaign retainer (no contract),68000,USD,Received,Naomi Weiss,CFO
+PO-01959,VEND-00021,,DEPT-018,2025-11-09,Brand refresh SOW (no contract),64500,USD,Received,Sasha Mwangi,CFO
+PO-01960,VEND-00021,,DEPT-013,2025-10-16,Campaign retainer (no contract),41000,USD,Received,Robin Park,VP
+PO-01961,VEND-00026,,DEPT-016,2025-06-14,Advisory engagement (no contract),36000,USD,Received,Harish Patel,VP
+PO-01962,VEND-00026,,DEPT-012,2025-10-17,Process transformation SOW (no contract),27000,USD,Received,Lena Brooks,VP
+PO-01963,VEND-00026,,DEPT-016,2025-10-21,Assessment phase (no contract),86500,USD,Received,Jamie Chen,CFO
+PO-01964,VEND-00026,,DEPT-011,2026-03-06,Process transformation SOW (no contract),64500,USD,Received,Julia Hwang,CFO
+PO-01965,VEND-00026,,DEPT-015,2026-02-17,Implementation sprint (no contract),32000,USD,Received,Devon Parker,VP
+PO-01966,VEND-00026,,DEPT-011,2025-10-13,Assessment phase (no contract),88500,USD,Received,Aditi Shah,CFO
+PO-01967,VEND-00026,,DEPT-011,2026-02-09,Process transformation SOW (no contract),46000,USD,Received,Julia Hwang,VP

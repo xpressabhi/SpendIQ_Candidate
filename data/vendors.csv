@@ -1,0 +1,201 @@
+vendor_id,vendor_name,tax_id,country,category,onboarded_date,preferred_status,risk_rating,payment_terms_default,status
+VEND-00001,Stratos Cloud Services,TX-40418340,United States,Cloud Infrastructure,2024-08-28,True,Low,60,Active
+VEND-00002,Keystone Analytics Labs,TX-46278773,United States,SaaS,2024-11-15,True,Low,45,Active
+VEND-00003,Orion Logistics Partners,TX-28618009,United States,Logistics,2021-04-08,False,High,60,Active
+VEND-00004,Harbor Legal Advisors LLP,TX-56617015,United Kingdom,Legal,2023-04-10,True,Low,60,Active
+VEND-00005,Redwood Staffing Group,TX-37074785,United States,Staffing,2024-02-01,True,High,45,Active
+VEND-00006,Palisade Media Studio,TX-67224242,United States,Marketing Services,2022-06-15,True,Low,30,Active
+VEND-00007,Lattice Telecom Networks,TX-90867153,United States,Telecom,2021-03-23,False,Medium,30,Active
+VEND-00008,Meridian Office Supply Co.,TX-85383931,United States,Office Supplies,2023-12-26,False,Low,45,Active
+VEND-00009,Nimbus IT Hardware Inc.,TX-99314888,Canada,IT Hardware,2020-02-14,True,Low,60,Active
+VEND-00010,Polaris Consulting Group,TX-60735499,United States,Professional Services,2020-08-10,True,Low,60,Active
+VEND-00011,Juniper Facilities Services,TX-69742379,United States,Facilities,2024-08-03,True,Low,45,Active
+VEND-00012,Kestrel Travel Partners,TX-79884451,United States,Travel,2019-02-12,False,Low,30,Active
+VEND-00013,Aperture SaaS Platform,TX-85912420,Ireland,SaaS,2020-07-14,False,Low,30,Active
+VEND-00014,Summit Cloud Networks,TX-58443239,United States,Cloud Infrastructure,2024-01-27,True,Low,30,Active
+VEND-00015,Beacon Marketing Partners,TX-79432518,United States,Marketing Services,2023-03-10,True,Low,60,Active
+VEND-00016,Fairway Networks,TX-76045412,United States,IT Hardware,2022-08-21,True,Low,30,Active
+VEND-00017,Crest Systems,TX-13191065,Germany,Staffing,2025-04-12,True,Low,45,Active
+VEND-00018,Umbra Group,TX-71459843,United States,Staffing,2021-05-02,True,Low,30,Active
+VEND-00019,Polaris Technologies,TX-77447750,United States,Facilities,2021-07-29,False,Medium,30,Inactive
+VEND-00020,Osprey Logistics,TX-76228483,United Kingdom,SaaS,2021-12-25,False,Low,60,Active
+VEND-00021,Lumen Media,TX-55204381,United States,Marketing Services,2023-12-02,False,Low,60,Active
+VEND-00022,Relay Works,TX-86163661,Netherlands,Legal,2023-07-30,True,Low,60,Active
+VEND-00023,Polaris Labs,TX-52514491,Netherlands,Telecom,2018-08-29,False,Low,30,Inactive
+VEND-00024,Tidewater Co.,TX-54304265,United States,SaaS,2023-05-15,False,Low,60,Active
+VEND-00025,Redwood Industries,TX-84383439,Canada,SaaS,2023-09-22,False,Low,30,Active
+VEND-00026,Vesper Co.,TX-61173757,United Kingdom,Professional Services,2018-05-09,False,Low,45,Active
+VEND-00027,Northgate Analytics,TX-32274891,United Kingdom,Office Supplies,2021-10-17,True,Medium,60,Active
+VEND-00028,Veridian Analytics,TX-96657647,Germany,Staffing,2020-04-20,False,High,45,Active
+VEND-00029,Canyon Labs,TX-58244025,Canada,Professional Services,2023-03-05,False,Low,30,Active
+VEND-00030,Lattice LLC,TX-59440572,India,Facilities,2023-12-15,True,Medium,30,Active
+VEND-00031,Veridian LLC,TX-85257277,Canada,Travel,2023-09-21,False,Low,30,Active
+VEND-00032,Fairway Co.,TX-51309151,Ireland,Staffing,2022-05-17,False,Low,30,Active
+VEND-00033,Redwood Logistics,TX-21855788,Germany,Legal,2020-11-10,False,Low,60,Active
+VEND-00034,Orion Works,TX-12261256,Germany,Professional Services,2021-06-16,False,Low,45,Active
+VEND-00035,Zenith Media,TX-37695051,India,IT Hardware,2024-06-23,True,Medium,60,Active
+VEND-00036,Ironclad Labs,TX-78084234,Germany,Facilities,2022-01-24,False,Medium,45,Active
+VEND-00037,Zenith Supply Co.,TX-77529821,India,Travel,2019-02-16,False,Low,45,Active
+VEND-00038,Quantum Services,TX-89136451,Ireland,Travel,2021-06-21,False,Low,45,Active
+VEND-00039,Thornfield Supply Co.,TX-79390298,United States,Telecom,2021-02-24,False,Low,60,Active
+VEND-00040,Palisade Media,TX-20485419,United Kingdom,Cloud Infrastructure,2019-01-05,False,Medium,30,Active
+VEND-00041,Fairway Supply Co.,TX-18090554,Netherlands,Staffing,2025-04-20,False,Medium,60,Active
+VEND-00042,Vesper Labs,TX-76474999,United States,Marketing Services,2018-08-13,False,Medium,60,Active
+VEND-00043,Northgate Inc.,TX-26902431,United Kingdom,Telecom,2023-05-09,True,Low,60,Active
+VEND-00044,Beacon Studio,TX-22333060,United States,Legal,2023-03-30,False,Low,45,Active
+VEND-00045,Nomad Technologies,TX-39665819,United States,Marketing Services,2023-12-31,False,Medium,60,Active
+VEND-00046,Northgate Labs,TX-87998426,India,Facilities,2024-10-10,False,Low,60,Active
+VEND-00047,Juniper Works,TX-16508433,United States,Professional Services,2020-09-19,False,Low,45,Active
+VEND-00048,Umbra Labs,TX-49298677,Germany,Professional Services,2022-01-04,False,Low,45,Active
+VEND-00049,Sable Analytics,TX-28069881,United Kingdom,Legal,2022-12-10,False,Low,45,Active
+VEND-00050,Aperture Inc.,TX-96650380,Germany,Telecom,2022-09-29,False,Low,45,Active
+VEND-00051,Northgate Advisors,TX-69776748,United Kingdom,Cloud Infrastructure,2019-08-11,False,Low,45,Active
+VEND-00052,Ironclad Works,TX-38806705,United States,Cloud Infrastructure,2020-09-04,False,Medium,60,Active
+VEND-00053,Arbor Group,TX-57669642,United Kingdom,Marketing Services,2018-08-30,False,Low,45,Active
+VEND-00054,Flint Partners,TX-59663042,United States,Logistics,2025-05-30,True,Low,30,Suspended
+VEND-00055,Fable Networks,TX-75262770,India,Facilities,2024-09-27,False,Low,30,Inactive
+VEND-00056,Relay Partners,TX-83177983,Canada,SaaS,2021-07-27,True,High,30,Active
+VEND-00057,Fairway Systems,TX-35454608,India,Travel,2021-07-14,True,Low,60,Suspended
+VEND-00058,Harbor Systems,TX-43494413,Netherlands,Professional Services,2020-06-03,False,Low,45,Active
+VEND-00059,Veridian Studio,TX-71289937,India,SaaS,2020-01-08,True,Low,60,Active
+VEND-00060,Zenith Systems,TX-98017193,United States,IT Hardware,2024-12-26,False,Low,45,Active
+VEND-00061,Nimbus Media,TX-77912524,United States,Telecom,2022-06-30,False,Low,60,Active
+VEND-00062,Kestrel Works,TX-38408498,Canada,IT Hardware,2025-05-28,False,Low,45,Active
+VEND-00063,Polaris Works,TX-84865546,United States,Office Supplies,2018-10-15,False,Low,30,Active
+VEND-00064,Parallel Solutions,TX-76200053,United Kingdom,Cloud Infrastructure,2023-04-30,False,Medium,60,Active
+VEND-00065,Stratos Cloud,TX-86691987,United Kingdom,Logistics,2018-10-28,False,Low,60,Active
+VEND-00066,Veridian Advisors,TX-18743405,United States,Staffing,2022-05-23,False,Low,30,Active
+VEND-00067,Quill Studio,TX-44778725,Netherlands,IT Hardware,2019-10-17,True,Low,60,Active
+VEND-00068,Osprey Technologies,TX-39314876,United States,Staffing,2019-07-28,False,Low,60,Active
+VEND-00069,Osprey Industries,TX-80146431,United States,Logistics,2021-02-03,False,Medium,30,Active
+VEND-00070,Osprey Studio,TX-95590320,United States,Telecom,2025-06-11,False,Low,30,Active
+VEND-00071,Polaris Media,TX-43630775,Ireland,Cloud Infrastructure,2023-12-31,True,Medium,45,Active
+VEND-00072,Orion Co.,TX-13346096,United States,Facilities,2025-08-26,False,Low,60,Active
+VEND-00073,Juniper Networks,TX-49320869,United States,Cloud Infrastructure,2022-01-05,False,Low,45,Active
+VEND-00074,Beacon Supply Co.,TX-76735717,United States,SaaS,2025-01-19,False,Medium,30,Active
+VEND-00075,Nimbus Advisors,TX-92516818,United Kingdom,Travel,2024-12-12,True,Low,60,Active
+VEND-00076,Crest Networks,TX-81044973,United States,Legal,2021-08-12,False,Low,60,Active
+VEND-00077,Cedarline Works,TX-82549734,United States,Staffing,2024-02-27,False,Medium,45,Active
+VEND-00078,Arbor Corp,TX-94215799,United States,Travel,2022-12-08,False,Low,30,Active
+VEND-00079,Lumen Technologies,TX-85669481,United States,Office Supplies,2018-08-07,True,Low,30,Active
+VEND-00080,Lattice Systems,TX-52877425,Ireland,Logistics,2019-05-07,False,Low,60,Active
+VEND-00081,Kestrel Analytics,TX-19200851,Germany,Staffing,2020-11-02,True,Low,30,Suspended
+VEND-00082,Aperture Analytics,TX-85616698,Canada,Staffing,2024-02-01,False,Low,45,Active
+VEND-00083,Nimbus Systems,TX-71462123,Canada,Cloud Infrastructure,2018-03-11,False,Low,30,Active
+VEND-00084,Harbor Media,TX-82915066,India,Logistics,2021-07-23,False,Low,45,Active
+VEND-00085,Orion Logistics,TX-30172562,United Kingdom,Travel,2025-01-29,True,Low,60,Active
+VEND-00086,Flint Solutions,TX-20197839,United States,IT Hardware,2019-08-18,False,Medium,30,Active
+VEND-00087,Thornfield Cloud,TX-27956626,United Kingdom,Legal,2023-12-03,False,Low,45,Active
+VEND-00088,Lattice Corp,TX-32307365,United Kingdom,Office Supplies,2018-06-04,False,Low,30,Active
+VEND-00089,Lumen LLC,TX-34188791,United States,Travel,2020-11-07,False,Low,60,Active
+VEND-00090,Lattice Partners,TX-59647585,United States,Facilities,2020-02-06,True,Low,60,Active
+VEND-00091,Umbra Analytics,TX-23648408,United States,Professional Services,2019-07-06,False,Low,60,Active
+VEND-00092,Lattice Technologies,TX-61622493,United States,SaaS,2019-07-27,False,High,60,Active
+VEND-00093,Summit Analytics,TX-12823047,Canada,Facilities,2021-08-24,False,High,60,Active
+VEND-00094,Relay Group,TX-25837930,India,Facilities,2025-12-16,False,Low,30,Active
+VEND-00095,Thornfield Logistics,TX-96302879,United States,IT Hardware,2024-08-09,False,Low,60,Active
+VEND-00096,Nimbus Logistics,TX-97403867,Canada,IT Hardware,2021-03-09,True,Low,45,Active
+VEND-00097,Parallel Labs,TX-10694204,United States,IT Hardware,2020-04-23,False,Low,60,Inactive
+VEND-00098,Crest Corp,TX-56030004,India,Legal,2018-05-26,False,High,60,Active
+VEND-00099,Nimbus Analytics,TX-12712107,United States,Facilities,2019-11-23,False,Low,45,Active
+VEND-00100,Beacon Corp,TX-17628581,United Kingdom,Legal,2023-05-26,False,Low,60,Active
+VEND-00101,Zenith Group,TX-33468301,Netherlands,Cloud Infrastructure,2024-02-27,False,Low,30,Active
+VEND-00102,Relay Analytics,TX-43378972,Ireland,IT Hardware,2021-04-18,True,Low,30,Active
+VEND-00103,Cedarline Networks,TX-86489218,United States,Travel,2020-09-20,False,Low,30,Active
+VEND-00104,Keystone Group,TX-43906272,United States,Cloud Infrastructure,2022-03-06,False,Low,30,Active
+VEND-00105,Zenith Advisors,TX-93980685,United States,Legal,2020-08-22,True,Low,30,Active
+VEND-00106,Aperture Media,TX-32352071,Ireland,Legal,2021-06-15,False,High,45,Active
+VEND-00107,Nomad Industries,TX-47932510,United States,IT Hardware,2023-07-10,False,Low,30,Active
+VEND-00108,Quantum Logistics,TX-52685081,Netherlands,Office Supplies,2023-09-08,False,Medium,60,Active
+VEND-00109,Orion Supply Co.,TX-36599450,Netherlands,Professional Services,2019-10-05,False,Low,60,Active
+VEND-00110,Canyon Supply Co.,TX-92603331,Ireland,Logistics,2022-03-09,False,Low,30,Active
+VEND-00111,Northgate Solutions,TX-59760017,United States,Professional Services,2021-03-06,False,Low,45,Active
+VEND-00112,Fable Group,TX-74470060,United Kingdom,Professional Services,2023-04-01,False,Low,60,Active
+VEND-00113,Thornfield Advisors,TX-72809596,United States,Legal,2020-04-27,True,Low,45,Active
+VEND-00114,Osprey Analytics,TX-87071187,United States,Travel,2025-12-12,False,Medium,60,Active
+VEND-00115,Relay Media,TX-47013424,Germany,Telecom,2018-02-01,False,Low,45,Active
+VEND-00116,Ironclad Supply Co.,TX-70799933,India,Facilities,2020-08-19,False,Medium,60,Active
+VEND-00117,Westwind LLC,TX-51463884,United States,SaaS,2025-10-09,False,Medium,60,Inactive
+VEND-00118,Lumen Cloud,TX-14944181,Netherlands,Travel,2025-01-11,True,Low,60,Inactive
+VEND-00119,Umbra Systems,TX-51306436,India,Travel,2020-06-18,False,Medium,60,Active
+VEND-00120,Palisade Group,TX-47030217,Ireland,Office Supplies,2019-07-01,False,Low,30,Active
+VEND-00121,Osprey Corp,TX-94119382,Netherlands,SaaS,2025-01-23,False,Low,60,Active
+VEND-00122,Zenith Labs,TX-24035757,United States,Legal,2024-05-02,False,Medium,60,Active
+VEND-00123,Umbra Works,TX-36755199,United Kingdom,Facilities,2019-06-27,False,Low,30,Active
+VEND-00124,Osprey LLC,TX-82167501,Germany,Travel,2019-04-20,False,Low,60,Active
+VEND-00125,Keystone Analytics,TX-97202946,Germany,Professional Services,2023-08-23,False,Medium,60,Active
+VEND-00126,Sable Labs,TX-44208788,Netherlands,Office Supplies,2022-09-09,False,Medium,60,Active
+VEND-00127,Keystone Advisors,TX-60954802,Germany,Professional Services,2022-02-06,True,Low,60,Active
+VEND-00128,Polaris LLC,TX-91604803,India,SaaS,2019-04-30,False,Medium,60,Active
+VEND-00129,Northgate Services,TX-63675024,United States,Office Supplies,2022-05-09,False,Low,30,Active
+VEND-00130,Ironclad Systems,TX-92229724,Canada,Professional Services,2021-08-21,False,Low,45,Active
+VEND-00131,Summit Corp,TX-73119599,United States,Travel,2025-08-01,False,High,45,Active
+VEND-00132,Beacon Logistics,TX-72395691,Canada,Office Supplies,2021-02-06,False,Low,45,Active
+VEND-00133,Ironclad Networks,TX-94403123,Canada,Logistics,2018-09-10,True,Medium,45,Active
+VEND-00134,Keystone Labs,TX-43954536,India,SaaS,2022-11-10,False,Low,60,Active
+VEND-00135,Polaris Advisors,TX-87665494,United States,Telecom,2024-01-29,False,Medium,45,Active
+VEND-00136,Flint Industries,TX-26077172,United States,Professional Services,2021-07-21,False,Low,60,Active
+VEND-00137,Fable Supply Co.,TX-55082303,Netherlands,Office Supplies,2025-08-06,True,Medium,45,Active
+VEND-00138,Veridian Cloud,TX-53498227,United Kingdom,Travel,2024-11-18,False,Low,45,Active
+VEND-00139,Keystone Networks,TX-78802212,United States,Facilities,2021-05-18,False,Medium,60,Active
+VEND-00140,Arbor Labs,TX-20908590,United States,Telecom,2019-12-28,True,Low,60,Active
+VEND-00141,Lumen Works,TX-29007524,Netherlands,Facilities,2020-03-05,False,Medium,45,Active
+VEND-00142,Umbra Holdings,TX-14748255,United Kingdom,Travel,2019-09-06,False,Low,45,Active
+VEND-00143,Ironclad Industries,TX-14996961,United States,Marketing Services,2023-10-14,False,Low,45,Active
+VEND-00144,Fable Systems,TX-89282896,Germany,Professional Services,2024-04-28,False,Low,45,Active
+VEND-00145,Monarch Media,TX-38375008,Germany,Logistics,2021-12-15,False,Low,60,Active
+VEND-00146,Beacon Inc.,TX-99170421,India,Legal,2021-07-03,True,Low,60,Active
+VEND-00147,Fairway Consulting,TX-49621328,United States,IT Hardware,2023-07-23,False,Medium,60,Active
+VEND-00148,Zenith Logistics,TX-62436288,United States,Facilities,2019-03-24,False,Low,60,Active
+VEND-00149,Relay LLC,TX-45780985,India,Facilities,2023-05-11,False,Medium,60,Inactive
+VEND-00150,Osprey Labs,TX-32414572,Netherlands,Office Supplies,2024-01-19,False,Low,30,Suspended
+VEND-00151,Canyon Studio,TX-88863293,United States,Legal,2021-01-10,False,Low,30,Active
+VEND-00152,Vesper Group,TX-59049138,India,Telecom,2020-10-20,False,Medium,45,Active
+VEND-00153,Northgate Group,TX-96216796,United States,Staffing,2025-10-04,False,Low,30,Active
+VEND-00154,Kestrel Inc.,TX-83602732,United States,Travel,2022-06-07,True,Low,60,Active
+VEND-00155,Keystone Holdings,TX-61356920,Netherlands,Office Supplies,2018-07-03,False,Low,45,Active
+VEND-00156,Flint Supply Co.,TX-65164972,Ireland,Legal,2021-07-12,False,High,60,Inactive
+VEND-00157,Vesper Analytics,TX-25061569,Canada,Legal,2018-12-11,True,Low,60,Active
+VEND-00158,Fable Advisors,TX-15145252,United States,Logistics,2023-08-21,False,Low,30,Active
+VEND-00159,Cedarline Services,TX-25878140,United Kingdom,Logistics,2018-01-04,False,Low,30,Active
+VEND-00160,Fable Labs,TX-29763109,United States,Legal,2024-01-23,True,Low,30,Suspended
+VEND-00161,Crest Labs,TX-95280500,Ireland,Travel,2020-11-23,False,Low,60,Inactive
+VEND-00162,Lattice Studio,TX-14025429,Netherlands,Cloud Infrastructure,2019-02-05,True,Low,30,Active
+VEND-00163,Quill Services,TX-84097197,United States,Travel,2024-09-21,False,Low,45,Active
+VEND-00164,Palisade Studio,TX-96374503,Canada,Professional Services,2019-01-14,False,Low,45,Suspended
+VEND-00165,Relay Networks,TX-98674438,Canada,SaaS,2018-06-24,False,Low,60,Active
+VEND-00166,Quill Consulting,TX-64813513,Canada,Facilities,2022-06-14,True,Low,45,Active
+VEND-00167,Fairway Cloud,TX-49620251,Ireland,Telecom,2021-04-14,False,Low,30,Active
+VEND-00168,Stratos Partners,TX-67411799,Ireland,Staffing,2022-11-02,False,Low,45,Active
+VEND-00169,Northgate Networks,TX-56690542,United States,Cloud Infrastructure,2021-07-31,False,Medium,45,Active
+VEND-00170,Canyon Analytics,TX-33108955,India,Office Supplies,2020-09-03,False,Low,30,Active
+VEND-00171,Meridian Corp,TX-25456471,Germany,Facilities,2020-10-13,False,High,30,Active
+VEND-00172,Crest Advisors,TX-80509174,United States,IT Hardware,2023-04-18,True,Low,45,Active
+VEND-00173,Palisade Logistics,TX-89173990,United Kingdom,Office Supplies,2023-04-20,False,Low,45,Active
+VEND-00174,Osprey Co.,TX-30656882,United States,Professional Services,2025-12-05,False,Low,30,Active
+VEND-00175,Northgate Co.,TX-71366314,Germany,IT Hardware,2023-11-16,False,Low,45,Active
+VEND-00176,Lumen Studio,TX-58925737,India,Cloud Infrastructure,2021-07-15,True,Low,60,Active
+VEND-00177,Crest Co.,TX-42686040,Ireland,Legal,2019-09-24,False,Low,45,Active
+VEND-00178,Parallel Media,TX-68392946,Germany,Legal,2021-03-25,True,Low,45,Active
+VEND-00179,Aperture Industries,TX-25385621,Canada,Logistics,2023-01-27,False,Low,45,Active
+VEND-00180,Orion LLC,TX-12817830,Netherlands,SaaS,2024-06-27,False,Low,60,Active
+VEND-00181,Sable Cloud,TX-54149997,United States,SaaS,2018-03-22,True,Low,45,Active
+VEND-00182,Parallel Corp,TX-28879796,India,Logistics,2022-11-13,False,Low,60,Inactive
+VEND-00183,Osprey Advisors,TX-89025221,United Kingdom,Office Supplies,2023-02-22,False,Low,30,Active
+VEND-00184,Juniper Technologies,TX-65870900,United States,Legal,2020-09-15,True,Low,45,Inactive
+VEND-00185,Summit Group,TX-49933182,Netherlands,Logistics,2021-01-13,False,Low,45,Active
+VEND-00186,Beacon Systems,TX-30634930,Ireland,Cloud Infrastructure,2021-11-28,False,Medium,60,Active
+VEND-00187,Arbor Logistics,TX-89302530,United States,SaaS,2020-05-22,True,Low,60,Suspended
+VEND-00188,Umbra Inc.,TX-12793382,Germany,Professional Services,2023-11-11,True,Medium,30,Active
+VEND-00189,Summit Studio,TX-20240993,United States,Staffing,2021-09-12,False,Low,30,Active
+VEND-00190,Beacon Networks,TX-12620346,United Kingdom,Legal,2018-06-25,False,Low,45,Active
+VEND-00191,Summit Consulting,TX-85675324,United States,Travel,2025-11-27,False,Low,60,Inactive
+VEND-00192,Ironclad Technologies,TX-97969075,India,Logistics,2018-06-24,False,High,30,Active
+VEND-00193,Nomad Studio,TX-94844285,Ireland,Facilities,2024-03-20,False,Low,30,Active
+VEND-00194,Kestrel Industries,TX-64788976,United States,Travel,2022-10-10,False,Medium,60,Active
+VEND-00195,Umbra Logistics,TX-13763515,United States,Telecom,2018-06-07,True,Low,60,Active
+VEND-00196,Tidewater Solutions,TX-87112732,United States,Logistics,2022-03-31,False,Low,60,Active
+VEND-00197,Arbor Studio,TX-78124112,United States,Telecom,2022-12-19,False,Low,60,Active
+VEND-00198,Flint Holdings,TX-46127628,Netherlands,Logistics,2023-10-25,False,Medium,60,Active
+VEND-00199,Arbor Holdings,TX-71671268,United Kingdom,Telecom,2018-11-26,False,Low,30,Active
+VEND-00200,Redwood Cloud,TX-51761778,United Kingdom,Staffing,2023-02-10,False,High,30,Active
