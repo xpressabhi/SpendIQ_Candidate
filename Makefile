@@ -1,7 +1,7 @@
 PYTHON := uv run python
 PY := uv run
 
-.PHONY: install ingest run dev test
+.PHONY: install ingest run dev test validate eval eval-stable
 
 install:
 	uv sync
@@ -20,3 +20,9 @@ test:
 
 validate:
 	$(PY) -m spendiq.validate
+
+eval:
+	$(PY) -m spendiq.evals
+
+eval-stable:
+	$(PY) -m spendiq.evals --runs 3

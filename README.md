@@ -71,6 +71,28 @@ documents were cited for each answer.
 | `make dev`           | Start with `--reload`                          |
 | `make test`          | Run pytest (no LLM needed)                     |
 | `make validate`      | End-to-end agent run over 12 tiered questions  |
+| `make eval`          | Golden-set eval: 14 tiered cases, graded       |
+| `make eval-stable`   | Same, 3 runs per case with majority voting     |
+
+## Evals
+
+`src/spendiq/evals/` is a golden-set evaluation harness. 14 tiered
+questions (T1-T4) run through the real agent and are graded by
+composable checks defined in `evals/cases.py`:
+
+- `contains_all` / `contains_any` / `contains_none` — substring checks
+- `regex` — `count_near(N, keyword)` accepts digits or spelled-out numbers
+- `tool_used` — asserts the agent called the right tool
+- `source_cited` — asserts a document ID appears in the agent's citations
+- `llm_judge` — rubric graded by the LLM (opt-in with `--judge`)
+
+Expected facts are grounded in the ingested dataset, so any regression
+in retrieval, the analytic views, or prompting fails the suite.
+
+Useful flags: `--tier T2`, `--case split_pos`, `--runs 3` (majority
+vote to absorb LLM phrasing variance), `--json PATH` (machine-readable
+report for CI). Graders themselves are unit-tested in
+`tests/test_evals.py` (no LLM needed).
 
 ## Configuration (`.env`)
 

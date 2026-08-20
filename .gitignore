@@ -10,6 +10,7 @@ __pycache__/
 # runtime artifacts
 data/db.sqlite3
 data/chunks.json
+data/eval_report.json
 /.playwright-mcp
 docs/.DS_Store
 data/spendiq.db
