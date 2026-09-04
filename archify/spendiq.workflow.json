@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "SpendIQ — Agent Question Workflow",
+    "quality_profile": "showcase",
+    "viewBox": [720, 900],
+    "views": [
+      { "id": "happy-path", "label": "Question to answer", "focus": ["ask", "loop", "tools", "answer"], "note": "Follow a finance question through resolve, SQL, and clauses." },
+      { "id": "evidence", "label": "Evidence stores", "focus": ["tools", "sqlite", "fts", "answer"], "note": "Numbers stay read-only, clauses stay cited." }
+    ]
+  },
+  "lanes": [
+    { "id": "client", "label": "Client" },
+    { "id": "agent", "label": "Agent Runtime" },
+    { "id": "tools", "label": "Tool Execution" },
+    { "id": "data", "label": "Evidence Stores" }
+  ],
+  "phases": [
+    { "id": "intake", "label": "Intake", "fromCol": 0, "toCol": 1 },
+    { "id": "reason", "label": "Reason + resolve", "fromCol": 2, "toCol": 3, "variant": "emphasis" },
+    { "id": "execute", "label": "Execute + cite", "fromCol": 4, "toCol": 5, "variant": "dashed" }
+  ],
+  "mainPath": ["ask", "loop", "tools", "answer"],
+  "nodes": [
+    { "id": "ask", "lane": "client", "col": 0, "type": "external", "label": "Question", "sublabel": "analyst asks", "width": 88, "height": 48 },
+    { "id": "answer", "lane": "client", "col": 5, "type": "frontend", "label": "Answer", "sublabel": "IDs + sections", "width": 88, "height": 48 },
+    { "id": "loop", "lane": "agent", "col": 2, "type": "backend", "label": "Agent Loop", "sublabel": "ReAct + memory", "width": 96, "height": 48 },
+    { "id": "tools", "lane": "tools", "col": 3, "type": "backend", "label": "5 Tools", "sublabel": "SQL + docs + 3 utils", "width": 96, "height": 48 },
+    { "id": "sqlite", "lane": "data", "col": 3, "type": "database", "label": "SQLite", "sublabel": "tables + 7 views", "width": 88, "height": 48 },
+    { "id": "fts", "lane": "data", "col": 5, "type": "database", "label": "FTS5", "sublabel": "80 chunks BM25", "width": 88, "height": 48 }
+  ],
+  "edges": [
+    { "id": "ask-loop", "from": "ask", "to": "loop" },
+    { "id": "loop-tools", "from": "loop", "to": "tools" },
+    { "id": "tools-answer", "from": "tools", "to": "answer", "role": "return" },
+    { "id": "tools-sqlite", "from": "tools", "to": "sqlite", "role": "branch" },
+    { "id": "tools-fts", "from": "tools", "to": "fts", "role": "branch" }
+  ],
+  "cards": [
+    { "dot": "cyan", "title": "Main Path", "items": ["Resolve names to IDs before SQL, never guess keys", "Prefer 7 analytic views for anomaly questions", "Cross-source needs SQL numbers plus doc clauses"] },
+    { "dot": "emerald", "title": "Tools", "items": ["5 tools: SQL, retrieval, calc, dates, resolve", "Calc and date utils keep math and windows exact", "Read-only SQL validated to single SELECT/WITH"] },
+    { "dot": "amber", "title": "Evidence", "items": ["Citations carry INV/PO/CTR/VEND plus sections", "Say unknown instead of inventing numbers", "Thread memory scopes follow-ups to prior entities"] }
+  ]
+}

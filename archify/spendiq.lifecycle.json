@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "diagram_type": "lifecycle",
+  "meta": {
+    "title": "SpendIQ — Answer Run Lifecycle",
+    "quality_profile": "showcase",
+    "viewBox": [980, 660],
+    "views": [
+      { "id": "main-lifecycle", "label": "Main lifecycle", "focus": ["asked", "resolved", "queried", "cited", "answered"], "note": "Follow a question from intake to cited answer." },
+      { "id": "human-waits", "label": "Clarify and gaps", "focus": ["queried", "clarify", "cited", "empty"], "note": "See where the run waits instead of guessing." },
+      { "id": "recovery-exits", "label": "Recovery and exits", "focus": ["queried", "sql-error", "empty", "unknown", "stale"], "note": "Retryable SQL errors loop back; gaps exit loudly." }
+    ]
+  },
+  "lanes": [
+    { "id": "main", "label": "Lifecycle phases" },
+    { "id": "waiting", "label": "Interruptions" },
+    { "id": "exceptions", "label": "Recovery loop" },
+    { "id": "terminal", "label": "Terminal exits" }
+  ],
+  "states": [
+    { "id": "asked", "type": "start", "label": "Asked", "sublabel": "question in", "lane": "main", "col": 0, "step": "01", "tag": "entry" },
+    { "id": "resolved", "type": "active", "label": "Resolved", "sublabel": "IDs fixed", "lane": "main", "col": 1, "step": "02", "tag": "VEND CTR DEPT" },
+    { "id": "queried", "type": "active", "label": "Queried", "sublabel": "SQL + BM25", "lane": "main", "col": 2, "step": "03", "tag": "work" },
+    { "id": "cited", "type": "decision", "label": "Cited", "sublabel": "evidence gate", "lane": "main", "col": 3, "step": "04", "tag": "check" },
+    { "id": "answered", "type": "success", "label": "Answered", "sublabel": "cited answer", "lane": "main", "col": 4, "step": "05", "tag": "done" },
+    { "id": "clarify", "type": "waiting", "label": "Clarify", "sublabel": "ambiguous ask", "lane": "waiting", "col": 2, "tag": "pause" },
+    { "id": "empty", "type": "waiting", "label": "No Evidence", "sublabel": "empty results", "lane": "waiting", "col": 1, "tag": "wait" },
+    { "id": "sql-error", "type": "failure", "label": "SQL Error", "sublabel": "retryable", "lane": "exceptions", "col": 0, "yOffset": 78, "tag": "retryable" },
+    { "id": "unknown", "type": "failure", "label": "Unknown", "sublabel": "said, not guessed", "lane": "terminal", "col": 1, "tag": "terminal" },
+    { "id": "stale", "type": "failure", "label": "Stale", "sublabel": "thread expired", "lane": "terminal", "col": 2, "tag": "terminal" }
+  ],
+  "transitions": [
+    { "id": "cited-clarify", "from": "cited", "to": "clarify", "variant": "default", "route": "drop" },
+    { "id": "query-empty", "from": "queried", "to": "empty", "variant": "default", "route": "drop" },
+    { "id": "query-failed", "from": "queried", "to": "sql-error", "variant": "security", "fromSide": "left", "toSide": "left", "via": [[320, 157], [320, 385]] },
+    { "id": "error-retry", "from": "sql-error", "to": "queried", "variant": "emphasis", "fromSide": "left", "toSide": "top", "via": [[20, 385], [20, 80], [402, 80]] },
+    { "id": "empty-unknown", "from": "empty", "to": "unknown", "variant": "security", "fromSide": "bottom", "toSide": "top", "route": "straight" },
+    { "id": "clarify-stale", "from": "clarify", "to": "stale", "variant": "security", "fromSide": "bottom", "toSide": "top", "route": "straight" }
+  ],
+  "cards": [
+    { "dot": "emerald", "title": "Main Path", "items": ["Five phases from asked to answered", "IDs fixed before any SQL runs", "Evidence gate precedes every final number"] },
+    { "dot": "amber", "title": "Waits", "items": ["Ambiguity pauses for clarify, never guesses", "Empty results wait instead of inventing", "Follow-ups reuse thread memory"] },
+    { "dot": "rose", "title": "Recovery + Exits", "items": ["SQL errors retry back into queried", "Unknown is a loud terminal, not a guess", "Stale threads exit instead of drifting"] }
+  ]
+}

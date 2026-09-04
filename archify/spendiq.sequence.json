@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "diagram_type": "sequence",
+  "meta": {
+    "title": "SpendIQ — Chat Roundtrip Sequence",
+    "quality_profile": "showcase",
+    "viewBox": [820, 920],
+    "views": [
+      { "id": "request", "label": "Request in", "focus": ["browser", "api", "agent"], "note": "Question enters with thread memory." },
+      { "id": "evidence", "label": "Evidence calls", "focus": ["agent", "llm", "sqlite", "fts"], "note": "SQL numbers plus BM25 clauses." },
+      { "id": "answer", "label": "Cited answer", "focus": ["llm", "agent", "api", "browser"], "note": "Answer returns with tool and source trace." }
+    ]
+  },
+  "participants": [
+    { "id": "browser", "type": "external", "label": "Browser", "sublabel": "chat UI" },
+    { "id": "api", "type": "backend", "label": "FastAPI", "sublabel": "/api/chat" },
+    { "id": "agent", "type": "backend", "label": "Agent", "sublabel": "ReAct + memory" },
+    { "id": "llm", "type": "external", "label": "Zen LLM", "sublabel": "tool-calling" },
+    { "id": "sqlite", "type": "database", "label": "SQLite", "sublabel": "read-only" },
+    { "id": "fts", "type": "database", "label": "FTS5", "sublabel": "BM25" }
+  ],
+  "segments": [
+    { "from": 150, "to": 280, "label": "Request" },
+    { "from": 300, "to": 510, "label": "Evidence" },
+    { "from": 530, "to": 700, "label": "Answer" }
+  ],
+  "messages": [
+    { "from": "browser", "to": "api", "y": 180, "label": "POST /api/chat", "variant": "emphasis" },
+    { "from": "api", "to": "agent", "y": 224, "label": "invoke thread_id", "variant": "emphasis" },
+    { "from": "agent", "to": "llm", "y": 268, "label": "plan + tools", "variant": "emphasis" },
+    { "from": "llm", "to": "agent", "y": 312, "label": "tool calls", "variant": "return" },
+    { "from": "agent", "to": "sqlite", "y": 356, "label": "SELECT ro", "variant": "default" },
+    { "from": "sqlite", "to": "agent", "y": 400, "label": "rows", "variant": "return" },
+    { "from": "agent", "to": "fts", "y": 444, "label": "BM25 k=4", "variant": "default" },
+    { "from": "fts", "to": "agent", "y": 488, "label": "chunks + cites", "variant": "return" },
+    { "from": "agent", "to": "llm", "y": 532, "label": "tool results", "variant": "default" },
+    { "from": "llm", "to": "agent", "y": 576, "label": "final answer", "variant": "return" },
+    { "from": "agent", "to": "api", "y": 620, "label": "answer + trace", "variant": "emphasis" },
+    { "from": "api", "to": "browser", "y": 664, "label": "200 + chips", "variant": "return" }
+  ],
+  "cards": [
+    { "dot": "cyan", "title": "Request", "items": ["Thread id keys InMemorySaver memory across turns", "Reference date 2026-04-21 anchors all windows", "Empty questions get a prompt, not a guess"] },
+    { "dot": "emerald", "title": "Evidence", "items": ["IDs resolved before SQL, views preferred", "AND then OR retrieval with doc filter", "Calc and date tools keep figures exact"] },
+    { "dot": "amber", "title": "Answer", "items": ["Every answer cites IDs and doc sections", "Tool calls become UI chips from trace", "Unknown is stated, never invented"] }
+  ]
+}

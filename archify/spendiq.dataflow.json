@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "diagram_type": "dataflow",
+  "meta": {
+    "title": "SpendIQ — Ingest to Answer Dataflow",
+    "quality_profile": "showcase",
+    "viewBox": [1080, 700],
+    "views": [
+      { "id": "ingest-line", "label": "Ingest line", "focus": ["csvs", "docs", "load-csv", "chunk", "tables", "fts"], "note": "CSVs become tables, docs become FTS5 chunks." },
+      { "id": "serve-line", "label": "Serve line", "focus": ["tables", "views", "fts", "tools", "answer"], "note": "Views and BM25 feed the tools and cited answer." }
+    ]
+  },
+  "stages": [
+    { "label": "Sources" },
+    { "label": "Ingest" },
+    { "label": "Store" },
+    { "label": "Serve" },
+    { "label": "Consume" }
+  ],
+  "nodes": [
+    { "id": "csvs", "type": "external", "label": "CSV Files", "sublabel": "5 CSVs", "stage": 0, "row": 0 },
+    { "id": "docs", "type": "external", "label": "Contract Docs", "sublabel": "MD + PDF, 18 files", "stage": 0, "row": 1 },
+    { "id": "load-csv", "type": "backend", "label": "Load CSVs", "sublabel": "empty to NULL", "stage": 1, "row": 0 },
+    { "id": "chunk", "type": "backend", "label": "Chunk Docs", "sublabel": "headings ~900 chars", "stage": 1, "row": 1 },
+    { "id": "tables", "type": "database", "label": "SQLite Tables", "sublabel": "5 normalized", "stage": 2, "row": 0 },
+    { "id": "fts", "type": "database", "label": "FTS5 Index", "sublabel": "porter + BM25", "stage": 2, "row": 1 },
+    { "id": "views", "type": "database", "label": "Analytic Views", "sublabel": "7 anomaly views", "stage": 3, "row": 0 },
+    { "id": "tools", "type": "backend", "label": "Agent Tools", "sublabel": "SQL + retrieval", "stage": 3, "row": 1 },
+    { "id": "answer", "type": "frontend", "label": "Cited Answer", "sublabel": "chat + chips", "stage": 4, "row": 1 }
+  ],
+  "flows": [
+    { "id": "csvs-load", "from": "csvs", "to": "load-csv", "label": "5 CSVs" },
+    { "id": "docs-chunk", "from": "docs", "to": "chunk", "label": "MD + PDF" },
+    { "id": "load-tables", "from": "load-csv", "to": "tables", "label": "normalized rows" },
+    { "id": "chunk-fts", "from": "chunk", "to": "fts", "label": "80 chunks" },
+    { "id": "tables-views", "from": "tables", "to": "views", "label": "7 views", "route": "straight" },
+    { "id": "tables-tools", "from": "tables", "to": "tools", "label": "SELECT ro", "labelAt": [612, 200] },
+    { "id": "fts-tools", "from": "fts", "to": "tools", "label": "BM25 k=4", "route": "straight", "labelAt": [578, 314] },
+    { "id": "tools-answer", "from": "tools", "to": "answer", "label": "cited answer", "route": "straight", "labelAt": [903, 314] },
+    { "id": "views-answer", "from": "views", "to": "answer", "label": "anomaly flags", "labelAt": [827, 200] }
+  ],
+  "cards": [
+    { "dot": "cyan", "title": "Ingest", "items": ["CSVs: empty-string FKs to NULL, bools normalized", "Docs: pypdf for PDFs, redirect stubs resolved", "Idempotent rebuild drops spendiq.db"] },
+    { "dot": "emerald", "title": "Store", "items": ["5 tables plus 7 deterministic anomaly views", "FTS5 porter unicode61, prefix search, AND then OR", "Reference date 2026-04-21 baked into views"] },
+    { "dot": "amber", "title": "Serve", "items": ["Read-only SQL plus BM25 feed the agent tools", "No embeddings at this scale; hybrid is next", "Every answer carries IDs and doc sections"] }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "SpendIQ Copilot — System Architecture",
+    "quality_profile": "showcase",
+    "viewBox": [980, 720],
+    "views": [
+      { "id": "chat-path", "label": "Chat request path", "focus": ["analyst", "chat-ui", "fastapi", "agent", "llm"], "note": "Follow a question from the browser to the agent and LLM." },
+      { "id": "retrieval-path", "label": "Tools and state", "focus": ["agent", "sqlite", "fts"], "note": "Agent reads numbers from SQLite and clauses from FTS5." },
+      { "id": "ingest-path", "label": "Offline ingest", "focus": ["csvs", "docs-src", "ingest", "sqlite", "fts"], "note": "CSVs and docs are baked into SQLite and FTS5 before demo." }
+    ]
+  },
+  "components": [
+    { "id": "csvs", "type": "external", "label": "CSV Sources", "sublabel": "5 files: vendors, contracts", "pos": [30, 60], "size": [130, 60] },
+    { "id": "docs-src", "type": "external", "label": "Doc Sources", "sublabel": "18 docs: contracts + policies", "pos": [210, 60], "size": [150, 60] },
+    { "id": "sqlite", "type": "database", "label": "SQLite", "sublabel": "spendiq.db: 5 tables + 7 views", "pos": [600, 60], "size": [150, 60] },
+    { "id": "fts", "type": "database", "label": "FTS5 Index", "sublabel": "80 chunks + BM25", "pos": [800, 60], "size": [140, 60], "tag": "porter unicode61" },
+    { "id": "ingest", "type": "backend", "label": "Ingest Pipeline", "sublabel": "spendiq.ingest", "pos": [320, 180], "size": [140, 60], "tag": "uv run idempotent" },
+    { "id": "analyst", "type": "external", "label": "Analyst", "sublabel": "Browser", "pos": [30, 380], "size": [120, 60] },
+    { "id": "chat-ui", "type": "frontend", "label": "Chat UI", "sublabel": "static/index.html", "pos": [200, 380], "size": [130, 60], "tag": "tool + source chips" },
+    { "id": "fastapi", "type": "backend", "label": "FastAPI", "sublabel": "POST /api/chat", "pos": [380, 380], "size": [130, 60] },
+    { "id": "agent", "type": "backend", "label": "LangGraph Agent", "sublabel": "ReAct + 5 tools", "pos": [560, 380], "size": [150, 64], "tag": "InMemorySaver" },
+    { "id": "llm", "type": "external", "label": "Zen LLM", "sublabel": "deepseek-v4-flash-free", "pos": [760, 380], "size": [140, 60], "tag": "OpenAI-compatible" }
+  ],
+  "boundaries": [
+    { "kind": "region", "label": "Local demo: zero-setup (no Docker)", "wraps": ["chat-ui", "fastapi", "agent", "sqlite", "fts", "ingest"] }
+  ],
+  "connections": [
+    { "id": "analyst-to-ui", "from": "analyst", "to": "chat-ui", "label": "type question", "variant": "emphasis", "labelDy": 54 },
+    { "id": "ui-to-api", "from": "chat-ui", "to": "fastapi", "label": "POST /api/chat", "labelDy": 54 },
+    { "id": "api-to-agent", "from": "fastapi", "to": "agent", "label": "invoke thread_id", "labelDy": 54 },
+    { "id": "agent-to-llm", "from": "agent", "to": "llm", "label": "tool-calling", "variant": "emphasis", "labelDy": 54 },
+    { "id": "agent-to-sql", "from": "agent", "to": "sqlite", "label": "SELECT/WITH ro", "fromSide": "top", "toSide": "bottom", "labelDx": 18 },
+    { "id": "agent-to-fts", "from": "agent", "to": "fts", "label": "BM25 k=4", "labelDx": 16, "labelDy": -12 },
+    { "id": "csvs-to-ingest", "from": "csvs", "to": "ingest", "label": "5 CSVs", "labelDy": -18 },
+    { "id": "docs-to-ingest", "from": "docs-src", "to": "ingest", "label": "MD + PDF", "fromSide": "bottom", "toSide": "top", "labelDy": 14 },
+    { "id": "ingest-to-sql", "from": "ingest", "to": "sqlite", "label": "tables + views", "labelDy": -18 },
+    { "id": "ingest-to-fts", "from": "ingest", "to": "fts", "label": "heading chunks ~900", "fromSide": "top", "toSide": "top", "via": [[390, 36], [870, 36]], "labelDy": -10 }
+  ],
+  "cards": [
+    { "dot": "cyan", "title": "Runtime", "items": ["Static chat UI calls FastAPI /api/chat", "LangGraph ReAct loop with InMemorySaver memory", "Free Zen endpoint, swappable via 3 env vars"] },
+    { "dot": "emerald", "title": "State", "items": ["SQLite: 5 normalized tables + 7 analytic views", "FTS5 BM25 over ~80 heading-aware chunks", "No embeddings at this scale; hybrid is the upgrade"] },
+    { "dot": "amber", "title": "Ingest", "items": ["Idempotent rebuild drops and reloads spendiq.db", "Empty-string FKs to NULL, reference date 2026-04-21", "Redirect-stub MDs resolved to PDFs via pypdf"] }
+  ]
+}
