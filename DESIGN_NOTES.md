@@ -32,8 +32,8 @@ Modules under `src/spendiq/`:
 - **SQLite instead of Postgres/pgvector.** No Docker/Postgres on the dev machine;
   SQLite + FTS5 is zero-setup and the demo runs anywhere. The schema is plain DDL and
   would port to Postgres with trivial changes (bools, dates, views).
-- **Anomalies as SQL views, not agent tools.** The brief's minimum bar is two tools
-  (SQL + retrieval); the planted anomalies (terms mismatches, over-cap contracts,
+- **Anomalies as SQL views, not agent tools.** The agent needs only two tools
+  (SQL + retrieval); the dataset's anomalies (terms mismatches, over-cap contracts,
   split POs, duplicates, renegotiation leverage) are encoded as seven read-only views. This keeps the agent
   small and makes anomaly questions a one-line query while staying within the tool
   budget — the "analytics" are a data-modeling concern, not agent complexity.
@@ -82,7 +82,7 @@ Modules under `src/spendiq/`:
 
 - `make test` — 9 unit tests (SQL safety, views, retrieval, PDF contract hits).
 - `make validate` — 14 representative questions across all 4 tiers, incl. every
-  planted anomaly (4 terms mismatches INV-001560-63, 11 over-cap contracts
+  known anomaly (4 terms mismatches INV-001560-63, 11 over-cap contracts
   CTR-0002/0008/0014, split-PO clusters, duplicates, 90-day expiry list with
   notice-window deadlines against 2026-04-21) and the Tier 4 stretch cases
   (renegotiation-leverage brief, duplicate-invoice surface).
@@ -97,7 +97,7 @@ Modules under `src/spendiq/`:
 - **No auth / single user / no rate limiting** — POC only.
 - **FX normalization absent** — aggregate spend is USD-only.
 - **View heuristics are intentionally narrow** (e.g. split-PO = same vendor +
-  department + day, each <$10K, sum ≥$10K); they catch the planted cases, not every
+  department + day, each <$10K, sum ≥$10K); they catch the known cases, not every
   real-world variant.
 - **Free LLM endpoint** — rate limits/availability are outside our control; the
   `SPENDIQ_MOCK=1` flag keeps the UI demo-able offline.
