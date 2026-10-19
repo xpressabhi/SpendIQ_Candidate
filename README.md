@@ -7,6 +7,13 @@ LLM endpoint** — no API keys required.
 
 The dataset is anchored so that *today* is **2026-04-21**.
 
+## Data
+
+- `data/*.csv` — five structured files (departments, vendors, contracts,
+  purchase_orders, invoices). Schema reference: `DATA_DICTIONARY.md`.
+- `docs/contracts/` — 15 contract documents (12 Markdown, 3 PDF).
+- `docs/policies/` — 3 policy documents (procurement, AP/expense, vendor risk).
+
 ## Requirements
 
 - [uv](https://docs.astral.sh/uv/) (manages Python 3.12 automatically)
